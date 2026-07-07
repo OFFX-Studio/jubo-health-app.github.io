@@ -411,61 +411,53 @@
     "en": "↺ a gentle flywheel: <span>more care → a livelier tank → more reasons to care</span>",
     "zh": "↺ &nbsp;溫柔的飛輪：<span>越多關懷 → 整缸越有活力 → 越多關懷的理由</span>"
   },
-  "a2": {
-    "en": "A day inside Jubo Viva",
-    "zh": "Jubo Viva 的一天"
+  "sh1": {
+    "en": "A richer experience",
+    "zh": "豐富的體驗"
   },
-  "a3": {
-    "en": "Five taps, most days under two minutes. The two required features, a 10-second measurement and clear history, sit at the center; everything else is warmth around them.",
-    "zh": "五個畫面，多數日子不到兩分鐘。兩項必備功能（十秒量測與清楚的歷史）位於中心；其餘都是圍繞它們的溫度。"
+  "sh2": {
+    "en": "Health management becomes a daily ritual worth coming back to",
+    "zh": "讓健康管理成為每天都值得回來看看的日常"
   },
-  "a4": {
-    "en": "7-day streak",
-    "zh": "連續 7 天"
+  "sh3": {
+    "en": "Unlock different aquarium scenes and creatures, decorate habitats freely and collect all kinds of underwater décor; check your health records, and unwind with light interactions and breathing exercises.",
+    "zh": "解鎖不同的水族場景與生物，自由佈置棲地、收集各種水下景物；也能查看健康紀錄，進行輕量互動與呼吸練習。"
   },
-  "a5": {
-    "en": "Today's nourishment <b>1 / 3</b>",
-    "zh": "今日養分 <b>1 / 3</b>"
+  "sh10": {
+    "en": "Home · My Tank<small>Vitals keep the water clear</small>",
+    "zh": "首頁 · 我的水族箱<small>身體數值讓水保持清澈</small>"
   },
-  "a11": {
-    "en": "Home<small>Bobo greets you</small>",
-    "zh": "首頁<small>Bobo 向你打招呼</small>"
+  "sh11": {
+    "en": "Night-glow theme<small>Steady breathing · relaxed</small>",
+    "zh": "夜光主題<small>呼吸平穩 · 放鬆中</small>"
   },
-  "a6": {
-    "en": "Screening-grade · confirm with a cuff",
-    "zh": "篩檢等級 · 請以血壓計確認"
+  "sh12": {
+    "en": "Planted-tank theme<small>Oxygen-rich · 68 bpm</small>",
+    "zh": "水草缸主題<small>氧氣充足 · 心率 68 bpm</small>"
   },
-  "a12": {
-    "en": "Scan<small>10-sec face scan</small>",
-    "zh": "量測<small>十秒臉部掃描</small>"
+  "sh13": {
+    "en": "Creature Dex<small>22 / 30 · earned by showing up</small>",
+    "zh": "生物圖鑑<small>22 / 30 已蒐集 · 靠出席解鎖</small>"
   },
-  "a7": {
-    "en": "BP trending steady ↘",
-    "zh": "血壓趨勢平穩 ↘"
+  "sh14": {
+    "en": "Habitat editor<small>Cosmetics: coral, driftwood, castle</small>",
+    "zh": "棲地佈置<small>外觀商店：珊瑚、沉木、城堡</small>"
   },
-  "a8": {
-    "en": "Weekly &amp; monthly · export for your doctor",
-    "zh": "每週與每月 · 可匯出給醫師"
+  "sh15": {
+    "en": "Health data<small>Today's overview &amp; weekly trends</small>",
+    "zh": "健康數據<small>今日總覽與本週趨勢</small>"
   },
-  "a13": {
-    "en": "Trends<small>History &amp; trends</small>",
-    "zh": "趨勢<small>歷史與趨勢</small>"
+  "sh16": {
+    "en": "Breathe with Bobo<small>Follow the bubble, slow down</small>",
+    "zh": "呼吸練習<small>跟著泡泡慢慢呼吸</small>"
   },
-  "a9": {
-    "en": "22 / 30 · earned by showing up",
-    "zh": "22 / 30 · 靠出席贏得"
+  "sh17": {
+    "en": "Mood flow<small>Trends and what moves them</small>",
+    "zh": "心情流向<small>情緒趨勢與活動關聯</small>"
   },
-  "a14": {
-    "en": "Collection<small>Your tank's cast</small>",
-    "zh": "生物圖鑑<small>水族箱住民</small>"
-  },
-  "a10": {
-    "en": "Each tap is a Heart · brightens both tanks",
-    "zh": "每次點選都是一顆愛心 · 點亮兩邊的水族箱"
-  },
-  "a15": {
-    "en": "Family<small>Tap a card, no typing</small>",
-    "zh": "家人 · 安心<small>點選卡片，免打字</small>"
+  "sh4": {
+    "en": "* AI-generated concept mockups — visual direction only, not the final UI",
+    "zh": "* AI 生成的概念示意圖，僅代表視覺方向，並非最終介面"
   },
   "u40": {
     "en": "Family check-in",
@@ -660,12 +652,16 @@
     "zh": "商業模式"
   },
   "u68": {
-    "en": "A consumer business in its own right",
-    "zh": "本身就是一門消費者生意"
+    "en": "A consumer product that stands on its own",
+    "zh": "可獨立成立的消費型產品"
   },
   "u69": {
-    "en": "Jubo Viva stands on proven free-to-play wellness economics: a large free base, gentle cosmetic and subscription revenue, and content partnerships. It's built to be a real business. And because it runs on Jubo's data and reaches Jubo's future customers, it does something a standalone app never could: it compounds the B2B core underneath.",
-    "zh": "Jubo Viva 建立在已被驗證的免費遊玩健康經濟模式上：龐大的免費用戶基礎、溫和的外觀與訂閱收入，以及內容合作。它就是要成為一門真正的生意。而因為它運行在 Jubo 的資料之上、觸及 Jubo 未來的客戶，它能做到獨立 App 永遠做不到的事：回頭壯大底層的 B2B 核心。"
+    "en": "Jubo Viva runs on the market-proven freemium model: a large free base builds the product's front door, and cosmetics, subscriptions and brand partnerships turn it into recurring revenue — a business that can operate and grow on its own.",
+    "zh": "Jubo Viva 採用已被市場驗證的免費增值模式，透過免費用戶規模建立產品入口，再以外觀內容、訂閱服務與品牌合作創造持續收入，使產品本身具備獨立營運與成長的商業基礎。"
+  },
+  "u69b": {
+    "en": "At the same time, Viva is built on Jubo's health data and service capabilities, and reaches tomorrow's consumers and family decision-makers directly. Beyond B2C revenue, it accumulates usage context and user relationships that feed back into and expand Jubo's core B2B business.",
+    "zh": "同時，Jubo Viva 建立在 Jubo 的健康資料與服務能力之上，也能直接接觸未來的消費者與家庭決策者。除了創造 B2C 收益，也能累積使用情境與用戶關係，進一步回饋並擴大 Jubo 原有的 B2B 核心業務。"
   },
   "u70": {
     "en": "Revenue",
@@ -1062,10 +1058,6 @@
   "c12": {
     "en": "",
     "zh": "內容引擎"
-  },
-  "a1": {
-    "en": "",
-    "zh": "實際樣貌"
   },
   "b1": {
     "en": "",
