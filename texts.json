@@ -5,11 +5,11 @@
   },
   "u288": {
     "en": "Your heartbeat brings a<br/>little <span class=\"sweep\">world to life</span>",
-    "zh": "你的心跳，<br>滋養了一整個<span class=\"sweep\">小世界</span><span style=\"display:block;font-size:.4em;font-weight:600;letter-spacing:.01em;opacity:.6;margin-top:.55em\">Your heartbeat brings a little world to life</span>"
+    "zh": "你的心跳，<br>讓一整個<span class=\"sweep\">小世界活起來</span><span style=\"display:block;font-size:.4em;font-weight:600;letter-spacing:.01em;opacity:.6;margin-top:.55em\">Your heartbeat brings a little world to life</span>"
   },
   "u289": {
     "en": "Meet <b>Bobo</b> and its <b>Viva</b> tank: a living aquarium sustained by your real health signals. <span style=\"color:var(--ink-faint)\">Bobo is an aquatic take on the Jubo Bobo bear — round and huggable, but with fins and a tail, drifting in your tank.</span> Show up for yourself, and it comes alive.",
-    "zh": "認識 <b>Bobo</b> 和牠的 <b>Viva</b> 水族箱：一缸由你真實健康訊號養活的小世界。<span style=\"color:var(--ink-faint)\">Bobo 是 Jubo Bobo 熊在水中的變體：圓圓的、像小熊般好抱，卻有魚鰭與尾巴，優游在你的水缸裡。</span>"
+    "zh": "認識 <b>Bobo</b> 與牠的 <b>Viva</b> 水族箱：你的日常量測與健康行動，會轉化為水質、生物活力與場景變化。<span style=\"color:var(--ink-faint)\">Bobo 延續 Jubo Bobo 熊親切、圓潤的形象，加入魚鰭與尾巴，成為陪伴使用者探索水下世界的角色。</span>"
   },
   "u290": {
     "en": "<span class=\"dot\"></span>Face scan",
@@ -25,7 +25,7 @@
   },
   "u293": {
     "en": "<span class=\"dot\"></span>Family &amp; friends",
-    "zh": "<span class=\"dot\"></span>陪伴 · 家人與朋友"
+    "zh": "<span class=\"dot\"></span>家人與朋友"
   },
   "hf1": {
     "en": "* Visuals and characters shown are placeholders for illustration only",
@@ -37,7 +37,7 @@
   },
   "ag2": {
     "en": "The one-minute version",
-    "zh": "一分鐘版本"
+    "zh": "一分鐘掌握 Jubo Viva"
   },
   "ag3": {
     "en": "What it is",
@@ -45,15 +45,15 @@
   },
   "ag4": {
     "en": "A gamified wellness app: a 10-second AI face scan (plus your health data) keeps a living aquarium of collectible creatures healthy, led by Bobo. Families co-raise one tank.",
-    "zh": "一款養成型健康 App：十秒 AI 臉部掃描（加上你的健康數據）讓一整缸收集型生物的水族箱保持健康，由 Bobo 帶頭。家人共養同一缸。"
+    "zh": "一款結合 AI 量測、健康紀錄與水族養成的消費型 App。使用者透過十秒臉部量測與日常健康行動，維持水族箱狀態、解鎖生物與內容，也能與家人共養同一座水族世界。"
   },
   "ag5": {
     "en": "Why it wins",
-    "zh": "為何會贏"
+    "zh": "核心優勢"
   },
   "ag6": {
     "en": "A familiar, long-life theme even an 80-year-old gets; gentle, non-coercive design; a procedural-art content engine; and Jubo's proprietary AI measurement + channel as an unfair advantage.",
-    "zh": "連 80 歲長輩都懂的熟悉、長壽主題；溫柔、不強迫的設計；程序化生成的美術內容引擎；以及 Jubo 專有的 AI 量測與通路這項不對稱優勢。"
+    "zh": "熟悉且跨世代的水族主題、低壓力的健康互動、可持續擴充的內容系統，以及 Jubo 既有的 AI 量測、照護能力與家庭通路，共同形成產品差異。"
   },
   "ag7": {
     "en": "The business",
@@ -61,7 +61,7 @@
   },
   "ag8": {
     "en": "Free core &#8594; cosmetics &#8594; Viva+ subscription. A real consumer business that recoups its build in year one, cosmetics on top.",
-    "zh": "免費核心 → 外觀 → Viva+ 訂閱。一門真正的消費者生意，第一年即回收開發成本，外觀營收還在其上。"
+    "zh": "以免費核心功能建立使用規模，再由外觀內容、Viva+ 訂閱與品牌合作創造收入。在既定假設下，產品具備回收開發投入並持續營運的潛力。"
   },
   "ag9": {
     "en": "Why Jubo + OFFX",
@@ -69,7 +69,7 @@
   },
   "ag10": {
     "en": "Jubo's data + channel is the moat: consumer signals feed Jubo AI and funnel families into B2B. And OFFX Studio brings 10+ years of award-winning, gamified consumer-app craft to build it.",
-    "zh": "Jubo 的資料與通路就是護城河：消費端訊號餵養 Jubo AI，並把家庭導入 B2B。而 OFFX Studio 以十多年打造得獎遊戲化 App 的功力，負責把它做出來。"
+    "zh": "Jubo 提供 AI 量測、照護能力與既有通路；OFFX Studio 負責消費型產品策略、體驗設計、遊戲化與 App 開發。雙方結合，將專業健康技術轉化為家庭願意持續使用的產品。"
   },
   "nm1": {
     "en": "The name",
@@ -81,7 +81,7 @@
   },
   "nm3": {
     "en": "Viva means \"live!\" — a celebration of being alive. It names exactly what the app is about: your real vitality keeps a whole little world alive, and it's built to keep you thriving over a long, long life.",
-    "zh": "Viva 源自拉丁／義大利文，意思是「活著、萬歲」，是一句對生命的禮讚。它正好道出這款 App 的核心：你真實的生命力，養活了一整個小世界，也陪你在漫長人生裡持續活得有生氣。"
+    "zh": "Viva 帶有「活著、萬歲」的語意，象徵生命力與長久陪伴。這個名字呼應產品核心：真實的健康行動，會讓一座水族世界持續成長，也陪伴使用者建立更長久的健康習慣。"
   },
   "nm4": {
     "en": "Alive",
@@ -89,7 +89,7 @@
   },
   "nm5": {
     "en": "From the Latin for \"to live.\" Your heartbeat and daily vitals literally keep the tank alive — show up, and it comes to life.",
-    "zh": "源自拉丁文「生存、活著」。你的心跳與每日數值，真的讓這缸水活了起來：你現身，它就有了生命。"
+    "zh": "Viva 代表活著與生命力。使用者的心跳、量測與日常健康行動，會直接反映在水族箱的狀態與變化上。"
   },
   "nm6": {
     "en": "Vitality",
@@ -97,7 +97,7 @@
   },
   "nm7": {
     "en": "Viva shares a root with vital and vivid — energy, health and brightness. A healthier you makes a brighter, thriving tank.",
-    "zh": "Viva 與 vital（生命力）、vivid（鮮活）同源，都指向能量、健康與明亮。你越健康，這缸水就越明亮、越有生氣。"
+    "zh": "Viva 也讓人聯想到 vital 與 vivid：健康、能量與鮮活。使用者狀態越穩定，水族世界就越明亮、越有生氣。"
   },
   "nm8": {
     "en": "Long life",
@@ -105,51 +105,51 @@
   },
   "nm9": {
     "en": "\"Viva!\" is a cheer for long life. Creatures never die, and koi and turtles carry longevity meaning — a gentle promise the app keeps.",
-    "zh": "「Viva！」是一句祝人長壽的歡呼。生物永遠不死，錦鯉與烏龜也承載長壽的寓意；這是 App 溫柔守住的承諾。"
+    "zh": "Viva 也帶有祝福長久生命的意味。錦鯉、烏龜與水族世界的意象，讓產品自然連結健康、陪伴與長期累積。"
   },
   "me1": {
     "en": "Why gamification",
-    "zh": "為什麼是體驗"
+    "zh": "為什麼需要遊戲化體驗"
   },
   "me2": {
     "en": "In the AI era, features are commodities — experience is the moat",
-    "zh": "在 AI 時代，功能是商品，體驗才是護城河"
+    "zh": "在 AI 時代，功能容易被複製，長期體驗更能建立差異"
   },
   "me3": {
     "en": "A scan, a tracker, a chart — any single function can be cloned, or absorbed by an AI assistant or platform, almost overnight. A pure-utility health app has no defensibility. What can't be copied is an experience people are attached to and return to every day: a habit, a creature they've raised, a family ritual built over years.",
-    "zh": "一次掃描、一個追蹤器、一張圖表，任何單一功能幾乎都能在一夜之間被複製，或被 AI 助理與平台吸收。純工具型的健康 App 沒有防禦力。真正無法被複製的，是人們投入感情、每天都想回來的體驗：一個習慣、一隻親手養大的生物、一段長年累積的家庭儀式。"
+    "zh": "量測、追蹤與圖表等單一功能，很容易被其他產品複製，或整合進更大的 AI 平台。純工具型健康 App 往往缺少持續使用的理由；較難被取代的，是使用者長期累積的習慣、收藏、角色關係與家庭互動。"
   },
   "me4": {
     "en": "Scan-and-leave. Easily replaced the moment something cheaper, faster or AI-native appears. Scanners churn — there's no reason to stay.",
-    "zh": "掃完就走。一旦出現更便宜、更快或原生 AI 的東西，隨時被取代。掃描器留不住人，沒有理由留下。"
+    "zh": "只提供單次量測，使用者完成後便離開；當市場出現更便宜、更快或整合度更高的替代方案，產品就容易被取代。"
   },
   "me5": {
     "en": "A living tank you tend, creatures you've collected, a family you check in with. Emotional investment compounds — and is almost impossible to replicate.",
-    "zh": "一缸你細心照顧的水族箱、你收集的生物、你會關心的家人。情感投入會複利累積，幾乎不可能被複製。"
+    "zh": "一座持續成長的水族箱、一群逐步解鎖的生物，以及與家人共同累積的互動，會形成單一工具難以提供的長期價值。"
   },
   "me6": {
     "en": "<b>Duolingo is the proof.</b> Learning a language is a \"utility\" — Google Translate and ChatGPT can teach you for free. Yet Duolingo is a multi-billion-dollar company, because the gamified experience (streaks, the owl, the daily ritual) is what people can't leave. The lesson is commodity; the experience is the moat.",
-    "zh": "<b>Duolingo 就是最好的證明。</b>學語言是一種「工具」，Google 翻譯與 ChatGPT 都能免費教你。但 Duolingo 是市值數十億美元的公司，因為它遊戲化的體驗（連續天數、那隻貓頭鷹、每日儀式）讓人離不開。課程是商品；體驗才是護城河。"
+    "zh": "<b>Duolingo 提供了一個清楚的參考。</b>即使翻譯工具與 AI 已能免費協助語言學習，Duolingo 仍透過角色、連續紀錄與每日節奏，建立強烈的使用習慣，並成長為市值數十億美元的公司。內容本身可以被替代，但完整體驗更難複製。"
   },
   "me8": {
     "en": "<b>And it's a bridge between people.</b> A shared creature and tank is a gentle intermediary between family and friends — a warm, low-pressure reason to reach out, especially for elders, without the awkwardness of a cold message. The game carries the care.",
-    "zh": "<b>它也是人與人之間的橋樑。</b>一隻共同照顧的生物、一缸一起養的水族箱，是家人與朋友之間溫柔的中介：一個溫暖、低壓力的關心理由，尤其對長輩，不必尷尬地開口。遊戲替你傳遞了關心。"
+    "zh": "<b>共養機制也讓產品成為人與人之間的橋樑。</b>共同照顧一座水族箱，提供家人與朋友一個自然、低壓力的關心入口；不必特別開啟一段嚴肅對話，也能讓彼此知道近況。"
   },
   "me7": {
     "en": "Viva puts the AI measurement utility inside an experience. The scan is the hook; the tank, the creatures and co-raising are the moat. A competitor can copy a face scan overnight — they can't copy the years a family has spent raising their tank together.",
-    "zh": "Viva 把 AI 量測這項工具放進一個體驗裡。掃描是誘餌；水族箱、生物與共養才是護城河。競爭者可以一夜之間複製一個臉部掃描，卻複製不了一個家庭多年來一起養這一缸的時光。"
+    "zh": "Viva 將 AI 量測嵌入養成體驗。量測提供第一個使用理由；水族箱、生物收集與家人共養，則建立持續使用與累積價值。競爭者可以複製單一功能，卻不容易複製使用者長期建立的內容與關係。"
   },
   "me9": {
     "en": "Social, novelty and fun are still what make people try a new app — and gamification is still the element that keeps them coming back. In an AI era where features are quickly commoditized, a scanner can only compete on price; a little world you've raised with your family can't be replaced. That is the moat.",
-    "zh": "「社交、新奇、好玩」仍是吸引人嘗試一款新 App 的重要動機，而「遊戲化」仍是讓人願意留下來、每天回訪的關鍵元素。在功能被快速商品化的 AI 時代，掃描器只能比價格；但一個你和家人一起養大的小世界，無可取代。"
+    "zh": "社交、探索與趣味，仍是吸引人嘗試新 App 的重要動機；清楚且不造成壓力的遊戲化，則能提升持續使用意願。在功能快速普及的 AI 時代，真正形成差異的，是使用者長期累積的世界與關係。"
   },
   "t2": {
     "en": "Your vitals keep a whole tank alive",
-    "zh": "你的身體數值，養活一整缸生命"
+    "zh": "你的健康數據，讓水族世界持續成長"
   },
   "t3": {
     "en": "Bobo and all kinds of creatures live in one tank. Your body signals keep the water clear and everyone thriving. A familiar, long-lived world you can raise together with family.",
-    "zh": "Bobo 和各種小生物住在同一缸水裡。你的身體訊號讓水質保持清澈、大家都有活力；一個熟悉、長壽、還能和家人一起養的小世界。"
+    "zh": "Bobo 與各種水中生物共同生活在水族箱裡。量測、活動、睡眠與心情等健康訊號，會轉化為水質、生物活力與場景變化，也能由家人一起照顧。"
   },
   "t13": {
     "en": "My Tank<small>shared</small>",
@@ -181,103 +181,103 @@
   },
   "t5": {
     "en": "A scan clears and oxygenates the water; your daily health data keeps it flowing and bright. Healthy you, healthy tank.",
-    "zh": "掃描讓水清澈充氧、你的健康數據讓水流動、明亮。你健康，這缸水就健康。"
+    "zh": "AI 量測與日常健康數據會轉化為水質、流動與光線變化。使用者照顧自己的同時，也看見水族箱逐步恢復活力。"
   },
   "t6": {
     "en": "Collect creatures &amp; scenes",
-    "zh": "收集每一種生物與場景"
+    "zh": "持續解鎖生物與場景"
   },
   "t7": {
     "en": "Bobo blobs, fish, koi, turtles — plus coral, plants and whole underwater scenes — all procedurally generated, so the cast and the shop never run out.",
-    "zh": "Bobo 小夥伴、魚、錦鯉、烏龜，還有珊瑚、水草與整片海底場景，全部程序化生成，角色與商店永遠不缺。"
+    "zh": "從 Bobo 夥伴、魚、錦鯉與烏龜，到珊瑚、水草與完整場景，皆可透過模組化內容系統持續推出，讓收藏與外觀內容保持更新。"
   },
   "t8": {
     "en": "Raise it together",
-    "zh": "一起養 · 共養"
+    "zh": "和家人一起共養"
   },
   "t9": {
     "en": "Family share one tank; everyone's healthy days keep it sparkling. One glance and you know they're okay.",
-    "zh": "家人共養同一缸；每個人的健康日子都讓水更閃亮。看一眼，就知道長輩今天好好的。"
+    "zh": "家人可以共同照顧同一座水族箱。每個人的健康行動都會帶來變化，也讓彼此多一個自然、低壓力的關心入口。"
   },
   "t10": {
     "en": "Never dies",
-    "zh": "永遠不會死 · 長壽"
+    "zh": "不以失去作為懲罰"
   },
   "t11": {
     "en": "Creatures are immortal companions. Miss a day and the water just clouds gently, and a scan always brings it back.",
-    "zh": "生物是不死的夥伴。少一天，水只會輕輕變濁，量測一下，就再次清澈。"
+    "zh": "錯過一天不會失去任何生物；水質只會暫時產生變化，下一次量測或健康行動即可恢復。"
   },
   "t18h": {
     "en": "Why an aquarium is the perfect theme",
-    "zh": "為什麼水族箱是最好的主題"
+    "zh": "為什麼選擇水族箱"
   },
   "t18": {
     "en": "Two reasons it fits better than anything else. First, it maps naturally onto the body: clear, calm water is exactly the calm the face scan measures — water quality becomes a legible read-out of your health, understood at a glance. Second, it's a deeply shared experience in Asia — fish tanks fill homes, shops and restaurants; koi and turtles symbolize longevity and good fortune; and keeping or watching fish is a cross-generational memory an 80-year-old needs zero learning to enjoy. (Watching fish is also clinically shown to lower stress and blood pressure.)",
-    "zh": "有兩個它勝過其他主題的理由。第一，它天生對應身體訊號：清澈、平靜的水，正是臉部掃描所量測的那份平靜；水質好不好，一眼就能看出你今天的狀態。第二，它在亞洲是深植人心的共有經驗：魚缸遍布家庭、店家與餐廳，錦鯉與烏龜象徵長壽與福氣，養魚、看魚更是跨世代共同的記憶，連 80 歲長輩都能零學習地上手。（看魚也在臨床上被證實能降低壓力與血壓。）"
+    "zh": "水族箱有兩個明確優勢。第一，水質、流動與光線能自然對應健康狀態，使用者不需要閱讀複雜數據，也能快速理解今天的整體狀況。第二，水族箱在亞洲家庭與公共空間都很常見，錦鯉、烏龜等意象也連結長壽與祝福，是跨世代都容易理解、幾乎不需學習的題材，連 80 歲長輩也能直接上手；平靜的水中景觀，也能營造放鬆、適合長期陪伴的使用氛圍。"
   },
   "u2": {
     "en": "Real health actions are the nourishment",
-    "zh": "真實的健康行動，就是養分"
+    "zh": "真實健康行動，轉化為水族箱的活力"
   },
   "u3": {
     "en": "Every input is something genuinely good for you. Nothing is gated behind waiting or paying. You keep the water clear and your creatures thriving by taking care of yourself.",
-    "zh": "每一份養分，都來自真正對你有益的事。不用等待、也不用付費解鎖：你把自己照顧好，水就清澈，生物們就有活力。"
+    "zh": "所有回饋都來自對使用者有益的日常行動，不必等待，也不必付費才能維持核心體驗。照顧自己的同時，水質會改善，生物也會更有活力。"
   },
   "u4": {
     "en": "Daily measurement <span class=\"cn\">Core nourishment</span>",
-    "zh": "每日量測 <span class=\"cn\">主要養分</span>"
+    "zh": "每日量測 <span class=\"cn\">核心來源</span>"
   },
   "u5": {
     "en": "The 10-second face scan. Your unique, defensible core, so it gives the biggest payout. The reading shapes Bobo's mood: calm, energized, or tired.",
-    "zh": "十秒臉部掃描。你獨特且難以複製的核心，因此帶來最大的回饋。量測結果會形塑 Bobo 的心情：平靜、有活力，或疲倦。"
+    "zh": "十秒 AI 臉部量測是 Viva 的核心互動，提供最直接的水族箱回饋。量測結果也會影響 Bobo 當天呈現的狀態，例如平靜、有精神或需要休息。"
   },
   "u6": {
     "en": "Primary",
-    "zh": "主要"
+    "zh": "核心"
   },
   "u7": {
     "en": "Activity &amp; sleep <span class=\"cn\">Everyday nourishment</span>",
-    "zh": "活動與睡眠 <span class=\"cn\">次要養分</span>"
+    "zh": "活動與睡眠 <span class=\"cn\">日常來源</span>"
   },
   "u8": {
     "en": "Steps, calories and sleep, read passively from Apple Health, accruing even when the app is closed. Your ordinary day quietly keeps the water flowing.",
-    "zh": "步數、卡路里與睡眠，從 Apple Health 被動讀取，即使 App 關閉也持續累積。你平凡的一天，也悄悄讓水流動起來。"
+    "zh": "步數、活動量與睡眠可由 Apple Health 被動讀取，即使沒有開啟 App，也能持續累積。一般生活中的活動，會自然轉化為水流與光線的變化。"
   },
   "u9": {
     "en": "Secondary",
-    "zh": "次要"
+    "zh": "日常"
   },
   "u10": {
     "en": "Mood &amp; breathing <span class=\"cn\">Mind nourishment</span>",
-    "zh": "心情與呼吸 <span class=\"cn\">心靈養分</span>"
+    "zh": "心情與呼吸 <span class=\"cn\">身心來源</span>"
   },
   "u11": {
     "en": "A one-tap mood check-in and optional breathing exercise. Gentle and shame-free: a low mood brings the creature's care, never its disappointment.",
-    "zh": "一鍵記錄心情，搭配選擇性的呼吸練習。溫柔且不帶批判，低落的心情換來生物的關心，而非失望。"
+    "zh": "以一鍵方式記錄心情，並提供可選擇的呼吸練習。產品不評價情緒好壞；低落時，Bobo 會給予關心，而不是造成壓力。"
   },
   "u12": {
     "en": "Tertiary",
-    "zh": "第三順位"
+    "zh": "補充"
   },
   "u13": {
     "en": "<b>Nourishment is substitutable — you don't need all of it.</b> A good day can come from a scan <i>or</i> a walk <i>or</i> a mood check-in. No single action becomes a chokepoint, which is exactly what keeps it gentle for elderly and anxious users, and clear of coercive “measure-or-else” design.",
-    "zh": "<b>養分可以互相替換，並非全部必要。</b>美好的一天可以來自一次掃描、<i>或</i>一段散步、<i>或</i>一次心情記錄。沒有任何單一行動會成為關卡，這正是讓它對長輩與容易焦慮的使用者保持溫柔、並避免「不量測就懲罰」式強迫設計的關鍵。"
+    "zh": "<b>不同健康行動可以互相補充，不要求全部完成。</b>一天的水族箱活力，可以來自一次量測、一段散步，或一次心情記錄。沒有任何單一行動會成為使用門檻，讓長輩與容易感到壓力的使用者都能按照自己的節奏參與。"
   },
   "u15": {
     "en": "Lighter daily touches",
-    "zh": "更輕巧的每日互動"
+    "zh": "輕量的每日互動"
   },
   "u16": {
     "en": "Small, optional tasks that add warmth and reasons to return, kept deliberately low-stakes.",
-    "zh": "小巧、可選的任務，增添溫度與回訪的理由，刻意保持低壓力。"
+    "zh": "以可選、低負擔的小互動增加溫度與回訪理由，不把健康管理變成另一項必須完成的任務。"
   },
   "u17": {
     "en": "Tiny AI companion",
-    "zh": "小小 AI 夥伴"
+    "zh": "輕量 AI 夥伴"
   },
   "u18": {
     "en": "The creature reacts and offers a plain-language nudge. Kept small on purpose: a helper, not a chatbot to pour your heart into.",
-    "zh": "生物會回應，並給出淺白的提醒。刻意保持精簡，是個小幫手，而不是讓你傾吐心事的聊天機器人。"
+    "zh": "Bobo 會依照使用者狀態做出簡短回應，並提供容易理解的提醒。它的角色是陪伴與引導，而不是要求使用者長時間對話的聊天機器人。"
   },
   "u19": {
     "en": "Family check-in",
@@ -285,7 +285,7 @@
   },
   "u20": {
     "en": "Tap-only cards for greetings, care and reminders, answered in one tap. No typing, and every exchange feeds both creatures. <a href=\"#family\" style=\"color:var(--social)\">See how ↓</a>",
-    "zh": "只需點選的卡片（問候、關心、提醒），一鍵即可回應。免打字，而且每次互動都餵養兩隻生物。<a href=\"#family\" style=\"color:var(--social)\">看看怎麼運作 ↓</a>"
+    "zh": "透過預設的問候、關心與提醒卡片，一鍵即可送出或回應，不需要輸入文字。每次互動都會為雙方的水族箱帶來一點活力。<a href=\"#family\" style=\"color:var(--social)\">看看怎麼運作 ↓</a>"
   },
   "u21": {
     "en": "Read a health article",
@@ -293,15 +293,15 @@
   },
   "u22": {
     "en": "A short daily read, curated by Jubo. Adds a touchpoint, real credibility, and a natural content-partnership seam.",
-    "zh": "由 Jubo 精選的每日短文。增加一個接觸點、真實的可信度，以及自然的內容合作機會。"
+    "zh": "由 Jubo 精選的健康短文，提供可信、容易閱讀的日常內容，也形成品牌與專業夥伴合作的自然入口。"
   },
   "u24": {
     "en": "One Bobo to bond with, a whole tank to fill",
-    "zh": "一隻用心陪伴的 Bobo，一整缸值得收集的夥伴"
+    "zh": "一位長期陪伴的 Bobo，一座持續成長的水族世界"
   },
   "u25": {
     "en": "A hybrid that keeps Finch's warmth and adds Mindllama's “collect them all” pull, without the loot-box trap.",
-    "zh": "一種混合設計，保留 Finch 的溫暖，加上 Mindllama「收集全部」的吸引力，卻沒有轉蛋抽卡的陷阱。"
+    "zh": "Bobo 負責建立情感連結；生物、造型與棲地則提供持續探索與收集的目標。所有內容以明確條件解鎖，不採用隨機抽取或高壓付費機制。"
   },
   "u26": {
     "en": "The bond",
@@ -309,11 +309,11 @@
   },
   "u27": {
     "en": "Bobo grows with you",
-    "zh": "Bobo 與你一同成長"
+    "zh": "Bobo 陪你持續累積"
   },
   "u28": {
     "en": "One companion you raise continuously. Bobo reflects your real state day to day, remembers your streaks, and deepens the longer you show up. This is the emotional anchor: the reason to come back tomorrow.",
-    "zh": "一隻你持續養育的夥伴。Bobo 反映你每天真實的狀態、記得你的連續紀錄；你越常出現，牠就跟你越親。這份感情，就是讓你明天還想回來的理由。"
+    "zh": "Bobo 會反映使用者每天的狀態，也記得持續使用與健康行動的歷程。互動時間越長，角色與水族箱就累積越多共同記憶，形成再次回來的自然動機。"
   },
   "u29": {
     "en": "The collection",
@@ -321,23 +321,23 @@
   },
   "u30": {
     "en": "Stock your tank",
-    "zh": "為水族箱添新成員"
+    "zh": "持續擴充水族世界"
   },
   "u31": {
     "en": "Consistency and streak milestones unlock a growing cast of collectible creatures. Earned by showing up, never bought from a loot-box. Money, if any, buys only cosmetics.",
-    "zh": "持之以恆與連續紀錄的里程碑，會解鎖越來越多的收集生物。靠出席贏得，不靠轉蛋。就算花錢，也只買得到外觀。"
+    "zh": "穩定使用與健康行動的里程碑，會逐步解鎖新的生物、造型與場景。解鎖條件清楚可預期，付費內容則集中於外觀選擇。"
   },
   "u32": {
     "en": "Characters are earned through <b>consistency</b>, not cash. The health data is never held hostage: you're rewarded for care, never punished for a missed day.",
-    "zh": "角色靠<b>持之以恆</b>贏得，而非金錢。健康資料不會被拿來要脅：用心會有獎勵，錯過一天也不會受罰。"
+    "zh": "角色與核心健康功能都能透過<b>持續使用</b>取得。錯過一天不會失去進度，健康資料也始終可以自由查看。"
   },
   "c2": {
     "en": "One tank, a whole living world",
-    "zh": "一缸水，一整個生態世界"
+    "zh": "一座水族箱，持續擴張的世界"
   },
   "c3": {
     "en": "Show up, and your tank fills. Creatures, coral, plants and whole underwater scenes — each with its own outfits, décor and variations — a collection that keeps expanding, drop after drop.",
-    "zh": "持續出席，這缸就越來越熱鬧。生物、珊瑚、水草與整片海底場景，各有專屬的造型與變化；收藏一波接著一波，不斷擴充。"
+    "zh": "隨著使用與健康行動累積，水族箱會逐步加入新的生物、珊瑚、水草與完整場景；造型與佈置內容也能持續更新，讓收藏保有長期目標。"
   },
   "c4": {
     "en": "Your companion",
@@ -377,39 +377,39 @@
   },
   "c13": {
     "en": "Same Bobo, endless looks",
-    "zh": "同一隻 Bobo，千變萬化"
+    "zh": "同一位 Bobo，持續延伸的個人風格"
   },
   "c14": {
     "en": "New creatures, coral, scenes, outfits and accessories keep shipping: the studio's ongoing output, and the pull that brings players back tomorrow.",
-    "zh": "新生物、珊瑚、場景、服裝與配件持續推出，這是工作室長期的營運產出，也是把玩家帶回來的吸引力。"
+    "zh": "透過定期推出新生物、珊瑚、場景、服裝與配件，讓水族世界持續變化，也為使用者提供長期探索與回訪的理由。"
   },
   "c15": {
     "en": "Earned by showing up: cosmetics only, never pay-to-win.",
-    "zh": "靠出席贏得；只賣外觀，不賣優勢。"
+    "zh": "核心內容透過持續使用解鎖；付費集中於外觀，不影響健康功能與使用權益。"
   },
   "u34": {
     "en": "Live your day, and your tank thrives",
-    "zh": "過好你的一天，整缸生機盎然"
+    "zh": "照顧日常，也讓水族世界成長"
   },
   "u35": {
     "en": "Real actions<small>scan, walk, health data</small>",
-    "zh": "真實行動<small>掃描、走路、健康數據</small>"
+    "zh": "健康行動<small>量測、活動、睡眠與心情</small>"
   },
   "u36": {
     "en": "Nourishment<small>substitutable inputs</small>",
-    "zh": "養分<small>可替換的輸入</small>"
+    "zh": "成長來源<small>不同輸入可互相補充</small>"
   },
   "u37": {
     "en": "Tank thrives<small>+ new creatures</small>",
-    "zh": "整缸茁壯<small>+ 解鎖新生物</small>"
+    "zh": "水族箱成長<small>狀態變化與內容解鎖</small>"
   },
   "u38": {
     "en": "Share &amp; streak<small>family &amp; friends</small>",
-    "zh": "分享與連續紀錄<small>家人、朋友</small>"
+    "zh": "共養與累積<small>家人、朋友與持續使用</small>"
   },
   "u39": {
     "en": "↺ a gentle flywheel: <span>more care → a livelier tank → more reasons to care</span>",
-    "zh": "↺ &nbsp;溫柔的飛輪：<span>越多關懷 → 整缸越有活力 → 越多關懷的理由</span>"
+    "zh": "↺ &nbsp;溫和的循環：<span>健康行動 → 水族箱成長 → 增加持續照顧自己的動機</span>"
   },
   "sh1": {
     "en": "A richer experience",
@@ -417,11 +417,11 @@
   },
   "sh2": {
     "en": "Health management becomes a daily ritual worth coming back to",
-    "zh": "讓健康管理成為每天都值得回來看看的日常"
+    "zh": "讓健康管理成為願意每天打開的日常體驗"
   },
   "sh3": {
     "en": "Unlock different aquarium scenes and creatures, decorate habitats freely and collect all kinds of underwater décor; check your health records, and unwind with light interactions and breathing exercises.",
-    "zh": "解鎖不同的水族場景與生物，自由佈置棲地、收集各種水下景物；也能查看健康紀錄，進行輕量互動與呼吸練習。"
+    "zh": "解鎖不同的水族場景與生物，自由佈置棲地、收集水下景物；也能查看健康紀錄，進行呼吸練習、益智小遊戲與各種輕量互動。"
   },
   "sh10": {
     "en": "Home · My Tank<small>Vitals keep the water clear</small>",
@@ -437,11 +437,11 @@
   },
   "sh13": {
     "en": "Creature Dex<small>22 / 30 · earned by showing up</small>",
-    "zh": "生物圖鑑<small>22 / 30 已蒐集 · 靠出席解鎖</small>"
+    "zh": "生物圖鑑<small>22 / 30 已蒐集 · 透過持續使用解鎖</small>"
   },
   "sh14": {
     "en": "Habitat editor<small>Cosmetics: coral, driftwood, castle</small>",
-    "zh": "棲地佈置<small>外觀商店：珊瑚、沉木、城堡</small>"
+    "zh": "棲地佈置<small>自由搭配珊瑚、沉木與城堡</small>"
   },
   "sh15": {
     "en": "Health data<small>Today's overview &amp; weekly trends</small>",
@@ -465,15 +465,15 @@
   },
   "u41": {
     "en": "Co-raise a tank, care in one tap",
-    "zh": "共養一缸水，一鍵傳達關心"
+    "zh": "共養一座水族箱，讓關心更容易發生"
   },
   "u42": {
     "en": "The mechanism is a <b>shared tank</b>: build your own, or join a family member's or friend's, and raise it together. Then there's no message box, just a warm predefined card you tap in one touch; the other person taps one back. Easy for an 80-year-old, and every tap quietly feeds both tanks.",
-    "zh": "這個機制的核心是<b>共養一缸水族箱</b>：你可以建立自己的水族箱，或加入家人、朋友的水族箱，一起共養。這裡沒有訊息輸入框，只有一張溫暖的預設卡片，一鍵點選；對方也點一張回應。連 80 歲長輩都能輕鬆使用，而每一次點選都悄悄滋養兩邊的水族箱。"
+    "zh": "核心機制是<b>與家人或朋友共養同一座水族箱</b>。使用者可以建立自己的水族箱，也能加入親友的共同空間；互動不需要輸入文字，只要點選預設卡片即可送出關心或回覆。操作簡單，也讓每一次互動都成為水族箱成長的一部分。"
   },
   "u43": {
     "en": "A curated deck of <b>ready-made cards</b>: greetings, gentle care, and reminders. Nothing to spell out, nothing to overthink. Pick one, send it as a Heart.",
-    "zh": "一套精選的<b>現成卡片</b>：問候、輕聲的關心與提醒。無需字斟句酌，也不必多想。挑一張，當作一顆愛心送出。"
+    "zh": "系統提供一組精選的<b>預設卡片</b>，包含問候、關心與提醒。使用者不必思考如何措辭，只要選擇合適的內容，就能自然地傳達心意。"
   },
   "u44": {
     "en": "<span class=\"en\">Greetings</span>",
@@ -493,75 +493,75 @@
   },
   "u48": {
     "en": "Every card that asks something can be answered in one tap, so care always closes the loop.",
-    "zh": "每張帶有詢問的卡片都能一鍵回應，讓關心總能圓滿收尾。"
+    "zh": "需要回覆的卡片皆可一鍵完成，讓關心能夠自然地形成來回互動。"
   },
   "u49": {
     "en": "<span class=\"ic\">💛</span> Every tap is a Heart",
-    "zh": "<span class=\"ic\">💛</span> 每次點選都是一顆愛心"
+    "zh": "<span class=\"ic\">💛</span> 每一次互動，都化為一顆愛心"
   },
   "u50": {
     "en": "Sending or answering a card sends a Heart. Both creatures glow and gain a little warmth: connection itself feeds the game.",
-    "zh": "送出或回應一張卡片，就送出一顆愛心。兩隻生物都會發光，並獲得一點溫暖養分，連結本身就餵養了這個遊戲。"
+    "zh": "送出或回應卡片時，雙方的 Bobo 都會做出反應，水族箱也會獲得少量活力。產品以可見的回饋，讓關心本身成為持續互動的動力。"
   },
   "u51": {
     "en": "<span class=\"ic\">🔗</span> Shared streak",
-    "zh": "<span class=\"ic\">🔗</span> 共同連續紀錄 · 親情連線"
+    "zh": "<span class=\"ic\">🔗</span> 共同紀錄"
   },
   "u52": {
     "en": "When a reminder gets a reply the same day (a “time to measure” card → “done ✅”), you extend a streak you own together. A missed day never scolds; it just waits.",
-    "zh": "當提醒在當天獲得回應（「量測時間到」→「✅ 量好了」），你們就一起延長一段共同擁有的連續紀錄。錯過一天不會責備，只會靜靜等待。"
+    "zh": "當提醒在當天獲得回應，例如「量測時間到」對應「✅ 已完成」，雙方就能累積共同紀錄。錯過一天不會被責備，也不會失去既有成果。"
   },
   "u53": {
     "en": "<span class=\"ic\">🌸</span> Thrive together",
-    "zh": "<span class=\"ic\">🌸</span> 一起茁壯"
+    "zh": "<span class=\"ic\">🌸</span> 一起累積"
   },
   "u54": {
     "en": "Family-streak milestones unlock shared cosmetics: a matching habitat or a duo outfit for both Bobos. Earned by staying in touch, never bought.",
-    "zh": "家庭連續紀錄的里程碑，會解鎖共享外觀，為兩隻 Bobo 準備的成對棲地或雙人裝扮。靠保持聯繫贏得，花錢買不到。"
+    "zh": "共同互動的里程碑可解鎖成對棲地、雙人裝扮等共享外觀，讓持續聯繫轉化為兩人都看得見的成果。"
   },
   "u55": {
     "en": "care tap → <b>Heart</b> → both Bobos react → shared streak → a reason to check in tomorrow",
-    "zh": "關心點選 → <b>愛心</b> → 兩隻 Bobo 一起回應 → 共同連續紀錄 → 明天再來關心的理由"
+    "zh": "傳送關心 → <b>彼此回應</b> → 累積共同紀錄 → 建立下一次互動"
   },
   "u57": {
     "en": "What keeps it healthy, not manipulative",
-    "zh": "讓它保持健康、而非操弄"
+    "zh": "設計原則：有效，但不造成壓力"
   },
   "u58": {
     "en": "The same mechanics that drive retention can tip into harm. These are the lines the design holds.",
-    "zh": "同樣能驅動留存的機制，也可能滑向傷害。以下是設計必須守住的底線。"
+    "zh": "能提升留存的機制，也可能對使用者造成壓力。因此，Viva 從一開始就設定以下設計原則。"
   },
   "u59": {
     "en": "<span class=\"x\">✕</span> Not Candy Crush",
-    "zh": "<span class=\"x\">✕</span> 不是 Candy Crush"
+    "zh": "<span class=\"x\">✕</span> 不製造挫折"
   },
   "u60": {
     "en": "No engineered frustration. Measurement earns energy, never gates it. You're never locked out of your own health data to force a return.",
-    "zh": "沒有刻意製造的挫折。量測只會賺取能量，不會變成關卡；App 也不會把你鎖在自己的健康資料之外，逼你回訪。"
+    "zh": "不以等待、失敗或封鎖資料逼迫回訪。量測帶來額外回饋，但不會成為查看健康資料或使用核心功能的前提。"
   },
   "u61": {
     "en": "<span class=\"x\">✕</span> Not a companion trap",
-    "zh": "<span class=\"x\">✕</span> 不是情感陪伴陷阱"
+    "zh": "<span class=\"x\">✕</span> 不鼓勵過度情感依賴"
   },
   "u62": {
     "en": "The AI stays deliberately tiny: a reactive creature, not an attachment-maximizing chatbot. That keeps it clear of the regulatory heat around companion apps.",
-    "zh": "AI 刻意保持極小，一隻會回應的生物，而非最大化情感依附的聊天機器人。這讓它遠離陪伴型 App 的法規爭議。"
+    "zh": "AI 角色定位保持輕量，主要負責回應與提醒，不以長時間對話或最大化依附為目標，降低陪伴型 AI 在依賴與法規上的風險。"
   },
   "u63": {
     "en": "<span class=\"y\">✓</span> Pikmin-gentle",
-    "zh": "<span class=\"y\">✓</span> 如 Pikmin 般溫柔"
+    "zh": "<span class=\"y\">✓</span> 低壓力、可中斷"
   },
   "u64": {
     "en": "Passive accrual and no punishment for lapses. Miss a day and the water clouds gently, then clears. The creatures never die, and they wait patiently.",
-    "zh": "被動累積，中斷也不受罰。少一天，水只會輕輕變濁再回清，生物永遠不會死，會耐心等你回來。"
+    "zh": "日常數據可被動累積，中斷也不受罰。錯過一天時，水質只會暫時產生變化；生物不會消失，也會等待使用者下一次回來。"
   },
   "u65": {
     "en": "<span class=\"y\">✓</span> Wellness, not medical",
-    "zh": "<span class=\"y\">✓</span> 是健康促進，而非醫療"
+    "zh": "<span class=\"y\">✓</span> 定位為健康促進工具"
   },
   "u66": {
     "en": "AI readings are framed as screening-grade trend-tracking with cuff confirmation: a consumer product, never a diagnostic device.",
-    "zh": "AI 讀值被定位為篩檢等級的趨勢追蹤，並以血壓計確認，是消費性產品，不是診斷裝置。"
+    "zh": "AI 讀值用於健康趨勢與篩檢參考，不作為診斷結果；必要時仍需以正式醫療器材或專業人員確認。"
   },
   "mo1": {
     "en": "System architecture",
@@ -569,11 +569,11 @@
   },
   "mo2": {
     "en": "One app, built as modules",
-    "zh": "一套 App，以模組打造"
+    "zh": "一套 App，以清楚模組組成"
   },
   "mo3": {
     "en": "Viva is engineered as independent modules — each a self-contained piece of value that can be built, tested and extended on its own. Clean to develop, easy to grow, and every module is its own long-term stream.",
-    "zh": "Viva 以獨立模組設計，每個模組都是一塊可獨立開發、測試與擴充的價值。開發乾淨、易於成長，每個模組也都能長期經營、持續加值。"
+    "zh": "Viva 採模組化架構，各功能可獨立開發、測試與擴充。這能降低維護複雜度，也讓後續內容與服務可依實際需求持續增加。"
   },
   "mo4": {
     "en": "Foundation",
@@ -585,7 +585,7 @@
   },
   "mo6": {
     "en": "10-second AI measurement, app lifecycle, and health integration on both platforms — Apple Health and Google Fit. The backbone everything else runs on.",
-    "zh": "十秒 AI 量測、App 生命週期，以及雙平台健康整合（Apple Health + Google Fit），一切運行的骨幹。"
+    "zh": "十秒 AI 量測、App 基礎架構，以及 Apple Health 與 Google Fit 的健康資料整合，構成整套產品的技術基礎。"
   },
   "mo20": {
     "en": "Account &amp; profiles",
@@ -593,7 +593,7 @@
   },
   "mo21": {
     "en": "Sign-in, family linking, subscription entitlements and cross-device sync — who you are, who's in your family, and what's yours.",
-    "zh": "登入、家人綁定、訂閱權益與跨裝置同步：你是誰、家裡有誰、哪些東西是你的。"
+    "zh": "登入、家庭連結、訂閱權益與跨裝置同步，統一管理帳號、關係與內容歸屬。"
   },
   "mo7": {
     "en": "Data visualization",
@@ -601,15 +601,15 @@
   },
   "mo8": {
     "en": "History, trends and vital charts — turning raw readings into insight at a glance.",
-    "zh": "歷史、趨勢與生命徵象圖表，把原始數值變成一眼就能看懂的資訊。"
+    "zh": "將歷史數據、健康趨勢與生命徵象圖表整理成容易理解的視覺資訊。"
   },
   "mo9": {
     "en": "Simulation — the tank",
-    "zh": "模擬 — 水族箱"
+    "zh": "水族箱系統"
   },
   "mo10": {
     "en": "The living aquarium: creatures, water health and animation — the emotional heart.",
-    "zh": "活生生的水族箱：生物、水質與動畫，情感的核心。"
+    "zh": "包含生物、水質狀態與動畫，承載產品主要的情感體驗。"
   },
   "mo11": {
     "en": "Puzzle mini-games",
@@ -617,7 +617,7 @@
   },
   "mo12": {
     "en": "An extendable slot for bite-size games, each feeding the tank.",
-    "zh": "可擴充的小遊戲插槽，每一款都餵養這缸水。"
+    "zh": "可持續新增的小遊戲框架，每款遊戲都與水族箱成長或健康行動連動。"
   },
   "mo13": {
     "en": "Interaction",
@@ -625,7 +625,7 @@
   },
   "mo14": {
     "en": "Add friends and family; shared tanks and tap-cards.",
-    "zh": "加入朋友與家人；共養水族箱與安心點選卡片。"
+    "zh": "好友與家庭連結、共養水族箱，以及低門檻的一鍵關懷卡片。"
   },
   "mo15": {
     "en": "Information",
@@ -633,19 +633,19 @@
   },
   "mo16": {
     "en": "Jubo-curated news and articles — a channel to carry any Jubo concept or message to families.",
-    "zh": "Jubo 精選的新聞與文章，一條把任何 Jubo 理念與訊息帶進家庭的通路。"
+    "zh": "Jubo 精選的健康資訊與文章，形成與家庭持續溝通的內容入口。"
   },
   "mo17": {
     "en": "Character assets pipeline",
-    "zh": "角色美術管線"
+    "zh": "內容製作系統"
   },
   "mo18": {
     "en": "The art-production system: procedural creatures, outfits and decor — an endless content engine.",
-    "zh": "美術生產系統：程序化生成的生物、服裝與佈景，永不枯竭的內容引擎。"
+    "zh": "建立可重複使用的生物、服裝與佈景製作流程，支援長期內容更新。"
   },
   "mo19": {
     "en": "Modular means maintainable and future-proof — each module can grow into new content and new value without touching the rest.",
-    "zh": "模組化意味著易維護、面向未來，每個模組都能長成新內容與新價值，而不動到其他部分。"
+    "zh": "模組化有助於維護與擴充；新增內容或功能時，可降低對其他系統的影響。"
   },
   "u67": {
     "en": "The business model",
@@ -661,7 +661,7 @@
   },
   "u69b": {
     "en": "At the same time, Viva is built on Jubo's health data and service capabilities, and reaches tomorrow's consumers and family decision-makers directly. Beyond B2C revenue, it accumulates usage context and user relationships that feed back into and expand Jubo's core B2B business.",
-    "zh": "同時，Jubo Viva 建立在 Jubo 的健康資料與服務能力之上，也能直接接觸未來的消費者與家庭決策者。除了創造 B2C 收益，也能累積使用情境與用戶關係，進一步回饋並擴大 Jubo 原有的 B2B 核心業務。"
+    "zh": "同時，Jubo Viva 建立在 Jubo 的健康資料與服務能力之上，也能直接接觸未來的消費者與家庭決策者。除了創造 B2C 收益，也能累積使用情境與家庭關係，進一步回饋並擴大 Jubo 原有的 B2B 核心業務。"
   },
   "u70": {
     "en": "Revenue",
@@ -669,11 +669,11 @@
   },
   "u71": {
     "en": "How the app makes money",
-    "zh": "App 如何賺錢"
+    "zh": "收入來源"
   },
   "u72": {
     "en": "Freemium wellness-game economics: a big free base, a small share converting into cosmetics and Viva+, with partnerships layered on. Health data is never paywalled; monetization sits entirely in delight and depth.",
-    "zh": "免費增值的健康遊戲經濟，龐大的免費基礎，其中一小部分轉換為外觀與 Viva+，再疊加合作收入。健康資料不設付費牆；獲利完全落在樂趣與深度上。"
+    "zh": "採用免費增值模式：以完整可用的免費核心建立使用規模，再由外觀內容、Viva+ 訂閱與合作方案創造收入。健康資料與基本健康功能不設付費牆，付費價值集中在更深的分析、個人化與內容選擇。"
   },
   "u73": {
     "en": "Acquisition",
@@ -685,11 +685,11 @@
   },
   "u75": {
     "en": "Scan, trends, Bobo, check-in: all free. The wide, sticky top of the funnel that every other stream depends on.",
-    "zh": "掃描、趨勢、Bobo、安心關懷，全部免費。這是又廣又黏著的漏斗頂端，其他所有收入都仰賴於此。"
+    "zh": "掃描、健康趨勢、Bobo 與家庭關懷皆可免費使用，建立足夠大的使用者基礎，並支撐後續的訂閱、外觀內容與合作轉換。"
   },
   "u76": {
     "en": "Micro-transactions",
-    "zh": "微交易"
+    "zh": "單次購買"
   },
   "u77": {
     "en": "Cosmetics &amp; habitats",
@@ -697,7 +697,7 @@
   },
   "u78": {
     "en": "Tank decor, coral, creature outfits, seasonal themes and backgrounds. High-margin, repeatable, self-expression spend: never power, never a loot-box.",
-    "zh": "水族箱佈景、珊瑚水草、生物服裝、季節主題與背景。高毛利、可重複、純自我表達的消費：不賣戰力，沒有轉蛋。"
+    "zh": "水族箱佈景、珊瑚水草、生物服裝、季節主題與背景等外觀內容，提供可重複購買的個人化選擇；不影響健康功能，也不採用隨機抽取。"
   },
   "u79": {
     "en": "Subscription",
@@ -709,7 +709,7 @@
   },
   "u81": {
     "en": "Recurring revenue from deeper multi-metric trends, doctor-ready exports and a larger family circle, for power users and caregiving families.",
-    "zh": "來自更深入的多指標趨勢、可交給醫師的匯出報告，以及更大家庭圈的經常性收入，為深度使用者與照顧型家庭而設。"
+    "zh": "Viva+ 提供更深入的多指標趨勢、可匯出的健康報告，以及更完整的家庭功能，服務有進階需求的使用者與照顧型家庭。"
   },
   "u82": {
     "en": "Partnerships",
@@ -721,31 +721,31 @@
   },
   "u84": {
     "en": "Jubo-vetted articles and programs open a content, insurer and pharma revenue seam: credibility that also pays.",
-    "zh": "經 Jubo 審核的文章與課程，打開內容、保險與藥廠的合作管道；可信度本身也能帶來收入。"
+    "zh": "經 Jubo 審核的文章、課程與健康方案，可延伸至內容、保險、藥廠及其他品牌合作，同時維持專業可信度。"
   },
   "pb1": {
     "en": "Viva+ pays the build back",
-    "zh": "Viva+ 訂閱回收"
+    "zh": "Viva+ 的開發成本回收試算"
   },
   "pb2": {
     "en": "Roughly 1,600 yearly Viva+ subscribers recoups the full NT$3M build in year one — net of the ~15% platform fee.",
-    "zh": "大約 1,600 位年費訂閱用戶，就能在第一年內回收整筆 NT$300 萬開發成本（已扣除約 15% 平台抽成）。"
+    "zh": "以年費方案與約 15% 平台費用為假設，約 1,600 位年費 Viva+ 訂閱者，可在第一年覆蓋 NT$300 萬的開發投入。"
   },
   "pb3": {
     "en": "From Jubo's 2,700+ facilities and their families, that's a small conversion — and cosmetics revenue sits on top of this.",
-    "zh": "以 Jubo 觸及的 2,700+ 家機構與家庭來看，這只是很小的轉換比例，而外觀（造型）營收還在這之上。"
+    "zh": "相較於 Jubo 已觸及的 2,700+ 家機構及其家庭，這屬於相對有限的轉換規模；外觀內容與合作收入則可作為額外來源。"
   },
   "pb4": {
     "en": "Illustrative. App Store / Play take 15–30%; final Taiwan pricing set at launch.",
-    "zh": "此為示意估算。App Store／Play 抽成 15-30%；實際台灣定價於上線時設定。"
+    "zh": "此為概念階段試算。App Store／Google Play 實際抽成可能為 15–30%，最終價格與轉換假設需於上線前確認。"
   },
   "u202": {
     "en": "A sustainable live service",
-    "zh": "這是可持續營運的服務"
+    "zh": "可持續更新的產品服務"
   },
   "u203": {
     "en": "Viva is designed to be operated, not shipped and forgotten. A steady stream of content and light new features keeps players returning, and gives the studio a lasting role instead of ending at launch.",
-    "zh": "Viva 的設計是為了被持續營運，而非上線後就被遺忘。穩定的內容流與輕巧的新功能，讓玩家持續回訪，也讓工作室有長久的角色，而不是在上線時就結束。"
+    "zh": "Viva 並非一次性上線的 App，而是透過固定內容更新與必要維運，持續提供新的使用理由與商業價值。"
   },
   "u204": {
     "en": "Art content",
@@ -753,11 +753,11 @@
   },
   "u205": {
     "en": "Creatures &amp; seasons",
-    "zh": "生物與季節"
+    "zh": "生物、外觀與季節內容"
   },
   "u206": {
     "en": "New collectibles, seasonal skins, habitats and event visuals on a regular drop cadence: the studio's core creative output.",
-    "zh": "新收集品、季節外觀、棲地與活動視覺，按固定節奏推出，這是工作室的核心創作產出。"
+    "zh": "依固定節奏推出新生物、季節外觀、棲地與活動視覺，維持水族世界的新鮮感與收藏目標。"
   },
   "u207": {
     "en": "Editorial",
@@ -765,11 +765,11 @@
   },
   "u208": {
     "en": "Fresh articles",
-    "zh": "新鮮文章"
+    "zh": "持續更新的健康內容"
   },
   "u209": {
     "en": "Jubo-curated health reads, refreshed continuously: a daily reason to open the app and a credibility layer.",
-    "zh": "Jubo 精選的健康讀物，持續更新，每天打開 App 的理由，也是一層可信度。"
+    "zh": "持續更新由 Jubo 精選的健康內容，提供每天打開 App 的實用理由，也強化品牌的專業可信度。"
   },
   "u210": {
     "en": "Features",
@@ -777,11 +777,11 @@
   },
   "u211": {
     "en": "New mini-games",
-    "zh": "新小遊戲"
+    "zh": "持續擴充的小遊戲"
   },
   "u212": {
     "en": "An extendable slot for bite-size games. Ship one, then keep adding: each new game is fresh engagement and fresh dev work.",
-    "zh": "一個可擴充的小遊戲插槽。先推出一款，再不斷增加，每一款新遊戲都是新鮮的參與感，也是新的開發工作。"
+    "zh": "小遊戲採可擴充架構，可先推出核心玩法，再依使用者回饋持續增加；每一款新遊戲都能帶來新的互動與內容價值。"
   },
   "u213": {
     "en": "Tech",
@@ -789,11 +789,11 @@
   },
   "u214": {
     "en": "Keep it healthy",
-    "zh": "讓它保持健康"
+    "zh": "維持穩定與安全"
   },
   "u215": {
     "en": "OS updates, AI model refreshes, uptime, data pipeline and security: the essential maintenance that keeps trust intact.",
-    "zh": "作業系統更新、AI 模型更新、運作時間、資料管線與資安，維繫信任所需的必要維運。"
+    "zh": "持續處理作業系統更新、AI 模型升級、系統穩定性、資料流程與資安，確保產品長期可靠。"
   },
   "u216": {
     "en": "Extendable",
@@ -801,11 +801,11 @@
   },
   "u217": {
     "en": "Mini-games: each feeds real nourishment",
-    "zh": "小遊戲，每一款都餵養一種真實養分"
+    "zh": "小遊戲，延伸健康互動"
   },
   "u218": {
     "en": "Every mini-game is a new way to earn nourishment for Bobo, so it deepens the core loop instead of distracting from it. The slot is the platform: content keeps flowing through it.",
-    "zh": "每款小遊戲都是為 Bobo 賺取養分的新方式，因此它深化核心循環，而非分散注意力。插槽就是平台，內容不斷從中流過。"
+    "zh": "每款小遊戲都與健康行動或水族箱成長連動，深化核心體驗，而不是成為彼此無關的附加功能。"
   },
   "u219": {
     "en": "Mind nourishment",
@@ -817,7 +817,7 @@
   },
   "u221": {
     "en": "A calm paced-breathing game. Bobo breathes with you; finishing tops up mind nourishment.",
-    "zh": "一款平靜的節奏呼吸遊戲。Bobo 陪你一起呼吸；完成後補滿心靈養分。"
+    "zh": "Bobo 引導使用者依節奏完成呼吸練習，結束後轉化為水族箱的身心活力。"
   },
   "u222": {
     "en": "Activity nourishment",
@@ -829,7 +829,7 @@
   },
   "u224": {
     "en": "Your steps grow a little garden. Real movement plants and grows it.",
-    "zh": "你的步數種出一座小花園。真實的活動讓它生根綻放。"
+    "zh": "步數會轉化為花園成長，讓日常活動以直觀、可見的方式累積。"
   },
   "u225": {
     "en": "Cognition",
@@ -841,31 +841,31 @@
   },
   "u227": {
     "en": "A gentle card-match for daily mental sharpness, elder-friendly and low-stakes.",
-    "zh": "一款溫和的翻牌配對，維持每日的頭腦靈活，長輩友善、低壓力。"
+    "zh": "簡單的翻牌配對，提供低壓力的認知互動，操作方式也適合年長使用者。"
   },
   "u228": {
     "en": "the next one<br/>ships next season",
-    "zh": "下一款<br>下一季推出"
+    "zh": "後續內容<br>持續推出"
   },
   "u230": {
     "en": "Live-ops is the long-term line",
-    "zh": "營運是長期的收入來源"
+    "zh": "持續營運帶來長期價值"
   },
   "u231": {
     "en": "The build tranches fund getting to launch. This is what sustains the studio afterwards: a recurring operations/maintenance retainer plus a share of cosmetic and Viva+ revenue, in exchange for a living pipeline of art, articles, mini-games and upkeep. The app keeps evolving; the studio keeps building.",
-    "zh": "開發批次的資金讓產品得以上線。而真正維繫工作室的是這件事：經常性的營運／維運定期費用，加上外觀與 Viva+ 的分潤，換取源源不絕的美術、文章、小遊戲與維護管線。App 持續進化，工作室持續開發。"
+    "zh": "產品上線後，可由固定營運／維運費用，搭配雙方另行議定的外觀與 Viva+ 商業合作，持續更新生物、文章、小遊戲與技術底層。讓 Viva 維持活躍，也能依實際使用需求逐步成長。"
   },
   "u233": {
     "en": "Getting Viva into families' hands",
-    "zh": "讓 Viva 走進每個家庭"
+    "zh": "讓 Viva 進入更多家庭"
   },
   "u234": {
     "en": "The buyer isn't always the user: an adult child often installs and champions it for a parent. The plan leans into that, and into a distribution channel no consumer startup has.",
-    "zh": "買單的人不一定是使用者：往往是成年子女為父母安裝並推薦。計畫正是善用這一點，以及一條沒有任何消費新創擁有的通路。"
+    "zh": "實際下載與推動使用的人，未必是最終使用者。成年子女常是替父母選擇與安裝健康服務的決策者；Viva 的推廣策略將同時面向兩者，並善用 Jubo 既有的機構與家庭通路。"
   },
   "u235": {
     "en": "<b>The unfair channel.</b> Jubo already reaches 2,700+ facilities, 330,000+ professionals and their residents' families, plus existing family apps like FamilyLine. That's warm, trusted distribution straight to exactly the right households, so blended acquisition cost stays far below a cold-start consumer app.",
-    "zh": "<b>不對稱的通路優勢。</b>Jubo 已觸及 2,700+ 家機構、330,000+ 名專業人員與住民家庭，加上像安心寶這樣既有的家庭 App。那是直達正確家庭的溫暖、可信通路，讓綜合獲客成本遠低於從零開始的消費 App。"
+    "zh": "<b>Jubo 的既有通路優勢。</b>Jubo 已觸及 2,700+ 家機構、330,000+ 名專業人員與住民家庭，也擁有安心寶等既有家庭服務。這些可信任的接觸點，讓 Viva 能以低於一般消費型新創的成本，接觸最相關的家庭。"
   },
   "u236": {
     "en": "Phase 1 · Beta",
@@ -873,7 +873,7 @@
   },
   "u237": {
     "en": "Seed &amp; learn",
-    "zh": "播種與學習"
+    "zh": "建立首批使用與學習"
   },
   "u238": {
     "en": "Staff &amp; families at Jubo facilities",
@@ -885,7 +885,7 @@
   },
   "u240": {
     "en": "Instrument retention hard",
-    "zh": "嚴謹地量測留存"
+    "zh": "驗證留存與使用行為"
   },
   "u241": {
     "en": "Phase 2 · Soft launch",
@@ -893,7 +893,7 @@
   },
   "u242": {
     "en": "Community pull",
-    "zh": "社群拉力"
+    "zh": "建立社群動能"
   },
   "u243": {
     "en": "ASO + article-driven SEO",
@@ -917,15 +917,15 @@
   },
   "u248": {
     "en": "Paid &amp; partners",
-    "zh": "付費與夥伴"
+    "zh": "付費成長與策略夥伴"
   },
   "u249": {
     "en": "Paid UA: Meta / Google / LINE",
-    "zh": "付費獲客，Meta / Google / LINE"
+    "zh": "Meta／Google／LINE 精準投放"
   },
   "u250": {
     "en": "Insurer, pharmacy, local-gov eldercare",
-    "zh": "保險、藥局、地方政府長照"
+    "zh": "保險、藥局與地方政府長照合作"
   },
   "u251": {
     "en": "App Store featuring",
@@ -937,7 +937,7 @@
   },
   "u253": {
     "en": "Phase 4 · Always-on",
-    "zh": "第 4 期 · 持續運行"
+    "zh": "第 4 期 · 持續營運"
   },
   "u254": {
     "en": "Live marketing",
@@ -953,7 +953,7 @@
   },
   "u257": {
     "en": "Referral compounding",
-    "zh": "推薦的複利效應"
+    "zh": "累積推薦成長"
   },
   "u258": {
     "en": "Owned",
@@ -965,7 +965,7 @@
   },
   "u260": {
     "en": "Facilities, professionals and resident families: the lowest-CAC, highest-trust channel Viva has.",
-    "zh": "機構、專業人員與住民家庭，Viva 擁有的最低獲客成本、最高信任度通路。"
+    "zh": "Jubo 的機構、專業人員與住民家庭網絡，是 Viva 最具信任基礎、也最具成本效率的早期通路。"
   },
   "u261": {
     "en": "Organic",
@@ -977,7 +977,7 @@
   },
   "u263": {
     "en": "Curated articles double as SEO; the creature hook drives store conversion and word of mouth.",
-    "zh": "精選文章同時作為 SEO；生物的吸引力帶動商店轉換與口碑。"
+    "zh": "精選內容可同時累積搜尋流量；水族角色與場景則有助於提升商店頁轉換、分享與口碑。"
   },
   "u264": {
     "en": "Community",
@@ -1005,19 +1005,19 @@
   },
   "df1": {
     "en": "Development fee",
-    "zh": "開發費用"
+    "zh": "初步開發預算"
   },
   "df2": {
     "en": "Roughly NT$2.5M – 3M · ~6–8 months",
-    "zh": "粗估 NT$250 萬 – 300 萬 · 約 6–8 個月"
+    "zh": "初步估算 NT$250 萬–300 萬 · 約 6–8 個月"
   },
   "df3": {
     "en": "A rough, development-only estimate for the build. Both the figure and the roughly 6–8 month timeline depend on how many creature, coral and scene assets are commissioned, and how much depth each module needs — we scope and fix them once those are agreed.",
-    "zh": "此為僅開發的粗估區間。金額與約 6–8 個月的開發時程，都取決於要製作多少生物、珊瑚與場景素材，以及每個模組的細節深度；待這些確定後，我們會定案並固定報價與時程。"
+    "zh": "此為概念階段的開發估算。實際金額與時程將依生物、珊瑚、場景等內容數量，以及各模組的功能深度調整；待需求確認後，再提出固定範圍、報價與時程。"
   },
   "df4": {
     "en": "Excludes what Jubo provides (AI measurement) and what is budgeted separately (online / maintenance, marketing).",
-    "zh": "不含 Jubo 提供的部分（AI 量測），以及另計的項目（線上／維運、行銷）。"
+    "zh": "不包含 Jubo 提供的 AI 量測技術，以及另行估算的雲端基礎設施、維運與行銷費用。"
   },
   "pt1": {
     "en": "The partnership",
@@ -1025,7 +1025,7 @@
   },
   "pt2": {
     "en": "Who brings what",
-    "zh": "各自帶來什麼"
+    "zh": "雙方的核心投入"
   },
   "pt3": {
     "en": "Jubo brings",
@@ -1033,15 +1033,15 @@
   },
   "pt4": {
     "en": "The hard tech and the trust — proprietary AI measurement, clinical data + care AI, and the facility/family distribution channel.",
-    "zh": "硬核技術與信任：專有 AI 量測、臨床資料 + 照護 AI，以及機構／家庭通路。"
+    "zh": "AI 量測、臨床與照護資料能力，以及既有的機構與家庭服務通路。"
   },
   "pt5": {
     "en": "offxs brings",
-    "zh": "offxs 帶來"
+    "zh": "OFFX Studio 帶來"
   },
   "pt6": {
     "en": "Consumer product craft — high-quality UI/UX, the creature/gamification design, and the retention mechanics that turn Jubo's clinical tech into a product families want to open.",
-    "zh": "消費級產品打磨：高品質 UI/UX、生物與遊戲化設計，以及把 Jubo 臨床技術變成家庭願意每天打開的產品的留存機制。"
+    "zh": "消費型產品策略與執行：UI/UX、角色與遊戲化設計、互動流程，以及將 Jubo 健康技術轉化為家庭願意持續使用之 App 的產品化能力。"
   },
   "u285": {
     "en": "Jubo Viva: a creature-growth wellness app nourished by real health signals",
@@ -1061,19 +1061,19 @@
   },
   "b1": {
     "en": "",
-    "zh": "我們的提案 · 預算"
+    "zh": "提案預算"
   },
   "b2": {
     "en": "",
-    "zh": "NT$300 萬 · 8 個月，僅開發"
+    "zh": "開發費 NT$300 萬 · 預估 8 個月"
   },
   "b3": {
     "en": "",
-    "zh": "這筆開發預算涵蓋工作室團隊在 8 個月（保守估計）內的投入。線上／基礎設施（維運）與行銷屬於另計預算，而且 AI 量測技術由 Jubo 提供，這筆錢完全不會花在上面。"
+    "zh": "此預算涵蓋四人工作室團隊在約 8 個月內的產品設計、開發與美術投入。AI 量測技術由 Jubo 提供；雲端基礎設施、上線後維運與行銷另行估算。"
   },
   "b4": {
     "en": "",
-    "zh": "開發團隊 · NT$300 萬 / 8 個月（保守時程）"
+    "zh": "開發團隊配置 · NT$300 萬／約 8 個月"
   },
   "b5": {
     "en": "",
@@ -1089,19 +1089,19 @@
   },
   "b8": {
     "en": "",
-    "zh": "營運雜支與工具"
+    "zh": "專案工具與必要支出"
   },
   "b9": {
     "en": "",
-    "zh": "另計，不含在這 NT$300 萬內"
+    "zh": "另行估算的項目"
   },
   "b10a": {
     "en": "",
-    "zh": "線上 / 基礎設施與維運"
+    "zh": "雲端基礎設施與維運"
   },
   "b10b": {
     "en": "",
-    "zh": "持續營運 · 路線圖階段 4"
+    "zh": "上線後持續營運"
   },
   "b11a": {
     "en": "",
@@ -1109,7 +1109,7 @@
   },
   "b11b": {
     "en": "",
-    "zh": "團隊 + 廣告投放 · 詳見進入市場"
+    "zh": "行銷規劃與媒體投放"
   },
   "b12a": {
     "en": "",
@@ -1121,7 +1121,7 @@
   },
   "b13": {
     "en": "",
-    "zh": "保守估計 8 個月、四人工作室團隊（兩位開發、一位設計、一位美術）加上雜支。兩位開發讓時程更安全。AI 量測由 Jubo 提供；雲端／維運與行銷另計。"
+    "zh": "以約 8 個月為初步時程，配置兩位開發、一位設計與一位美術。兩位開發可降低跨平台與系統整合的時程風險；AI 量測由 Jubo 提供，雲端、維運與行銷另行估算。"
   },
   "u1": {
     "en": "",
@@ -1145,51 +1145,51 @@
   },
   "u85": {
     "en": "",
-    "zh": "加乘效果"
+    "zh": "對 Jubo 核心業務的加乘"
   },
   "u86": {
     "en": "",
-    "zh": "更重要的是，它強化了 Jubo 的核心"
+    "zh": "同時，也回饋 Jubo 的 B2B 核心"
   },
   "u87": {
     "en": "",
-    "zh": "Jubo 是 B2B：為 <b>2,700+</b> 家機構、<b>330,000+</b> 名專業人員、<b>30 億+</b> 筆照護紀錄提供 AI 照護 SaaS。一款同時能餵養這個核心的獲利消費 App，其價值遠超過它自身的損益表。"
+    "zh": "Jubo 目前以 B2B 為核心，服務 <b>2,700+</b> 家機構、<b>330,000+</b> 名專業人員，並累積 <b>30 億+</b> 筆照護紀錄。Viva 若能建立可持續的消費端服務，除了自身營收，也能補充 Jubo 對家庭與居家健康情境的理解。"
   },
   "u88": {
     "en": "",
-    "zh": "更聰明的 AI"
+    "zh": "補充 AI 模型所需的消費端情境"
   },
   "u89": {
     "en": "",
-    "zh": "餵養 Jubo AI"
+    "zh": "補充 Jubo AI 的消費端訊號"
   },
   "u90": {
     "en": "",
-    "zh": "來自健康、居住於社區的長輩、經同意的 AI 量測與健康訊號，能<i>補足</i>機構端的 30 億筆資料集，讓 N-Copilot、風險預測與整體照護 AI 更準、優勢更大。"
+    "zh": "在取得明確同意並完成去識別化後，來自居家與社區使用情境的量測與健康訊號，可補充機構端資料，協助改善 N-Copilot、風險預測與整體照護 AI。"
   },
   "u91": {
     "en": "",
-    "zh": "需求漏斗"
+    "zh": "需求入口"
   },
   "u92": {
     "en": "",
-    "zh": "通往 B2B 的漏斗頂端"
+    "zh": "提早建立家庭關係"
   },
   "u93": {
     "en": "",
-    "zh": "Viva 在需要機構照護<i>之前</i>就觸及家庭。當需求真的來臨時，Jubo 早已是信任的名字，為照護機構媒合平台與 B2B 銷售管道注入客源。"
+    "zh": "Viva 可在家庭真正需要機構照護之前，就先建立與 Jubo 的接觸與信任。當照護需求出現時，Jubo 能成為更自然的服務選擇，也為機構媒合與 B2B 業務提供新的家庭入口。"
   },
   "u94": {
     "en": "",
-    "zh": "涵蓋範圍"
+    "zh": "服務範圍"
   },
   "u95": {
     "en": "",
-    "zh": "延伸照護連續性"
+    "zh": "延伸照護服務的前端"
   },
   "u96": {
     "en": "",
-    "zh": "Jubo 涵蓋住宿、日照與居家照護。Viva 把涵蓋範圍向前延伸到居家安老與預防，讓 Jubo 擁有整段老化旅程，而不只是最後階段。"
+    "zh": "Jubo 已涵蓋住宿、日照與居家照護；Viva 可再向前延伸至日常健康促進與預防，形成從居家生活到專業照護的更完整服務歷程。"
   },
   "u97": {
     "en": "",
@@ -1197,39 +1197,39 @@
   },
   "u98": {
     "en": "",
-    "zh": "大眾信任與資本故事"
+    "zh": "品牌與市場價值"
   },
   "u99": {
     "en": "",
-    "zh": "把安心寶 / FamilyLine 的家庭層延伸到一般大眾。一個被認識的消費品牌，能強化 B2B 銷售，以及仁寶健康的國際化與資本市場敘事。"
+    "zh": "將安心寶／FamilyLine 的家庭服務經驗延伸至一般消費者，有助於提升 Jubo 的大眾品牌認知、B2B 溝通與未來國際市場拓展。"
   },
   "u100": {
     "en": "",
-    "zh": "循環"
+    "zh": "雙向循環"
   },
   "u101": {
     "en": "",
-    "zh": "回饋核心的飛輪"
+    "zh": "回饋 B2B 核心的成長循環"
   },
   "u102": {
     "en": "",
-    "zh": "其他每一款 AI 量測 App 都只是孤立的掃描器。Jubo 已握有來自 2,700+ 家機構的 30 億+ 筆照護紀錄。一款在取得同意下接上這個體系的消費 App，會創造出任何獨立新創都無法複製的循環；每一次轉動，都反過來壯大出資支持它的 B2B 事業。"
+    "zh": "多數消費型量測 App 僅能提供單點工具。Jubo 已擁有機構端照護資料與服務網絡；若 Viva 在明確同意與隱私保護下接入既有體系，便能形成消費端使用、資料洞察與 B2B 服務相互回饋的循環。"
   },
   "u103": {
     "en": "",
-    "zh": "更多家庭<small>免費 · 溫柔 · 黏著</small>"
+    "zh": "更多家庭<small>免費核心 · 低壓力體驗</small>"
   },
   "u104": {
     "en": "",
-    "zh": "訊號 + 信任<small>經同意的資料、網內家庭</small>"
+    "zh": "情境與信任<small>經同意的資料、既有家庭關係</small>"
   },
   "u105": {
     "en": "",
-    "zh": "更強的核心<small>更聰明的 AI、更溫暖的 B2B 漏斗</small>"
+    "zh": "更完整的核心<small>AI 洞察、品牌與 B2B 接觸入口</small>"
   },
   "u106": {
     "en": "",
-    "zh": "回饋 Viva<small>可信度與資金回流</small>"
+    "zh": "回饋 Viva<small>專業可信度、內容與資源</small>"
   },
   "u107": {
     "en": "",
@@ -1237,11 +1237,11 @@
   },
   "u108": {
     "en": "",
-    "zh": "唯有真實的同意，飛輪才能運轉"
+    "zh": "以明確同意與透明規則為前提"
   },
   "u109": {
     "en": "",
-    "zh": "用健康資料驅動 AI，是一個必須在台灣與日本謹慎講述的故事。以下承諾讓資料流動具正當性，也讓提案站得住腳。"
+    "zh": "健康資料的使用必須以透明、必要與可控為原則。以下設計原則確保使用者能理解資料用途，並保有完整選擇權。"
   },
   "u110": {
     "en": "",
@@ -1249,7 +1249,7 @@
   },
   "u111": {
     "en": "",
-    "zh": "是否貢獻給飛輪，是一個清楚、獨立的選擇，不埋在一堆條款裡。即使使用者說不，App 仍完全可用。"
+    "zh": "是否同意將資料用於模型改善，是一個清楚且獨立的選擇，不藏在冗長條款中。即使不同意，App 的核心功能仍可正常使用。"
   },
   "u112": {
     "en": "",
@@ -1257,7 +1257,7 @@
   },
   "u113": {
     "en": "",
-    "zh": "模型訓練只使用去識別化、彙整後的訊號：看的是整體趨勢，不是任何個人。Jubo 沒有任何人會看到你的個人數值。"
+    "zh": "模型訓練僅使用去識別化與彙整後的訊號，分析整體趨勢，而非識別個別使用者；資料存取也需依權限、用途與必要性受到限制。"
   },
   "u114": {
     "en": "",
@@ -1265,7 +1265,7 @@
   },
   "u115": {
     "en": "",
-    "zh": "定位為帶有「血壓計確認」措辭的消費性健康資料，使其遠離醫療器材與個人健康資訊（PHI）的分類。"
+    "zh": "資料定位為消費性健康趨勢與篩檢參考，並清楚說明需以正式量測設備或專業意見確認。"
   },
   "u116": {
     "en": "",
@@ -1273,19 +1273,19 @@
   },
   "u117": {
     "en": "",
-    "zh": "隨時匯出、隨時刪除、隨時撤回同意。從第一天起就符合台灣個資法（PDPA）與日本個資保護法（APPI）。"
+    "zh": "使用者可隨時匯出、刪除資料或撤回同意；整體設計將依台灣個資法與日本 APPI 等適用規範進行。"
   },
   "u118": {
     "en": "",
-    "zh": "階段、里程碑與資金"
+    "zh": "開發階段與里程碑"
   },
   "u119": {
     "en": "",
-    "zh": "分批撥款，由里程碑解鎖"
+    "zh": "以里程碑確認交付"
   },
   "u120": {
     "en": "",
-    "zh": "開發被切分為階段關卡。每個階段交付一個具體里程碑，並且必須通過其成功標準，下一批開發資金才會撥付，讓資本跟著實績走，而非承諾。"
+    "zh": "專案依階段推進，每個階段都有明確交付與驗收標準，讓時程、預算與成果保持透明。"
   },
   "u121": {
     "en": "",
@@ -1293,7 +1293,7 @@
   },
   "u122": {
     "en": "",
-    "zh": "驗證核心"
+    "zh": "核心可行性驗證"
   },
   "u123": {
     "en": "",
@@ -1301,15 +1301,15 @@
   },
   "u124": {
     "en": "",
-    "zh": "種子 / 內部"
+    "zh": "內部驗證"
   },
   "u125": {
     "en": "",
-    "zh": "第 0 批"
+    "zh": "前期驗證"
   },
   "u126": {
     "en": "",
-    "zh": "里程碑交付"
+    "zh": "主要交付"
   },
   "u127": {
     "en": "",
@@ -1329,11 +1329,11 @@
   },
   "u131": {
     "en": "",
-    "zh": "解鎖第 A 批的關卡"
+    "zh": "進入 MVP 開發的條件"
   },
   "u132": {
     "en": "",
-    "zh": "<span class=\"lock\">🔓</span> 撥款條件"
+    "zh": "<span class=\"lock\">🔓</span> 確認條件"
   },
   "u133": {
     "en": "",
@@ -1349,7 +1349,7 @@
   },
   "u136": {
     "en": "",
-    "zh": "↓ 里程碑達成 <span>· 撥款釋出</span>"
+    "zh": "↓ 里程碑確認 <span>· 進入下一階段</span>"
   },
   "u137": {
     "en": "",
@@ -1357,7 +1357,7 @@
   },
   "u138": {
     "en": "",
-    "zh": "認識 Bobo"
+    "zh": "建立核心體驗"
   },
   "u139": {
     "en": "",
@@ -1365,15 +1365,15 @@
   },
   "u140": {
     "en": "",
-    "zh": "開發"
+    "zh": "產品開發"
   },
   "u141": {
     "en": "",
-    "zh": "第 A 批"
+    "zh": "MVP 開發"
   },
   "u142": {
     "en": "",
-    "zh": "里程碑交付"
+    "zh": "主要交付"
   },
   "u143": {
     "en": "",
@@ -1397,23 +1397,23 @@
   },
   "u148": {
     "en": "",
-    "zh": "<span class=\"lock\">🔓</span> 撥款條件"
+    "zh": "進入留存功能開發的條件"
   },
   "u149": {
     "en": "",
-    "zh": "達成 Beta 使用者目標"
+    "zh": "達成 Beta 使用者招募目標"
   },
   "u150": {
     "en": "",
-    "zh": "第 30 日留存率 ≥ 目標"
+    "zh": "第 30 日留存率達到雙方設定目標"
   },
   "u151": {
     "en": "",
-    "zh": "掃描可靠度／無當機率 ≥ 目標"
+    "zh": "量測穩定性與無當機率達到目標"
   },
   "u152": {
     "en": "",
-    "zh": "↓ 里程碑達成 <span>· 撥款釋出</span>"
+    "zh": "↓ 里程碑確認 <span>· 進入下一階段</span>"
   },
   "u153": {
     "en": "",
@@ -1421,7 +1421,7 @@
   },
   "u154": {
     "en": "",
-    "zh": "吸引力與溫度"
+    "zh": "強化持續使用與家庭互動"
   },
   "u155": {
     "en": "",
@@ -1429,67 +1429,67 @@
   },
   "u156": {
     "en": "",
-    "zh": "開發"
+    "zh": "功能擴充"
   },
   "u157": {
     "en": "",
-    "zh": "第 B 批"
+    "zh": "留存功能"
   },
   "u158": {
     "en": "",
-    "zh": "里程碑交付"
+    "zh": "主要交付"
   },
   "u159": {
     "en": "",
-    "zh": "新水族成員 + 連續紀錄解鎖"
+    "zh": "新增生物與持續使用里程碑"
   },
   "u160": {
     "en": "",
-    "zh": "心情與呼吸養分"
+    "zh": "心情記錄與呼吸練習"
   },
   "u161": {
     "en": "",
-    "zh": "家人關懷 · 安心 · 點選卡片"
+    "zh": "家庭關懷與一鍵互動卡片"
   },
   "u162": {
     "en": "",
-    "zh": "外觀商店（首筆收入）"
+    "zh": "外觀內容與首波付費驗證"
   },
   "u163": {
     "en": "",
-    "zh": "解鎖第 C 批的關卡"
+    "zh": "進入規模化階段的條件"
   },
   "u164": {
     "en": "",
-    "zh": "<span class=\"lock\">🔓</span> 撥款條件"
+    "zh": "<span class=\"lock\">🔓</span> 確認條件"
   },
   "u165": {
     "en": "",
-    "zh": "日活躍／留存曲線 ≥ 目標"
+    "zh": "日活躍與留存指標達到目標"
   },
   "u166": {
     "en": "",
-    "zh": "首筆外觀收入獲驗證"
+    "zh": "完成首波付費內容驗證"
   },
   "u167": {
     "en": "",
-    "zh": "同意加入率 ≥ 目標"
+    "zh": "資料使用同意率達到目標"
   },
   "u168": {
     "en": "",
-    "zh": "↓ 里程碑達成 <span>· 撥款釋出</span>"
+    "zh": "↓ 里程碑確認 <span>· 進入下一階段</span>"
   },
   "u169": {
     "en": "",
-    "zh": "階段 3 · 護城河與規模"
+    "zh": "階段 3 · 整合與規模化"
   },
   "u170": {
     "en": "",
-    "zh": "啟動飛輪"
+    "zh": "建立 Jubo 與 Viva 的雙向循環"
   },
   "u171": {
     "en": "",
-    "zh": "規模化階段"
+    "zh": "成長與整合"
   },
   "u172": {
     "en": "",
@@ -1497,23 +1497,23 @@
   },
   "u173": {
     "en": "",
-    "zh": "第 C 批"
+    "zh": "規模化開發"
   },
   "u174": {
     "en": "",
-    "zh": "里程碑交付"
+    "zh": "主要交付"
   },
   "u175": {
     "en": "",
-    "zh": "經同意的資料迴路匯入 Jubo 照護 AI"
+    "zh": "經同意與去識別化的資料流程，串接 Jubo 照護 AI"
   },
   "u176": {
     "en": "",
-    "zh": "Viva+ 進階版與醫師匯出"
+    "zh": "Viva+ 進階功能與可匯出報告"
   },
   "u177": {
     "en": "",
-    "zh": "內容與保險合作"
+    "zh": "內容與策略合作"
   },
   "u178": {
     "en": "",
@@ -1521,27 +1521,27 @@
   },
   "u179": {
     "en": "",
-    "zh": "成果"
+    "zh": "成功指標"
   },
   "u180": {
     "en": "",
-    "zh": "<span class=\"lock\">📈</span> 成功的樣貌"
+    "zh": "<span class=\"lock\">📈</span> 成功指標"
   },
   "u181": {
     "en": "",
-    "zh": "資料帶來可衡量的模型提升"
+    "zh": "資料帶來可驗證的模型改善"
   },
   "u182": {
     "en": "",
-    "zh": "經常性收入（Viva+ MRR）"
+    "zh": "Viva+ 建立經常性收入"
   },
   "u183": {
     "en": "",
-    "zh": "自我維持的成長循環"
+    "zh": "形成可持續的成長循環"
   },
   "u184": {
     "en": "",
-    "zh": "↓ 已上線 <span>· 現以持續營運方式維護</span>"
+    "zh": "↓ 產品上線 <span>· 進入持續營運</span>"
   },
   "u185": {
     "en": "",
@@ -1549,7 +1549,7 @@
   },
   "u186": {
     "en": "",
-    "zh": "讓它持續充滿活力"
+    "zh": "持續更新與優化"
   },
   "u187": {
     "en": "",
@@ -1557,15 +1557,15 @@
   },
   "u188": {
     "en": "",
-    "zh": "營運 · 定期費用 + 分潤"
+    "zh": "營運 · 固定費用與商業合作"
   },
   "u189": {
     "en": "",
-    "zh": "經常性"
+    "zh": "長期"
   },
   "u190": {
     "en": "",
-    "zh": "持續交付的內容"
+    "zh": "持續交付"
   },
   "u191": {
     "en": "",
@@ -1581,7 +1581,7 @@
   },
   "u194": {
     "en": "",
-    "zh": "AI 模型更新與技術維運"
+    "zh": "AI 模型、系統與資安維運"
   },
   "u195": {
     "en": "",
@@ -1589,11 +1589,11 @@
   },
   "u196": {
     "en": "",
-    "zh": "<span class=\"lock\">🔁</span> 資金來源"
+    "zh": "營運方式"
   },
   "u197": {
     "en": "",
-    "zh": "營運／維運定期費用"
+    "zh": "<span class=\"lock\">🔁</span> 經常性投入"
   },
   "u198": {
     "en": "",
@@ -1605,35 +1605,35 @@
   },
   "u200": {
     "en": "",
-    "zh": "圖中數字為<b>示意佔位</b>，確切的 Beta 規模、留存率與各批金額，將與出資方共同設定。階段 0-3 為里程碑把關的開發批次；<b>階段 4 是讓工作室持續開發、讓 App 保持活躍的長期營運線</b>。"
+    "zh": "圖中數字為<b>示意</b>，Beta 規模、留存目標與各階段金額，將在需求確認後由雙方共同設定。前期階段用於完成產品開發與驗證；上線後則進入持續營運，依實際使用與商業目標更新內容、功能與技術。"
   },
   "u201": {
     "en": "",
-    "zh": "為持續成長而生 · 持續營運"
+    "zh": "為長期成長而設計"
   },
   "u229": {
     "en": "",
-    "zh": "為什麼這對工作室重要"
+    "zh": "長期合作價值"
   },
   "u232": {
     "en": "",
-    "zh": "進入市場"
+    "zh": "進入市場策略"
   },
   "u270": {
     "en": "",
-    "zh": "預算"
+    "zh": "預算規劃"
   },
   "u271": {
     "en": "",
-    "zh": "錢花在哪裡"
+    "zh": "預算配置"
   },
   "u272": {
     "en": "",
-    "zh": "示意性的分配框架，呈現支出的形狀，而非最終數字。實際金額將與出資方對照各階段關卡共同設定。"
+    "zh": "以下為初步配置，用於說明主要投入方向；最終金額將依確認後的功能範圍、內容數量與時程調整。"
   },
   "u273": {
     "en": "",
-    "zh": "開發與營運分配"
+    "zh": "開發預算配置"
   },
   "u274": {
     "en": "",
@@ -1653,11 +1653,11 @@
   },
   "u278": {
     "en": "",
-    "zh": "營運與維運"
+    "zh": "雲端、營運與維運"
   },
   "u279": {
     "en": "",
-    "zh": "行銷支出組合"
+    "zh": "行銷預算配置"
   },
   "u280": {
     "en": "",
@@ -1677,11 +1677,11 @@
   },
   "u284": {
     "en": "",
-    "zh": "因為<b>自有的 Jubo 通路</b>承載了早期成長，付費獲客得以維持精簡，唯有當各關卡的留存經濟被驗證後，組合才會逐步偏向付費。"
+    "zh": "早期成長可優先運用 Jubo 既有通路，降低對付費獲客的依賴；待留存與轉換獲得驗證後，再逐步擴大媒體投放。"
   },
   "t1": {
     "en": "",
-    "zh": "水族箱 · 你的一缸生命"
+    "zh": "水族箱 · 由健康數據驅動的世界"
   },
   "pf1": {
     "en": "",
@@ -1689,11 +1689,11 @@
   },
   "pf2": {
     "en": "",
-    "zh": "分三期支付，對應交付里程碑"
+    "zh": "依三個主要交付節點支付"
   },
   "pf3": {
     "en": "",
-    "zh": "簡單清楚、依里程碑分期的付款：簽約付訂金、核心驗證通過付款、上線付尾款；每一期都對應一項具體交付。"
+    "zh": "付款分為啟動、核心驗證與上線三個節點，每一期皆對應明確的交付內容與驗收結果。"
   },
   "pf4": {
     "en": "",
@@ -1705,7 +1705,7 @@
   },
   "pf6": {
     "en": "",
-    "zh": "簽約時支付，涵蓋專案啟動、驗證，以及開發初期。"
+    "zh": "簽約時支付，用於專案啟動、需求確認與前期開發。"
   },
   "pf7": {
     "en": "",
@@ -1717,7 +1717,7 @@
   },
   "pf9": {
     "en": "",
-    "zh": "核心驗證交付時支付，AI 量測、水族箱、掃描與 Bobo 皆已運作並通過測試。"
+    "zh": "核心體驗完成並通過驗收時支付，包含 AI 量測串接、水族箱、Bobo 與主要資料流程。"
   },
   "pf10": {
     "en": "",
@@ -1729,27 +1729,27 @@
   },
   "pf12": {
     "en": "",
-    "zh": "App Store 上線時支付，收集系統、安心家庭、外觀商店：一套完整、可上架的 App。"
+    "zh": "App Store 上線時支付，完成收集系統、家庭關懷與外觀內容，交付可正式上架的 App。"
   },
   "pf13": {
     "en": "",
-    "zh": "總額 NT$300 萬、約 8 個月（保守時程）。上線後，另有持續的營運費用涵蓋內容與維運；擴大資料飛輪為另計的後續階段。"
+    "zh": "總開發費 NT$300 萬，預估約 8 個月。上線後的雲端、維運、內容更新與後續擴充另行估算。"
   },
   "ag11": {
     "en": "",
-    "zh": "我們的提案"
+    "zh": "提案範圍與預算"
   },
   "ag12": {
     "en": "",
-    "zh": "NT$300 萬開發費、約 8 個月，僅開發（2 位開發 + 設計 + 美術）。AI 量測由 Jubo 提供；線上／維運與行銷另計。"
+    "zh": "開發費 NT$300 萬，預估約 8 個月，團隊配置為 2 位開發、1 位設計與 1 位美術。AI 量測技術由 Jubo 提供；雲端、維運與行銷另行估算。"
   },
   "wj1": {
     "en": "",
-    "zh": "為什麼是 Jubo + OFFX Studio"
+    "zh": "為什麼是 Jubo × OFFX Studio"
   },
   "wj2": {
     "en": "",
-    "zh": "對的技術，對的團隊"
+    "zh": "Jubo 的健康科技，結合 OFFX 的消費型產品能力"
   },
   "os1": {
     "en": "",
@@ -1757,15 +1757,15 @@
   },
   "os2": {
     "en": "",
-    "zh": "OFFX Studio — 正是為此而生"
+    "zh": "OFFX Studio — 消費型數位產品團隊"
   },
   "os3": {
     "en": "",
-    "zh": "OFFX Studio 是一間位於台北的獨立設計與開發工作室，讓藝術、設計與工程在同一個團隊裡完整發生。其核心理念「溫柔成長」，正是 Viva 所需要的溫柔、不強迫的取向。"
+    "zh": "OFFX Studio 是位於台北的獨立設計與開發工作室，整合產品策略、設計、美術與工程。團隊長期專注於兼具使用價值與情感體驗的消費型產品，與 Viva 所需的低壓力健康體驗方向一致。"
   },
   "os4": {
     "en": "",
-    "zh": "已驗證的遊戲化"
+    "zh": "已驗證的健康遊戲化經驗"
   },
   "os5": {
     "en": "",
@@ -1773,15 +1773,15 @@
   },
   "os6": {
     "en": "",
-    "zh": "OFFX 自家的 App，把每天的心情變成可收集的像素怪獸：日記 + 遊戲化 + AI，App Store 4.9 星，正是 Bobo 的血脈。"
+    "zh": "OFFX 自主開發的 MoodMons，將日常心情記錄轉化為可收集的像素怪獸，結合日記、AI 與遊戲化體驗，目前在台灣 App Store 獲得 4.9 星評價。這些經驗可直接延伸至 Viva 的角色、收集與留存設計。"
   },
   "os7": {
     "en": "",
-    "zh": "資深團隊"
+    "zh": "資深的跨職能團隊"
   },
   "os8": {
     "en": "",
-    "zh": "十年以上、數千萬次下載"
+    "zh": "超過十年的產品經驗與數千萬次下載"
   },
   "os9": {
     "en": "",
@@ -1789,19 +1789,19 @@
   },
   "os10": {
     "en": "",
-    "zh": "同一個團隊"
+    "zh": "整合式團隊"
   },
   "os11": {
     "en": "",
-    "zh": "從概念到上架"
+    "zh": "從策略、設計到上架"
   },
   "os12": {
     "en": "",
-    "zh": "產品策略、UI/UX、視覺方向、互動與工程，設計與開發一手包辦，沒有層層轉述。"
+    "zh": "產品策略、UI/UX、視覺、互動與工程由同一團隊協作，降低溝通成本並確保執行一致。"
   },
   "me9h": {
     "en": "",
-    "zh": "強力總結"
+    "zh": "核心結論"
   },
   "b1_ask": {
     "en": "",
