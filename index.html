@@ -130,6 +130,58 @@
   .sec-head h2{font-size:clamp(1.7rem,3.6vw,2.5rem);margin-top:10px}
   .sec-head p{color:var(--ink-soft);margin-top:12px;font-size:1.05rem}
 
+  /* ---------- market prelude ---------- */
+  .market{border-top:0;padding:68px 0 88px}
+  .market-intro{max-width:850px;margin-bottom:72px}
+  .market-intro .context-label,.trend-intro .context-label{font-size:.76rem;font-weight:700;color:var(--scan-ink);margin-bottom:14px}
+  .market-intro h1{font-size:clamp(2.35rem,5.7vw,4.25rem);max-width:820px}
+  .research-premise{max-width:850px;margin-top:32px}
+  .premise-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .premise-card{display:grid;grid-template-columns:42px 1fr;gap:14px;padding:20px;border-radius:15px;background:rgba(255,255,255,.78);border:1px solid var(--line-strong);box-shadow:0 6px 20px rgba(18,48,57,.05)}
+  .premise-num{font-family:"Baloo 2","Noto Sans TC",sans-serif;font-size:2rem;font-weight:700;line-height:1;color:var(--scan-ink)}
+  .premise-card h3{font-size:1.05rem;margin-bottom:6px}
+  .market-intro .premise-card p{max-width:none;margin:0;color:var(--ink-soft);font-size:.9rem;line-height:1.58}
+  .trend-intro{max-width:850px;margin-bottom:28px}
+  .trend-intro h2{max-width:820px;font-size:clamp(2rem,4.6vw,3.45rem);line-height:1.1}
+  .trend-intro p{max-width:720px;margin-top:18px;color:var(--ink-soft);font-size:1.04rem}
+  .direction-title{margin-top:30px;font-size:1.18rem}
+  .direction-summary{max-width:760px!important;margin-top:8px!important;font-size:.94rem!important}
+  .direction-map{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:22px;padding:0;list-style:none}
+  .direction-map li{padding:13px 0 0;border-top:2px solid var(--dc,var(--scan));color:var(--ink);font-size:.86rem;font-weight:650;line-height:1.45}
+  .direction-map li:nth-child(2){--dc:var(--social)}.direction-map li:nth-child(3){--dc:var(--move)}.direction-map li:nth-child(4){--dc:var(--mind)}
+  .direction-map small{display:block;margin-top:3px;color:var(--ink-faint);font-size:.71rem;font-weight:500}
+  .trend-grid{display:grid;grid-template-columns:1fr;grid-template-areas:"ai" "companion" "utility";gap:18px}
+  .trend{background:rgba(255,255,255,.76);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 8px 26px rgba(18,48,57,.055)}
+  .trend-ai{grid-area:ai}.trend-companion{grid-area:companion}.trend-utility{grid-area:utility}
+  .trend-type{font-size:.72rem;font-weight:700;color:var(--scan-ink);margin-bottom:7px}
+  .trend h2{font-size:1.42rem;margin-bottom:8px}
+  .trend-copy{color:var(--ink-soft);font-size:.94rem;max-width:58ch}
+  .trend-insight{margin-top:16px;padding-top:15px;border-top:1px solid var(--line);font-size:.87rem;color:var(--ink)}
+  .trend-insight b{color:var(--scan-ink)}
+  .trend-media{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:20px}
+  .trend-ai .trend-media{grid-template-columns:1.25fr .75fr}
+  .trend-shot{position:relative;min-width:0}
+  .trend-shot:first-child:nth-last-child(3){grid-row:span 2}
+  .trend-shot img{display:block;width:100%;height:122px;object-fit:cover;object-position:top;border-radius:11px;border:1px solid var(--line);background:var(--panel-2);cursor:zoom-in;transition:transform .22s ease,box-shadow .22s ease}
+  .trend-shot img:hover,.proof-shot img:hover{transform:translateY(-3px);box-shadow:0 12px 26px rgba(18,48,57,.14)}
+  .trend-shot img:focus-visible,.proof-shot img:focus-visible{outline:3px solid rgba(0,178,192,.42);outline-offset:3px}
+  .trend-shot:first-child:nth-last-child(3) img{height:100%;min-height:253px}
+  .trend-shot figcaption{font-size:.72rem;font-weight:700;color:var(--ink);margin-top:6px}
+  .trend-evidence{font-size:.75rem;color:var(--ink-faint);margin-top:12px}
+  .market-choice{margin-top:56px;padding:34px;border-radius:20px;border:1px solid var(--line-strong);background:linear-gradient(120deg,rgba(0,178,192,.10),rgba(255,255,255,.82) 55%,rgba(143,155,255,.10))}
+  .market-choice>div:first-child{max-width:780px}
+  .market-choice h2{font-size:clamp(1.8rem,3.5vw,2.7rem);margin:8px 0 12px}
+  .market-choice p{color:var(--ink-soft);font-size:1rem}
+  .choice-thesis{margin-top:18px;color:var(--ink)!important;font-weight:700}
+  .choice-proof{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
+  .proof-shot img{display:block;width:100%;height:clamp(180px,17vw,240px);object-fit:cover;object-position:top;border-radius:13px;border:1px solid var(--line);background:var(--panel);cursor:zoom-in;transition:transform .22s ease,box-shadow .22s ease}
+  .proof-shot figcaption{font-size:.78rem;color:var(--ink-soft);margin-top:7px;line-height:1.45}
+  .proof-shot b{display:block;color:var(--ink);font-size:.84rem}
+  .market-source{grid-column:1/-1;font-size:.72rem;color:var(--ink-faint);margin-top:3px}
+  .proposal-bridge{margin-top:38px;text-align:center;color:var(--ink-soft);font-size:.92rem}
+  .proposal-bridge b{display:block;color:var(--scan-ink);font-family:"Baloo 2","Noto Sans TC",sans-serif;font-size:1.25rem;margin-top:4px}
+  .proposal-hero{border-top:1px solid var(--line);padding-top:90px}
+
   /* ---------- fuel tiers ---------- */
   .tiers{display:grid;gap:18px}
   .tier{
@@ -226,9 +278,22 @@
   .shot figcaption{text-align:center;margin-top:11px;font-family:"Baloo 2","Noto Sans TC";font-size:.92rem;color:var(--ink)}
   .shot figcaption small{display:block;font-family:"Inter","Noto Sans TC";font-weight:400;color:var(--ink-soft);font-size:.72rem;margin-top:2px}
   .shot-note{margin-top:8px;color:var(--ink-faint);font-size:.82rem;text-align:center}
-  .shotbox{position:fixed;inset:0;z-index:60;background:rgba(10,32,40,.8);display:none;align-items:center;justify-content:center;padding:28px;cursor:zoom-out}
-  .shotbox.open{display:flex}
-  .shotbox img{max-width:min(92vw,440px);max-height:92vh;width:auto;height:auto;border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+  .shotbox{position:fixed;inset:0;z-index:60;background:rgba(7,18,23,.94);display:flex;align-items:center;justify-content:center;padding:72px 86px 58px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .24s ease,visibility .24s ease}
+  .shotbox.open{opacity:1;visibility:visible;pointer-events:auto}
+  .lightroom-frame{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;max-width:100%;max-height:100%}
+  .shotbox img{display:block;max-width:min(88vw,1500px);max-height:calc(100vh - 150px);width:auto;height:auto;border-radius:8px;background:#eef2f3;box-shadow:0 28px 80px rgba(0,0,0,.48);transform:scale(.985);transition:transform .24s ease}
+  .shotbox.open img{transform:scale(1)}
+  .lightroom-top{position:absolute;top:18px;left:22px;right:22px;display:flex;align-items:center;justify-content:space-between;color:rgba(255,255,255,.68);font-size:.78rem;z-index:2}
+  .lightroom-close,.lightroom-nav{appearance:none;border:1px solid rgba(255,255,255,.18);background:rgba(21,37,43,.72);color:#f5fbfc;display:grid;place-items:center;cursor:pointer;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background .18s ease,transform .18s ease,border-color .18s ease}
+  .lightroom-close{width:42px;height:42px;border-radius:50%;font-size:1.7rem;line-height:1}
+  .lightroom-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:64px;border-radius:12px;font-size:2.2rem;line-height:1;z-index:2}
+  .lightroom-prev{left:22px}.lightroom-next{right:22px}
+  .lightroom-close:hover,.lightroom-nav:hover{background:rgba(40,62,70,.92);border-color:rgba(255,255,255,.35)}
+  .lightroom-close:active{transform:scale(.96)}
+  .lightroom-nav:active{transform:translateY(-50%) scale(.96)}
+  .lightroom-close:focus-visible,.lightroom-nav:focus-visible{outline:3px solid rgba(70,207,224,.65);outline-offset:3px}
+  .lightroom-caption{min-height:26px;margin-top:15px;color:rgba(255,255,255,.88);font-family:"Baloo 2","Noto Sans TC",sans-serif;font-size:1rem;font-weight:600;text-align:center}
+  body.lightbox-open{overflow:hidden}
 
   /* ---------- business model ---------- */
   .biz{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
@@ -265,6 +330,21 @@
   .colhead{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--ink-soft);margin-bottom:10px}
   .fund-note{margin-top:24px;padding:16px 20px;border-radius:12px;border:1px dashed var(--line-strong);color:var(--ink-soft);font-size:.88rem;text-align:center}
   .fund-note b{color:var(--scan-ink)}
+  .scope-split{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:28px}
+  .scope-card{padding:20px;border-radius:14px;background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--sc,var(--scan))}
+  .scope-card:nth-child(2){--sc:var(--move)}.scope-card:nth-child(3){--sc:var(--social)}
+  .scope-card .lbl{font-size:.7rem;font-weight:700;color:var(--ink-soft);margin-bottom:7px}
+  .scope-card h3{font-size:1.04rem;margin-bottom:6px}
+  .scope-card p{color:var(--ink-soft);font-size:.84rem}
+
+  /* ---------- alternative product path ---------- */
+  .alternative{padding:58px 0;background:rgba(255,255,255,.48)}
+  .alt-layout{display:grid;grid-template-columns:.78fr 1.22fr;gap:54px;align-items:start}
+  .alt-layout .sec-head{margin:0}
+  .alt-copy>p{color:var(--ink-soft);font-size:1rem;max-width:720px}
+  .alt-focus{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:26px 0 22px;padding:0;list-style:none}
+  .alt-focus li{padding-top:12px;border-top:2px solid var(--scan);color:var(--ink);font-family:"Baloo 2","Noto Sans TC",sans-serif;font-size:.95rem;font-weight:600}
+  .alt-note{padding:14px 16px;border-left:3px solid var(--move);background:rgba(255,255,255,.68);color:var(--ink-soft);font-size:.82rem}
 
   /* ---------- family interaction ---------- */
   .famwrap{display:grid;grid-template-columns:1.15fr .85fr;gap:26px;align-items:start}
@@ -477,6 +557,9 @@
   footer .powered{margin-top:8px;color:var(--ink-soft)}
 
   @media(max-width:820px){
+    .trend-grid{grid-template-columns:1fr;grid-template-areas:"ai" "companion" "utility"}
+    .premise-grid{grid-template-columns:1fr}
+    .direction-map{grid-template-columns:repeat(2,minmax(0,1fr))}
     .prog{grid-template-columns:1fr}
     .subtasks{grid-template-columns:1fr;gap:20px}
     .subcard{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}
@@ -485,6 +568,9 @@
     .stage{height:440px}
     .orbit-label{font-size:.68rem}    .biz{grid-template-columns:1fr}
     .trust{grid-template-columns:1fr}
+    .scope-split{grid-template-columns:1fr}
+    .alt-layout{grid-template-columns:1fr;gap:26px}
+    .alt-focus{grid-template-columns:1fr;gap:12px}
     .srow{grid-template-columns:1fr;gap:16px}
     .famwrap{grid-template-columns:1fr}
     .ops{grid-template-columns:repeat(2,1fr)}
@@ -498,6 +584,24 @@
     .modgrid{grid-template-columns:repeat(2,1fr)}
   }
   @media(max-width:560px){
+    .market{padding-top:46px}
+    .market-intro{margin-bottom:36px}
+    .trend{padding:20px}
+    .trend-ai .trend-media{grid-template-columns:1fr 1fr}
+    .trend-shot:first-child:nth-last-child(3){grid-column:1/-1;grid-row:auto}
+    .trend-shot:first-child:nth-last-child(3) img{height:158px;min-height:0}
+    .trend-shot img{height:108px}
+    .direction-map{grid-template-columns:1fr}
+    .market-choice{padding:24px 20px}
+    .choice-proof{grid-template-columns:1fr}
+    .proof-shot img{height:170px}
+    .shotbox{padding:70px 16px 70px}
+    .shotbox img{max-width:calc(100vw - 32px);max-height:calc(100vh - 170px)}
+    .lightroom-top{top:14px;left:16px;right:16px}
+    .lightroom-nav{top:auto;bottom:14px;width:48px;height:48px;border-radius:50%;transform:none}
+    .lightroom-nav:active{transform:scale(.96)}
+    .lightroom-prev{left:calc(50% - 58px)}.lightroom-next{right:calc(50% - 58px)}
+    .lightroom-caption{font-size:.92rem;margin-top:12px}
     .tier{grid-template-columns:auto 1fr;gap:16px}
     .tier .weight{grid-column:1/-1;text-align:left}
     .tier .weight .fuelbar{justify-content:flex-start}
@@ -509,6 +613,7 @@
   }
   @media(prefers-reduced-motion:reduce){
     *{animation:none !important}
+    .shotbox,.shotbox img{transition:none}
   }
 
   @media(prefers-reduced-motion:no-preference){
@@ -518,7 +623,96 @@
 </style>
 </head>
 <body><div class="bgfx" aria-hidden="true"></div>
-<header>
+<section id="context" class="market">
+<div class="wrap">
+<div class="market-intro">
+<div class="context-label" data-i18n="pr1">PROPOSAL FRAMEWORK</div>
+<h1 data-i18n="pr0h">Jubo Health App Product Positioning and Strategic Direction</h1>
+<div class="research-premise">
+<div class="premise-grid">
+<article class="premise-card">
+<span class="premise-num">1.</span>
+<div><h3 data-i18n="pr0a">An independent consumer product for multigenerational families</h3><p data-i18n="pr0b">The Jubo Health App, provisionally named Viva below, extends beyond Jubo's existing core business to build its own consumer value and business model. It serves multigenerational families: adult children and caregivers often introduce it, while older adults and other family members can participate together.</p></div>
+</article>
+<article class="premise-card">
+<span class="premise-num">2.</span>
+<div><h3 data-i18n="pr0c">Mutual value with Jubo's core business</h3><p data-i18n="pr0d">Viva integrates Jubo's AI, care data, content and channels to gain expertise and trust. In return, Jubo's core business gains new family relationships, consumer contexts and brand value.</p></div>
+</article>
+</div>
+</div>
+</div>
+
+<div class="trend-intro">
+<div class="context-label" data-i18n="pr26">WHY THIS TOPIC, WHY NOW</div>
+<h2 data-i18n="pr2">AI can rapidly produce all kinds of functional apps, but what makes people come back?</h2>
+<p data-i18n="pr3">AI can produce features faster, which also makes any single function easier to copy. Product differentiation is shifting from what an app can do to whether the experience gives people a reason to return.</p>
+<h3 class="direction-title" data-i18n="pr27">Four possible directions for the Jubo Health App</h3>
+<p class="direction-summary" data-i18n="pr28">This proposal compares four product approaches, then selects gamified experience as the primary direction and utility-led experience as the alternative path.</p>
+<ol class="direction-map">
+<li data-i18n="pr29">Generative UI<small>Prompt creates the function and interface</small></li>
+<li data-i18n="pr30">Character growth + AI companion<small>Game and relationship first</small></li>
+<li data-i18n="pr31">Utility-led product<small>Practical value and high-quality flow first</small></li>
+<li data-i18n="pr32">👑 Gamified experience<small>Health stays central; game mechanics build participation</small></li>
+</ol>
+</div>
+
+<div class="trend-grid">
+<article class="trend trend-ai">
+<div class="trend-type" data-i18n="pr4">DIRECTION 1 · SILICON VALLEY TREND: GENERATIVE UI</div>
+<h2 data-i18n="pr5">A prompt is becoming a mini app</h2>
+<p class="trend-copy" data-i18n="pr6">Monogram turns an answer into a visual interface. Wabi and Meta Pocket let people create and share lightweight apps or interactive gizmos. Creation is becoming instant, visual and personal.</p>
+<div class="trend-media">
+<figure class="trend-shot"><img src="screens/research/monogram.jpg" width="1400" height="996" alt="Monogram AI visual interface" loading="lazy" decoding="async"/><figcaption>Monogram</figcaption></figure>
+<figure class="trend-shot"><img src="screens/research/wabi.jpg" width="1400" height="850" alt="Wabi personal mini apps" loading="lazy" decoding="async"/><figcaption>Wabi</figcaption></figure>
+<figure class="trend-shot"><img src="screens/research/meta-pocket.jpg" width="1400" height="896" alt="Meta Pocket generative gizmos" loading="lazy" decoding="async"/><figcaption>Meta Pocket</figcaption></figure>
+</div>
+<p class="trend-insight" data-i18n="pr7"><b>What it proves:</b> AI lowers the cost of making a feature, but an open-ended prompt shifts the work of deciding what to do and how to describe it onto the user. High freedom can become cognitive load, especially in health experiences that should feel guided and effortless.</p>
+</article>
+
+<article class="trend trend-companion">
+<div class="trend-type" data-i18n="pr8">DIRECTION 2 · CHARACTER GROWTH + AI COMPANION (GAME-FIRST)</div>
+<h2 data-i18n="pr9">People return for a relationship</h2>
+<p class="trend-copy" data-i18n="pr10">Finch links self-care to raising a pet. Tolan gives AI a memorable body, personality and shared history. The character turns repeated use into emotional continuity.</p>
+<div class="trend-media">
+<figure class="trend-shot"><img src="screens/research/finch.jpg" width="1400" height="896" alt="Finch self-care pet market overview" loading="lazy" decoding="async"/><figcaption>Finch</figcaption></figure>
+<figure class="trend-shot"><img src="screens/research/tolan.jpg" width="1400" height="896" alt="Tolan AI companion market overview" loading="lazy" decoding="async"/><figcaption>Tolan</figcaption></figure>
+</div>
+<p class="trend-insight" data-i18n="pr11"><b>What it proves:</b> companions and progression can build retention and subscription value. The risk comes when a product depends on continuous storylines, long-form conversation or complex accumulated character states, which raise operating costs and reduce flexibility for future Jubo integration.</p>
+<p class="trend-evidence" data-i18n="pr12">Jun 2026 estimates: Finch 570K downloads / US$2M revenue. Tolan 150K / US$420K.</p>
+</article>
+
+<article class="trend trend-utility">
+<div class="trend-type" data-i18n="pr13">DIRECTION 3 · UTILITY-LED PRODUCTS</div>
+<h2 data-i18n="pr14">Exceptional utility and high-quality interface and flow come first</h2>
+<p class="trend-copy" data-i18n="pr15">Gentler Streak makes complex health data calm and actionable. Widgetsmith turns practical widgets into personal expression. Both show how high-quality UI and carefully designed flows can make focused utility feel distinctive.</p>
+<div class="trend-media">
+<figure class="trend-shot"><img src="screens/research/gentler-streak.jpg" width="1400" height="896" alt="Gentler Streak health utility market overview" loading="lazy" decoding="async"/><figcaption>Gentler Streak</figcaption></figure>
+<figure class="trend-shot"><img src="screens/research/widgetsmith.jpg" width="1400" height="896" alt="Widgetsmith utility market overview" loading="lazy" decoding="async"/><figcaption>Widgetsmith</figcaption></figure>
+</div>
+<p class="trend-insight" data-i18n="pr16"><b>What it proves:</b> clear utility earns trust. High-quality interfaces and thoughtful flows reduce friction and make repeated use feel natural.</p>
+<p class="trend-evidence" data-i18n="pr17">Jun 2026 estimates: Widgetsmith 990K downloads / US$170K revenue. Gentler Streak 25K / US$35K.</p>
+</article>
+</div>
+
+<div class="market-choice">
+<div>
+<div class="context-label" data-i18n="pr18">DIRECTION 4 · 👑 GAMIFIED EXPERIENCE · PRIMARY PROPOSAL</div>
+<h2 data-i18n="pr19">For Jubo, combining health information with gamified experiences creates long-term user value</h2>
+<p data-i18n="pr20">The three market directions point to a balanced choice: keep health tracking clear and useful, then add modular collection, light feedback and low-pressure interaction with friends and family. Viva avoids continuous storylines, long-form AI conversation and dependency-driven mechanics, so its content can evolve without locking the product into a rigid progression system.</p>
+</div>
+<div class="choice-proof">
+<figure class="proof-shot"><img src="screens/research/duolingo.jpg" width="1400" height="896" alt="Duolingo gamification market overview" loading="lazy" decoding="async"/><figcaption data-i18n="pr22"><b>Duolingo</b>Gamification can turn a useful task into a durable daily behavior. Est. 13M downloads / US$56M revenue in Jun 2026.</figcaption></figure>
+<figure class="proof-shot"><img src="screens/research/otterlife.jpg" width="1400" height="896" alt="OtterLife gamified health tracker market overview" loading="lazy" decoding="async"/><figcaption data-i18n="pr23"><b>OtterLife</b>Health data, a pet and collection mechanics already form a viable category. Est. 90K downloads / US$110K revenue in Jun 2026.</figcaption></figure>
+<p class="market-source" data-i18n="pr24">Third-party market estimates supplied for this proposal. Directional reference only, not official company reporting.</p>
+</div>
+<p class="choice-thesis" data-i18n="pr21">Health tracking stays at the center. Gamification builds the habit, while interaction with friends and family makes the experience warmer and easier.</p>
+</div>
+
+<div class="proposal-bridge" data-i18n="pr25">This leads to one product direction.<b>Jubo's health capability, made into a world people want to care for.</b></div>
+</div>
+</section>
+
+<header id="proposal" class="proposal-hero">
 <div class="wrap">
 <div class="brand">
 <span class="mark">
@@ -634,9 +828,9 @@
 </div>
 <div class="glance">
 <div class="gcard" style="--gcc:var(--scan)"><div class="glbl" data-i18n="ag3">What it is</div><p data-i18n="ag4">A gamified wellness app: a 10-second AI face scan (plus your health data) keeps a living aquarium of collectible creatures healthy, led by Bobo. Families co-raise one tank.</p></div>
-<div class="gcard" style="--gcc:var(--move)"><div class="glbl" data-i18n="ag5">Why it wins</div><p data-i18n="ag6">A familiar, long-life theme even an 80-year-old gets; gentle, non-coercive design; a procedural-art content engine; and Jubo's proprietary AI measurement + channel as an unfair advantage.</p></div>
-<div class="gcard" style="--gcc:var(--social)"><div class="glbl" data-i18n="ag7">The business</div><p data-i18n="ag8">Free core &#8594; cosmetics &#8594; Viva+ subscription. A real consumer business that recoups its build in year one, cosmetics on top.</p></div>
-<div class="gcard" style="--gcc:var(--mind)"><div class="glbl" data-i18n="ag9">Why Jubo + OFFX</div><p data-i18n="ag10">Jubo's data + channel is the moat: consumer signals feed Jubo AI and funnel families into B2B. And OFFX Studio brings 10+ years of award-winning, gamified consumer-app craft to build it.</p></div>
+<div class="gcard" style="--gcc:var(--move)"><div class="glbl" data-i18n="ag5">Why it wins</div><p data-i18n="ag6">A familiar cross-generational aquarium theme, gentle health interaction, modular content and Jubo's existing AI measurement, care capabilities and family channels create a differentiated product foundation.</p></div>
+<div class="gcard" style="--gcc:var(--social)"><div class="glbl" data-i18n="ag7">The business</div><p data-i18n="ag8">A complete free core builds reach, while optional cosmetics, Viva+ and brand partnerships create the potential to recover development investment and support ongoing operation.</p></div>
+<div class="gcard" style="--gcc:var(--mind)"><div class="glbl" data-i18n="ag9">Why Jubo + OFFX</div><p data-i18n="ag10">Jubo contributes AI measurement, care expertise and trusted channels; OFFX contributes consumer product strategy, experience design, gamification and app development.</p></div>
 </div>
 </div>
 </section>
@@ -656,31 +850,6 @@
 </div>
 </section>
 
-<section id="moat">
-<div class="wrap">
-<div class="sec-head">
-<div class="eyebrow" data-i18n="me1">Why gamification</div>
-<h2 data-i18n="me2">In the AI era, features are commodities — experience is the moat</h2>
-<p data-i18n="me3">A scan, a tracker, a chart — any single function can be cloned, or absorbed by an AI assistant or platform, almost overnight. A pure-utility health app has no defensibility. What can't be copied is an experience people are attached to and return to every day: a habit, a creature they've raised, a family ritual built over years.</p>
-</div>
-<div class="guards">
-<div class="guard"><div class="h"><span class="x">✕</span> A pure utility</div><p data-i18n="me4">Scan-and-leave. Easily replaced the moment something cheaper, faster or AI-native appears. Scanners churn — there's no reason to stay.</p></div>
-<div class="guard"><div class="h"><span class="y">✓</span> An experience</div><p data-i18n="me5">A living tank you tend, creatures you've collected, a family you check in with. Emotional investment compounds — and is almost impossible to replicate.</p></div>
-</div>
-<div class="edge" style="margin-top:16px">
-<span class="tag">🦉</span>
-<p data-i18n="me6"><b>Duolingo is the proof.</b> Learning a language is a "utility" — Google Translate and ChatGPT can teach you for free. Yet Duolingo is a multi-billion-dollar company, because the gamified experience (streaks, the owl, the daily ritual) is what people can't leave. The lesson is commodity; the experience is the moat.</p>
-</div>
-<div class="edge" style="margin-top:16px">
-<span class="tag">💛</span>
-<p data-i18n="me8"><b>And it's a bridge between people.</b> A shared creature and tank is a gentle intermediary between family and friends — a warm, low-pressure reason to reach out, especially for elders, without the awkwardness of a cold message. The game carries the care.</p>
-</div>
-<p data-i18n="me7" style="color:var(--ink-soft);font-size:1.02rem;margin-top:18px;max-width:720px">Viva puts the AI measurement utility inside an experience. The scan is the hook; the tank, the creatures and co-raising are the moat. A competitor can copy a face scan overnight — they can't copy the years a family has spent raising their tank together.</p>
-<div style="margin-top:24px;padding:22px 24px;border-radius:18px;background:linear-gradient(115deg,rgba(0,178,192,.12),rgba(143,155,255,.12));border:1px solid var(--line-strong)">
-<p data-i18n="me9" style="color:var(--ink);font-size:1.02rem;max-width:760px;font-weight:600">Social, novelty and fun are still what make people try a new app — and gamification is still the element that keeps them coming back. In an AI era where features are quickly commoditized, a scanner can only compete on price; a little world you've raised with your family can't be replaced. That is the moat.</p>
-</div>
-</div>
-</section>
 <section id="tank">
 <div class="wrap">
 <div class="sec-head">
@@ -715,15 +884,33 @@
 </div>
 <div class="tankpoints">
 <div class="tp" style="--tpc:var(--scan)"><div class="ic">💧</div><h4 data-i18n="t4">Vitals → water</h4><p data-i18n="t5">A scan clears and oxygenates the water; your daily health data keeps it flowing and bright. Healthy you, healthy tank.</p></div>
-<div class="tp" style="--tpc:var(--move)"><div class="ic">🐠</div><h4 data-i18n="t6">Collect creatures &amp; scenes</h4><p data-i18n="t7">Bobo blobs, fish, koi, turtles — plus coral, plants and whole underwater scenes — all procedurally generated, so the cast and the shop never run out.</p></div>
+<div class="tp" style="--tpc:var(--move)"><div class="ic">🐠</div><h4 data-i18n="t6">Collect creatures &amp; scenes</h4><p data-i18n="t7">Bobo companions, fish, koi, turtles, coral, plants and scenes can be released through a modular content system, keeping collection fresh without affecting the health core.</p></div>
 <div class="tp" style="--tpc:var(--social)"><div class="ic">👵</div><h4 data-i18n="t8">Raise it together</h4><p data-i18n="t9">Family share one tank; everyone's healthy days keep it sparkling. One glance and you know they're okay.</p></div>
 <div class="tp" style="--tpc:var(--mind)"><div class="ic">🐢</div><h4 data-i18n="t10">Never dies</h4><p data-i18n="t11">Creatures are immortal companions. Miss a day and the water just clouds gently, and a scan always brings it back.</p></div>
 </div>
 </div>
 <div style="margin-top:26px;padding:22px 24px;border-radius:18px;background:linear-gradient(115deg,rgba(0,178,192,.1),rgba(70,207,224,.12));border:1px solid var(--line-strong)">
 <div data-i18n="t18h" style="font-family:'Baloo 2','Noto Sans TC',sans-serif;font-weight:700;font-size:1.12rem;margin-bottom:8px">Why an aquarium is the perfect theme</div>
-<p data-i18n="t18" style="color:var(--ink);font-size:1rem;max-width:840px">Two reasons it fits better than anything else. First, it maps naturally onto the body: clear, calm water is exactly the calm the face scan measures — water quality becomes a legible read-out of your health, understood at a glance. Second, it's a deeply shared experience in Asia — fish tanks fill homes, shops and restaurants; koi and turtles symbolize longevity and good fortune; and keeping or watching fish is a cross-generational memory an 80-year-old needs zero learning to enjoy. (Watching fish is also clinically shown to lower stress and blood pressure.)</p>
+<p data-i18n="t18" style="color:var(--ink);font-size:1rem;max-width:840px">An aquarium has two clear advantages. First, water quality, movement and light map naturally to health status, making an overall condition understandable without reading complex data. Second, aquariums are familiar across generations in many Asian homes and public spaces; koi and turtles also connect naturally to longevity and good wishes, while calm underwater scenery supports a relaxed long-term experience.</p>
 </div>
+</div>
+</section>
+
+<section id="loop">
+<div class="wrap loopwrap">
+<div class="sec-head" style="margin:0 auto 34px">
+<h2 data-i18n="u34" style="text-align:center">Live your day, and your tank thrives</h2>
+</div>
+<div class="loop">
+<div class="node" data-i18n="u35">Real actions<small>scan, walk, health data</small></div>
+<div class="arrow">→</div>
+<div class="node" data-i18n="u36">Nourishment<small>substitutable inputs</small></div>
+<div class="arrow">→</div>
+<div class="node" data-i18n="u37">Tank thrives<small>+ new creatures</small></div>
+<div class="arrow">→</div>
+<div class="node" data-i18n="u38">Share &amp; streak<small>family &amp; friends</small></div>
+</div>
+<div class="loopback" data-i18n="u39">↺ &nbsp;a gentle flywheel: <span>more care → a livelier tank → more reasons to care</span></div>
 </div>
 </section>
 
@@ -782,9 +969,9 @@
 </div>
 <div class="subtasks">
 <div class="subcard">
-<div class="ic">🤖</div>
-<h4 data-i18n="u17">Tiny AI companion</h4>
-<p data-i18n="u18">The creature reacts and offers a plain-language nudge. Kept small on purpose: a helper, not a chatbot to pour your heart into.</p>
+<div class="ic">✨</div>
+<h4 data-i18n="u17">Daily growth feedback</h4>
+<p data-i18n="u18">Bobo turns today's measurement, activity and sleep into a simple status and growth update, showing what was added and how close the next unlock is.</p>
 </div>
 <div class="subcard">
 <div class="ic">💛</div>
@@ -802,22 +989,22 @@
 <section id="progression">
 <div class="wrap">
 <div class="sec-head">
-<h2 data-i18n="u24">One Bobo to bond with, a whole tank to fill</h2>
-<p data-i18n="u25">A hybrid that keeps Finch's warmth and adds Mindllama's “collect them all” pull, without the loot-box trap.</p>
+<h2 data-i18n="u24">Light progression, designed to stay flexible</h2>
+<p data-i18n="u25">Bobo creates recognizable continuity, while modular creatures and scenes provide achievable goals. There is no continuous storyline, mandatory conversation or loot-box progression to maintain.</p>
 </div>
 <div class="prog">
 <div class="prog-card bond">
 <div class="role" data-i18n="u26">The bond</div>
-<h3 data-i18n="u27">Bobo grows with you</h3>
-<p data-i18n="u28">One companion you raise continuously. Bobo reflects your real state day to day, remembers your streaks, and deepens the longer you show up. This is the emotional anchor: the reason to come back tomorrow.</p>
+<h3 data-i18n="u27">Visible Bobo growth and unlocks</h3>
+<p data-i18n="u28">Measurement, activity, sleep and simple check-ins become visible growth points for Bobo. Reaching clear milestones unlocks different Bobo forms and looks, so every return shows current progress and the next achievable goal.</p>
 <div style="margin-top:22px;display:flex;justify-content:center">
 <div class="critter" style="width:96px"><span style="font-size:2.4rem">🐣</span></div>
 </div>
 </div>
 <div class="prog-card collect">
 <div class="role" data-i18n="u29">The collection</div>
-<h3 data-i18n="u30">Stock your tank</h3>
-<p data-i18n="u31">Consistency and streak milestones unlock a growing cast of collectible creatures. Earned by showing up, never bought from a loot-box. Money, if any, buys only cosmetics.</p>
+<h3 data-i18n="u30">A collection that grows in modules</h3>
+<p data-i18n="u31">Clear health and participation milestones unlock self-contained creatures and scenes. Each addition can ship independently, while purchases remain limited to optional cosmetics.</p>
 <div class="critters">
 <div class="critter"><span style="font-size:1.5rem">🦎</span></div>
 <div class="critter"><span style="font-size:1.5rem">🐙</span></div>
@@ -827,14 +1014,14 @@
 </div>
 </div>
 </div>
-<div class="rule" data-i18n="u32">Characters are earned through <b>consistency</b>, not cash. The health data is never held hostage: you're rewarded for care, never punished for a missed day.</div>
+<div class="rule" data-i18n="u32">Core characters are earned through <b>participation</b>, not pressure or cash. Health data remains freely accessible, and missing a day never removes progress.</div>
 </div>
 </section>
 <section id="collection">
   <div class="wrap">
     <div class="sec-head">
-      <h2 data-i18n="c2">One tank, a whole living world</h2>
-      <p data-i18n="c3">Show up, and your tank fills. Creatures, coral, plants and whole underwater scenes — each with its own outfits, décor and variations — a collection that keeps expanding, drop after drop.</p>
+      <h2 data-i18n="c2">A modular content system, not a fixed storyline</h2>
+      <p data-i18n="c3">Creatures, plants, scenes and optional cosmetics are self-contained content units. Jubo can expand, pause or reprioritize them without rewriting a user's accumulated story or blocking the core health experience.</p>
     </div>
     <div class="collection-wrap">
       <div class="colstage">
@@ -865,8 +1052,8 @@
         </div>
       </div>
       <div class="colinfo">
-        <h3 data-i18n="c13">Same Bobo, endless looks</h3>
-        <p data-i18n="c14">New creatures, coral, scenes, outfits and accessories keep shipping: the studio's ongoing output, and the pull that brings players back tomorrow.</p>
+        <h3 data-i18n="c13">Personal expression, expanded when needed</h3>
+        <p data-i18n="c14">Creatures, coral, scenes, outfits and accessories can be introduced according to actual use and commercial priorities, rather than a rigid release cadence.</p>
         <div class="colvariants" id="colVariants"></div>
         <div class="colnote" data-i18n="c15">Earned by showing up: cosmetics only, never pay-to-win.</div>
       </div>
@@ -874,23 +1061,6 @@
   </div>
 </section>
 
-<section id="loop">
-<div class="wrap loopwrap">
-<div class="sec-head" style="margin:0 auto 34px">
-<h2 data-i18n="u34" style="text-align:center">Live your day, and your tank thrives</h2>
-</div>
-<div class="loop">
-<div class="node" data-i18n="u35">Real actions<small>scan, walk, health data</small></div>
-<div class="arrow">→</div>
-<div class="node" data-i18n="u36">Nourishment<small>substitutable inputs</small></div>
-<div class="arrow">→</div>
-<div class="node" data-i18n="u37">Tank thrives<small>+ new creatures</small></div>
-<div class="arrow">→</div>
-<div class="node" data-i18n="u38">Share &amp; streak<small>family &amp; friends</small></div>
-</div>
-<div class="loopback" data-i18n="u39">↺  a gentle flywheel: <span>more care → a livelier tank → more reasons to care</span></div>
-</div>
-</section>
 <section id="shots">
 <div class="wrap">
 <div class="sec-head">
@@ -910,17 +1080,88 @@
 </div>
 <div class="shot-note" data-i18n="sh4">* AI-generated concept mockups — visual direction only, not the final UI</div>
 </div>
-<div class="shotbox" id="shotBox" aria-hidden="true"><img alt=""/></div>
+<div class="shotbox" id="shotBox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+  <div class="lightroom-top"><span id="lightroomCount"></span><button class="lightroom-close" id="lightroomClose" type="button" aria-label="Close image viewer" title="Close">×</button></div>
+  <button class="lightroom-nav lightroom-prev" id="lightroomPrev" type="button" aria-label="Previous image" title="Previous">‹</button>
+  <div class="lightroom-frame"><img alt=""/><div class="lightroom-caption" id="lightroomCaption"></div></div>
+  <button class="lightroom-nav lightroom-next" id="lightroomNext" type="button" aria-label="Next image" title="Next">›</button>
+</div>
 <script>
 (function(){
   var box=document.getElementById('shotBox');if(!box)return;
-  var big=box.querySelector('img');
-  document.querySelectorAll('#shotRail .shot img').forEach(function(im){
-    im.addEventListener('click',function(){big.src=im.currentSrc||im.src;box.classList.add('open');});
+  var big=box.querySelector('.lightroom-frame img');
+  var caption=document.getElementById('lightroomCaption');
+  var count=document.getElementById('lightroomCount');
+  var closeBtn=document.getElementById('lightroomClose');
+  var prevBtn=document.getElementById('lightroomPrev');
+  var nextBtn=document.getElementById('lightroomNext');
+  var market=Array.from(document.querySelectorAll('#context .trend-shot img, #context .proof-shot img'));
+  var concepts=Array.from(document.querySelectorAll('#shotRail .shot img'));
+  var activeGallery=[];
+  var activeIndex=0;
+  var lastFocus=null;
+
+  function labelFor(im){
+    var cap=im.closest('figure')&&im.closest('figure').querySelector('figcaption');
+    var bold=cap&&cap.querySelector('b');
+    if(bold)return bold.textContent.trim();
+    if(cap){
+      var clone=cap.cloneNode(true);
+      clone.querySelectorAll('small').forEach(function(el){el.remove();});
+      return clone.textContent.trim();
+    }
+    return im.alt||'';
+  }
+  function render(){
+    var im=activeGallery[activeIndex];if(!im)return;
+    big.src=im.currentSrc||im.src;
+    big.alt=im.alt||labelFor(im);
+    caption.textContent=labelFor(im);
+    count.textContent=(activeIndex+1)+' / '+activeGallery.length;
+  }
+  function open(im,gallery){
+    activeGallery=gallery;
+    activeIndex=Math.max(0,activeGallery.indexOf(im));
+    lastFocus=im;
+    render();
+    box.classList.add('open');
+    box.setAttribute('aria-hidden','false');
+    document.body.classList.add('lightbox-open');
+    closeBtn.focus();
+  }
+  function close(){
+    if(!box.classList.contains('open'))return;
+    box.classList.remove('open');
+    box.setAttribute('aria-hidden','true');
+    document.body.classList.remove('lightbox-open');
+    big.removeAttribute('src');
+    if(lastFocus)lastFocus.focus();
+  }
+  function move(step){
+    activeIndex=(activeIndex+step+activeGallery.length)%activeGallery.length;
+    render();
+  }
+  function bind(im,gallery){
+    im.tabIndex=0;
+    im.setAttribute('role','button');
+    im.setAttribute('aria-label','View '+labelFor(im)+' image');
+    im.addEventListener('click',function(){open(im,gallery);});
+    im.addEventListener('keydown',function(e){
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();open(im,gallery);}
+    });
+  }
+  market.forEach(function(im){bind(im,market);});
+  concepts.forEach(function(im){bind(im,concepts);});
+  closeBtn.addEventListener('click',close);
+  prevBtn.addEventListener('click',function(){move(-1);});
+  nextBtn.addEventListener('click',function(){move(1);});
+  box.addEventListener('click',function(e){if(e.target===box)close();});
+  document.addEventListener('keydown',function(e){
+    if(!box.classList.contains('open'))return;
+    if(e.key==='Escape')close();
+    if(e.key==='ArrowLeft')move(-1);
+    if(e.key==='ArrowRight')move(1);
   });
-  function close(){box.classList.remove('open');big.removeAttribute('src');}
-  box.addEventListener('click',close);
-  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
 })();
 </script>
 </section>
@@ -977,12 +1218,12 @@
 <p data-i18n="u50">Sending or answering a card sends a Heart. Both creatures glow and gain a little warmth: connection itself feeds the game.</p>
 </div>
 <div class="fam-game fg-streak">
-<div class="h" data-i18n="u51"><span class="ic">🔗</span> Shared streak</div>
-<p data-i18n="u52">When a reminder gets a reply the same day (a “time to measure” card → “done ✅”), you extend a streak you own together. A missed day never scolds; it just waits.</p>
+<div class="h" data-i18n="u51"><span class="ic">🔗</span> Shared record</div>
+<p data-i18n="u52">When a reminder receives a same-day response, both people add to a shared record. Missing a day never triggers blame or removes anything already earned.</p>
 </div>
 <div class="fam-game fg-bloom">
 <div class="h" data-i18n="u53"><span class="ic">🌸</span> Thrive together</div>
-<p data-i18n="u54">Family-streak milestones unlock shared cosmetics: a matching habitat or a duo outfit for both Bobos. Earned by staying in touch, never bought.</p>
+<p data-i18n="u54">Shared-interaction milestones can unlock paired habitats or matching looks, turning continued contact into a result both people can see.</p>
 </div>
 <div class="fam-loop" data-i18n="u55">
           care tap → <b>Heart</b> → both Bobos react → shared streak → a reason to check in tomorrow
@@ -1003,8 +1244,8 @@
 <p data-i18n="u60">No engineered frustration. Measurement earns energy, never gates it. You're never locked out of your own health data to force a return.</p>
 </div>
 <div class="guard">
-<div class="h" data-i18n="u61"><span class="x">✕</span> Not a companion trap</div>
-<p data-i18n="u62">The AI stays deliberately tiny: a reactive creature, not an attachment-maximizing chatbot. That keeps it clear of the regulatory heat around companion apps.</p>
+<div class="h" data-i18n="u61"><span class="x">✕</span> No dependency-driven character design</div>
+<p data-i18n="u62">Bobo motivates through visible growth and clear unlocks, never through anxiety, loss, guilt or emotional pressure to return.</p>
 </div>
 <div class="guard">
 <div class="h" data-i18n="u63"><span class="y">✓</span> Pikmin-gentle</div>
@@ -1022,7 +1263,7 @@
 <div class="sec-head">
 <div class="eyebrow" data-i18n="mo1">System architecture</div>
 <h2 data-i18n="mo2">One app, built as modules</h2>
-<p data-i18n="mo3">Viva is engineered as independent modules — each a self-contained piece of value that can be built, tested and extended on its own. Clean to develop, easy to grow, and every module is its own long-term stream.</p>
+<p data-i18n="mo3">Viva is organized into independent modules that can be developed, tested and expanded separately. This reduces maintenance complexity and lets later services grow according to actual priorities.</p>
 </div>
 <div class="modcore">
 <div class="mi">⚙️</div>
@@ -1036,10 +1277,10 @@
 <div class="modcard" style="--mcc:var(--glow-2)"><div class="mi">👤</div><h4 data-i18n="mo20">Account &amp; profiles</h4><p data-i18n="mo21">Sign-in, family linking, subscription entitlements and cross-device sync — who you are, who's in your family, and what's yours.</p></div>
 <div class="modcard" style="--mcc:var(--scan)"><div class="mi">📈</div><h4 data-i18n="mo7">Data visualization</h4><p data-i18n="mo8">History, trends and vital charts — turning raw readings into insight at a glance.</p></div>
 <div class="modcard" style="--mcc:var(--move)"><div class="mi">🐠</div><h4 data-i18n="mo9">Simulation — the tank</h4><p data-i18n="mo10">The living aquarium: creatures, water health and animation — the emotional heart.</p></div>
-<div class="modcard" style="--mcc:var(--glow-2)"><div class="mi">🎮</div><h4 data-i18n="mo11">Puzzle mini-games</h4><p data-i18n="mo12">An extendable slot for bite-size games, each feeding the tank.</p></div>
+<div class="modcard" style="--mcc:var(--glow-2)"><div class="mi">🎮</div><h4 data-i18n="mo11">Optional mini-games</h4><p data-i18n="mo12">A modular slot for selected bite-size health interactions, added only when validated.</p></div>
 <div class="modcard" style="--mcc:var(--social)"><div class="mi">👨‍👩‍👧</div><h4 data-i18n="mo13">Interaction</h4><p data-i18n="mo14">Add friends and family; shared tanks and tap-cards.</p></div>
 <div class="modcard" style="--mcc:var(--mind)"><div class="mi">📰</div><h4 data-i18n="mo15">Information</h4><p data-i18n="mo16">Jubo-curated news and articles — a channel to carry any Jubo concept or message to families.</p></div>
-<div class="modcard" style="--mcc:var(--scan)"><div class="mi">🎨</div><h4 data-i18n="mo17">Character assets pipeline</h4><p data-i18n="mo18">The art-production system: procedural creatures, outfits and decor — an endless content engine.</p></div>
+<div class="modcard" style="--mcc:var(--scan)"><div class="mi">🎨</div><h4 data-i18n="mo17">Modular content pipeline</h4><p data-i18n="mo18">A reusable process for creatures, outfits and decor that supports selective updates without requiring endless production.</p></div>
 </div>
 <div class="mod-note" data-i18n="mo19">Modular means maintainable and future-proof — each module can grow into new content and new value without touching the rest.</div>
 </div>
@@ -1057,12 +1298,12 @@
 <span class="n" data-i18n="u71">How the app makes money</span>
 <span class="ln"></span>
 </div>
-<p data-i18n="u72" style="color:var(--ink-soft);font-size:.94rem;max-width:680px;margin-bottom:18px">Freemium wellness-game economics: a big free base, a small share converting into cosmetics and Viva+, with partnerships layered on. Health data is never paywalled; monetization sits entirely in delight and depth.</p>
+<p data-i18n="u72" style="color:var(--ink-soft);font-size:.94rem;max-width:680px;margin-bottom:18px">A complete free health core builds reach. Optional cosmetics, advanced analysis, expanded family administration and partnerships create revenue without paywalling personal health data or basic family care.</p>
 <div class="biz">
 <div class="biz-card b-free">
 <div class="lbl" data-i18n="u73">Acquisition</div>
 <h4 data-i18n="u74">Free core</h4>
-<p data-i18n="u75">Scan, trends, Bobo, check-in: all free. The wide, sticky top of the funnel that every other stream depends on.</p>
+<p data-i18n="u75">Measurement, basic trends, Bobo, one family connection and one-tap care are free, so the core health and relationship experience remains complete.</p>
 </div>
 <div class="biz-card b-cos">
 <div class="lbl" data-i18n="u76">Micro-transactions</div>
@@ -1072,7 +1313,7 @@
 <div class="biz-card b-prem">
 <div class="lbl" data-i18n="u79">Subscription</div>
 <h4 data-i18n="u80">Viva+</h4>
-<p data-i18n="u81">Recurring revenue from deeper multi-metric trends, doctor-ready exports and a larger family circle, for power users and caregiving families.</p>
+<p data-i18n="u81">Deeper multi-metric trends, exportable reports, a larger family circle, long-term family summaries and advanced notifications for users with more complex needs.</p>
 </div>
 <div class="biz-card b-part">
 <div class="lbl" data-i18n="u82">Partnerships</div>
@@ -1083,9 +1324,9 @@
 <div class="payback">
 <div class="pb-head" data-i18n="pb1">Viva+ pays the build back</div>
 <div class="pbprice">US$6.99<span> /mo</span> · US$69.99<span> /yr</span> <em>(~NT$220 / NT$2,200)</em></div>
-<p data-i18n="pb2">Roughly 1,600 yearly Viva+ subscribers recoups the full NT$3M build in year one — net of the ~15% platform fee.</p>
+<p data-i18n="pb2">At the stated annual price, roughly 1,600 yearly Viva+ subscribers would cover NT$3M in initial development expenditure after an assumed 15% platform fee.</p>
 <p data-i18n="pb3">From Jubo's 2,700+ facilities and their families, that's a small conversion — and cosmetics revenue sits on top of this.</p>
-<p class="pbnote" data-i18n="pb4">Illustrative. App Store / Play take 15–30%; final Taiwan pricing set at launch.</p>
+<p class="pbnote" data-i18n="pb4">Illustrative only. This is not a first-year break-even forecast and excludes acquisition, cloud, support, maintenance, content operations and tax. Platform fees may be 15–30%.</p>
 </div>
 </div>
 </section>
@@ -1093,14 +1334,14 @@
 <section id="liveops">
 <div class="wrap">
 <div class="sec-head">
-<h2 data-i18n="u202">A sustainable live service</h2>
-<p data-i18n="u203">Viva is designed to be operated, not shipped and forgotten. A steady stream of content and light new features keeps players returning, and gives the studio a lasting role instead of ending at launch.</p>
+<h2 data-i18n="u202">A maintainable product service</h2>
+<p data-i18n="u203">After launch, Viva can be maintained through essential technical work and selective content or feature updates. The cadence follows validated user and business needs rather than requiring a constant stream of game content.</p>
 </div>
 <div class="ops">
 <div class="biz-card b-art">
 <div class="lbl" data-i18n="u204">Art content</div>
-<h4 data-i18n="u205">Creatures &amp; seasons</h4>
-<p data-i18n="u206">New collectibles, seasonal skins, habitats and event visuals on a regular drop cadence: the studio's core creative output.</p>
+<h4 data-i18n="u205">Selective visual updates</h4>
+<p data-i18n="u206">Creatures, seasonal looks, habitats and event visuals can be added when they support a clear engagement or commercial goal.</p>
 </div>
 <div class="biz-card b-read">
 <div class="lbl" data-i18n="u207">Editorial</div>
@@ -1109,8 +1350,8 @@
 </div>
 <div class="biz-card b-mini">
 <div class="lbl" data-i18n="u210">Features</div>
-<h4 data-i18n="u211">New mini-games</h4>
-<p data-i18n="u212">An extendable slot for bite-size games. Ship one, then keep adding: each new game is fresh engagement and fresh dev work.</p>
+<h4 data-i18n="u211">Optional mini-game expansion</h4>
+<p data-i18n="u212">Start with the strongest validated interaction, then add another only when user behavior shows a clear need.</p>
 </div>
 <div class="biz-card b-maint">
 <div class="lbl" data-i18n="u213">Tech</div>
@@ -1149,8 +1390,8 @@
 </div>
 </div>
 <div class="studio-note">
-<h3 data-i18n="u230">Live-ops is the long-term line</h3>
-<p data-i18n="u231">The build tranches fund getting to launch. This is what sustains the studio afterwards: a recurring operations/maintenance retainer plus a share of cosmetic and Viva+ revenue, in exchange for a living pipeline of art, articles, mini-games and upkeep. The app keeps evolving; the studio keeps building.</p>
+<h3 data-i18n="u230">Post-launch operation is scoped separately</h3>
+<p data-i18n="u231">The initial development budget funds the agreed launch scope. Cloud, maintenance, content updates and later feature expansion are planned separately, allowing Jubo to adjust the cadence and investment according to actual adoption and business priorities.</p>
 </div>
 </div>
 </section>
@@ -1158,11 +1399,11 @@
 <div class="wrap">
 <div class="sec-head">
 <h2 data-i18n="u233">Getting Viva into families' hands</h2>
-<p data-i18n="u234">The buyer isn't always the user: an adult child often installs and champions it for a parent. The plan leans into that, and into a distribution channel no consumer startup has.</p>
+<p data-i18n="u234">Viva serves multigenerational families. Adult children and caregivers may initiate adoption, older adults are an important user group, and other family members participate through shared health and care interactions.</p>
 </div>
 <div class="edge">
 <span class="tag">🎯</span>
-<p data-i18n="u235"><b>The unfair channel.</b> Jubo already reaches 2,700+ facilities, 330,000+ professionals and their residents' families, plus existing family apps like FamilyLine. That's warm, trusted distribution straight to exactly the right households, so blended acquisition cost stays far below a cold-start consumer app.</p>
+<p data-i18n="u235"><b>Jubo's existing channel advantage.</b> Jubo already reaches 2,700+ facilities, 330,000+ professionals and residents' families, with existing family services such as FamilyLine. These trusted touchpoints provide a more relevant and efficient starting channel than a consumer product beginning from zero.</p>
 </div>
 <div class="mphases">
 <div class="mph m1">
@@ -1232,10 +1473,34 @@
 <div class="wrap">
 <div class="sec-head">
 <div class="eyebrow" data-i18n="df1">Development fee</div>
-<h2 data-i18n="df2">Roughly NT$2.5M – 3M · ~6–8 months</h2>
-<p data-i18n="df3">A rough, development-only estimate for the build. Both the figure and the roughly 6–8 month timeline depend on how many creature, coral and scene assets are commissioned, and how much depth each module needs — we scope and fix them once those are agreed.</p>
+<h2 data-i18n="df2">Main Viva proposal: roughly NT$2.5M-3M · complete launch in ~8-10 months</h2>
+<p data-i18n="df3">This concept-stage estimate covers the agreed launch build. The final fee and schedule depend on which items are assigned to the core MVP and complete first release.</p>
+</div>
+<div class="scope-split">
+<article class="scope-card"><div class="lbl" data-i18n="df5">CORE MVP · TARGET ~6 MONTHS</div><h3 data-i18n="df6">Prove the core experience</h3><p data-i18n="df7">AI measurement, basic trends, the tank and Bobo, account foundation and essential family interaction.</p></article>
+<article class="scope-card"><div class="lbl" data-i18n="df8">COMPLETE FIRST RELEASE · 8-10 MONTHS</div><h3 data-i18n="df9">Prepare for launch</h3><p data-i18n="df10">Subscription setup, initial cosmetics, expanded family functions, the first validated mini-game and launch-ready content.</p></article>
+<article class="scope-card"><div class="lbl" data-i18n="df11">AFTER LAUNCH · SEPARATE SCOPE</div><h3 data-i18n="df12">Operate according to demand</h3><p data-i18n="df13">Cloud, maintenance, selected new content, later mini-games, campaigns and feature expansion.</p></article>
 </div>
 <div class="fund-note" data-i18n="df4">Excludes what Jubo provides (AI measurement) and what is budgeted separately (online / maintenance, marketing).</div>
+</div>
+</section>
+<section id="alternative" class="alternative">
+<div class="wrap">
+<div class="alt-layout">
+<div class="sec-head">
+<div class="eyebrow" data-i18n="alt1">Alternative path · Direction 3</div>
+<h2 data-i18n="alt2">If minimizing ongoing content production is the priority</h2>
+</div>
+<div class="alt-copy">
+<p data-i18n="alt3">If Jubo prioritizes lower ongoing content investment, Viva can develop the utility-led direction identified in the market review: concentrate on measurement, health trends, family summaries, reminders and care flows, then differentiate through exceptional utility and a high-quality experience. This is also a core OFFX capability.</p>
+<ul class="alt-focus">
+<li data-i18n="alt5">Measurement and health insights</li>
+<li data-i18n="alt6">Family summaries and care flows</li>
+<li data-i18n="alt7">High-quality UI and effortless operation</li>
+</ul>
+<div class="alt-note" data-i18n="alt4">This is an alternative strategic direction and is not included in the Viva proposal's scope, budget or timeline. If selected, the product scope will be redefined separately.</div>
+</div>
+</div>
 </div>
 </section>
 <section id="partnership">
@@ -1246,7 +1511,7 @@
 </div>
 <div class="biz">
 <div class="biz-card b-ai"><div class="lbl" data-i18n="pt3">Jubo brings</div><p data-i18n="pt4">The hard tech and the trust — proprietary AI measurement, clinical data + care AI, and the facility/family distribution channel.</p></div>
-<div class="biz-card b-brand"><div class="lbl" data-i18n="pt5">offxs brings</div><p data-i18n="pt6">Consumer product craft — high-quality UI/UX, the creature/gamification design, and the retention mechanics that turn Jubo's clinical tech into a product families want to open.</p></div>
+<div class="biz-card b-brand"><div class="lbl" data-i18n="pt5">offxs brings</div><p data-i18n="pt6">Consumer product strategy and execution — from highly practical utility experiences to character, gamification and long-term retention design, turning Jubo's health technology into a product families want to keep using.</p></div>
 </div>
 </div>
 </section>
@@ -1257,8 +1522,107 @@
 </div>
 </footer>
 <script>
+var PRELUDE_ZH = {
+  "pr0h": "Jubo Health App 產品定位與策略方向",
+  "pr0a": "獨立面向跨世代家庭的消費型產品",
+  "pr0b": "Jubo Health App（產品名稱暫定 Viva，以下簡稱 Viva）跳脫 Jubo 既有本業，建立自身的消費端價值與商業模式。產品面向跨世代家庭：成年子女與照顧者常是推動使用的人，高齡者與其他家庭成員則能共同參與。",
+  "pr0c": "與 Jubo 核心業務雙向加乘",
+  "pr0d": "Viva 整合 Jubo 的 AI、照護資料、內容與通路，借助專業與信任加速成長；同時為 Jubo 核心業務帶回新的家庭接觸、消費端情境與品牌價值。",
+  "pr1": "提案架構",
+  "pr26": "為什麼是這個題目，為什麼是現在",
+  "pr2": "AI 可以快速產出各種功能型 App，但什麼會讓人願意再回來？",
+  "pr3": "AI 可以更快產出功能，也讓單一功能更容易被複製。產品差異正從「能做什麼」，轉向「是否能讓人願意持續回來」。",
+  "pr27": "Jubo Health App 可能的四種產品方向",
+  "pr28": "本提案比較四種產品路徑，最後選擇「遊戲化體驗」作為主提案，並以「純工具實用導向產品」作為備選路徑。",
+  "pr29": "生成式 UI<small>由 Prompt 即時產生功能與介面</small>",
+  "pr30": "角色養成 + AI 陪伴<small>以遊戲與角色關係為主</small>",
+  "pr31": "純工具實用導向產品<small>以實用價值與高品質流程為主</small>",
+  "pr32": "👑 遊戲化體驗<small>健康為核心，以遊戲化機制提升參與</small>",
+  "pr4": "方向 1 · 矽谷熱門趨勢：生成式 UI",
+  "pr5": "一句提示，正在變成一個迷你 App",
+  "pr6": "Monogram 把 AI 回答轉化為可操作的視覺介面；Wabi 與 Meta Pocket 讓使用者生成、分享輕量 App 或互動內容。軟體的生成正變得即時、視覺化，也更貼近個人需求。",
+  "pr7": "<b>市場訊號：</b>AI 正快速降低功能製作的門檻，但開放式 Prompt 也把「要做什麼、該如何描述」的思考工作轉嫁給使用者。<strong>高度自由可能反而形成認知負擔，尤其不一定適合需要清楚引導、操作輕鬆的健康使用情境。</strong>",
+  "pr8": "方向 2 · 角色養成 + AI 陪伴（遊戲為主）",
+  "pr9": "讓人持續回來的，是一段關係",
+  "pr10": "Finch 把自我照顧連結到寵物養成；Tolan 則讓 AI 擁有可記住的外型、個性與共同歷程。角色讓重複使用不只是操作，也形成情感上的延續。",
+  "pr11": "<b>市場訊號：</b>角色陪伴與成長進度能建立留存與訂閱價值；<strong>真正的風險在於依賴連續劇情、長時間對話或複雜角色狀態，這類設計會提高營運成本，也降低未來配合 Jubo 核心業務整合與策略調整的彈性。</strong>",
+  "pr12": "2026 年 6 月第三方估算：Finch 下載 57 萬／營收 US$200 萬；Tolan 下載 15 萬／營收 US$42 萬。",
+  "pr13": "方向 3 · 純工具實用導向產品",
+  "pr14": "以極致實用性與高品質的使用者介面及流程建立價值",
+  "pr15": "Gentler Streak 將複雜的健康數據整理得平和、清楚且容易採取行動；Widgetsmith 則把實用小工具轉化為個人化體驗。兩者都證明，聚焦的功能搭配高品質介面與細緻流程，也能形成鮮明的產品價值。",
+  "pr16": "<b>市場訊號：</b>清楚的實用價值能建立信任；高品質的使用者介面與流程設計，則能降低操作阻力，讓重複使用自然發生。",
+  "pr17": "2026 年 6 月第三方估算：Widgetsmith 下載 99 萬／營收 US$17 萬；Gentler Streak 下載 2.5 萬／營收 US$3.5 萬。",
+  "pr18": "方向 4 · 👑 遊戲化體驗 · 主提案",
+  "pr19": "對 Jubo 而言，健康資訊結合遊戲化體驗，能創造長期使用價值",
+  "pr20": "三個市場方向指向一個更平衡的選擇：以清楚、實用的健康紀錄為核心，再加入模組化收集、輕量回饋，以及朋友與家人之間沒有壓力的互動。Viva 不依賴連續劇情、長時間 AI 對話或製造依附的機制，內容可逐步擴充，也不會把產品鎖進僵化的成長系統。",
+  "pr21": "健康紀錄是核心，遊戲化是建立習慣的方法；親友互動，則讓整個過程更輕鬆、更有溫度。",
+  "pr22": "<b>Duolingo</b>遊戲化能把一項實用任務，轉化為長期的每日行為。2026 年 6 月估算下載 1,300 萬／營收 US$5,600 萬。",
+  "pr23": "<b>OtterLife</b>健康資料、陪伴角色與收集機制，已經形成可行的產品類別。2026 年 6 月估算下載 9 萬／營收 US$11 萬。",
+  "pr24": "以上為本提案所提供的第三方市場估算，僅作方向性參考，不代表各公司官方財務資訊。",
+  "pr25": "這讓我們收斂到一個產品方向。<b>把 Jubo 的健康能力，變成一個人們願意長期照顧的世界。</b>",
+  "alt1": "備選產品路徑 · 方向 3",
+  "alt2": "若優先降低遊戲內容與美術資產的持續投入",
+  "alt3": "若 Jubo 優先降低持續內容投入，Viva 可延伸前述市場觀察中的「實用體驗優先」方向：集中強化健康量測、趨勢洞察、家庭摘要、提醒與關懷流程，透過極致實用性與高品質體驗建立差異。這同樣是 OFFX 擅長的產品能力。",
+  "alt4": "此為備選策略方向，不包含在前述 Viva 主提案的功能、預算與時程內；若採用此方向，將另行重新定義產品範圍。",
+  "alt5": "健康量測與趨勢洞察",
+  "alt6": "家庭摘要與關懷流程",
+  "alt7": "高品質介面與流暢操作",
+  "u24": "輕量成長，保留產品調整彈性",
+  "u17": "每日成長回饋",
+  "u18": "Bobo 會把今天的量測、活動與睡眠，轉化為簡單的狀態與成長提示，讓使用者快速知道今天累積了什麼，以及距離下一個解鎖還有多少。",
+  "u61": "<span class=\"x\">✕</span> 不以角色關係製造依賴",
+  "u62": "Bobo 透過可見的成長與清楚的解鎖目標建立動機，不以焦慮、失去、罪惡感或情感壓力要求使用者回來。",
+  "u25": "Bobo 提供容易理解的連續感，模組化生物與場景則形成清楚、可達成的目標。產品不依賴連續劇情、強制對話或隨機抽取的成長系統。",
+  "u27": "看得見的 Bobo 成長與解鎖",
+  "u28": "量測、活動、睡眠與簡單紀錄，都會轉化為 Bobo 可見的成長值。達到清楚的里程碑後，即可解鎖不同型態與外觀的 Bobo，讓每次回來都能看見目前進度與下一個可達成的目標。",
+  "u30": "以模組方式擴充收藏",
+  "u31": "清楚的健康與參與里程碑，可解鎖彼此獨立的生物與場景；每項內容都能單獨推出，付費則維持在可選擇的外觀內容。",
+  "u32": "核心角色透過<b>參與</b>取得，不以壓力或付費逼迫。健康資料始終可以自由查看，錯過一天也不會失去進度。",
+  "c2": "模組化內容系統，而不是固定劇情",
+  "c3": "生物、水草、場景與可選外觀皆是彼此獨立的內容單元。Jubo 可依需求擴充、暫停或調整優先順序，不必改寫使用者累積的故事，也不會影響核心健康體驗。",
+  "c13": "依實際需求延伸個人風格",
+  "c14": "生物、珊瑚、場景、服裝與配件，可依真實使用狀況與商業優先順序推出，不需要維持僵化的固定更新節奏。",
+  "mo11": "可選擇擴充的小遊戲",
+  "mo12": "用於特定輕量健康互動的模組化空間，僅在需求獲得驗證後加入。",
+  "mo17": "模組化內容製作流程",
+  "mo18": "建立可重複使用的生物、服裝與佈景流程，支援選擇性更新，不要求無止境地持續製作。",
+  "u72": "以完整可用的免費健康核心建立使用規模；可選外觀、進階分析、擴充家庭管理與合作方案創造收入。個人健康資料與基本家庭關懷不設付費牆。",
+  "u75": "量測、基本趨勢、Bobo、一組家庭連結與一鍵關懷皆可免費使用，讓核心健康與關係體驗保持完整。",
+  "u81": "提供更深入的多指標趨勢、可匯出報告、更多家庭成員、長期家庭摘要與進階通知，服務需求較複雜的使用者。",
+  "pb2": "依目前年費假設，約 1,600 位年費 Viva+ 訂閱者，可在扣除約 15% 平台費用後，覆蓋 NT$300 萬的初始開發投入。",
+  "pb4": "此為概念試算，不代表第一年可達成整體損益兩平；未包含獲客、雲端、客服、維運、內容營運與稅務。平台實際抽成可能為 15–30%。",
+  "u202": "可維護、可調整的產品服務",
+  "u203": "Viva 上線後以必要技術維運為基礎，再依實際使用與商業需求選擇性更新內容或功能，不必依賴持續大量產出遊戲內容才能運作。",
+  "u205": "選擇性的視覺內容更新",
+  "u206": "新生物、季節外觀、棲地與活動視覺，可在具有明確互動或商業目標時推出。",
+  "u211": "可選擇擴充的小遊戲",
+  "u212": "先推出最值得驗證的核心互動，再依真實使用行為決定是否增加下一款小遊戲。",
+  "u230": "上線後營運另行定義範圍",
+  "u231": "初始開發預算用於完成雙方確認的首發範圍；雲端、維運、內容更新與後續功能擴充另行規劃，讓 Jubo 能依實際採用狀況與商業優先順序調整節奏及投入。",
+  "u234": "Viva 面向跨世代家庭。成年子女與照顧者可能是推動使用的人，高齡者是重要使用族群，其他家庭成員則透過共享健康與關懷互動共同參與。",
+  "df5": "核心 MVP · 目標約 6 個月",
+  "df6": "驗證核心體驗",
+  "df7": "AI 量測、基本趨勢、水族箱與 Bobo、帳號基礎，以及必要的家庭互動。",
+  "df8": "完整首發 · 約 8-10 個月",
+  "df9": "完成上線準備",
+  "df10": "訂閱設定、首批外觀、擴充家庭功能、第一款經驗證的小遊戲，以及上線所需內容。",
+  "df11": "上線後 · 另行定義範圍",
+  "df12": "依需求持續營運",
+  "df13": "雲端、維運、選擇性新內容、後續小遊戲、行銷活動與功能擴充。",
+  "pt6": "消費型產品策略與執行：從極致實用的工具型體驗，到角色、遊戲化與長期留存設計，將 Jubo 的健康技術轉化為家庭願意持續使用的產品。"
+};
 (function(){
-  var ZH = {"u287": "B2C 概念 · Jubo × AI 量測", "u288": "你的心跳，<br>讓一整個<span class=\"sweep\">小世界活起來</span><span style=\"display:block;font-size:.4em;font-weight:600;letter-spacing:.01em;opacity:.6;margin-top:.55em\">Your heartbeat brings a little world to life</span>", "u289": "認識 <b>Bobo</b> 與牠的 <b>Viva</b> 水族箱：你的日常量測與健康行動，會轉化為水質、生物活力與場景變化。<span style=\"color:var(--ink-faint)\">Bobo 延續 Jubo Bobo 熊親切、圓潤的形象，加入魚鰭與尾巴，成為陪伴使用者探索水下世界的角色。</span>", "u290": "<span class=\"dot\"></span>臉部量測", "u291": "<span class=\"dot\"></span>步數", "u292": "<span class=\"dot\"></span>健康數據", "u293": "<span class=\"dot\"></span>家人與朋友", "hf1": "* 目前視覺與角色僅為示意", "ag1": "一分鐘看懂", "ag2": "一分鐘掌握 Jubo Viva", "ag3": "這是什麼", "ag4": "一款結合 AI 量測、健康紀錄與水族養成的消費型 App。使用者透過十秒臉部量測與日常健康行動，維持水族箱狀態、解鎖生物與內容，也能與家人共養同一座水族世界。", "ag5": "核心優勢", "ag6": "熟悉且跨世代的水族主題、低壓力的健康互動、可持續擴充的內容系統，以及 Jubo 既有的 AI 量測、照護能力與家庭通路，共同形成產品差異。", "ag7": "商業模式", "ag8": "以免費核心功能建立使用規模，再由外觀內容、Viva+ 訂閱與品牌合作創造收入。在既定假設下，產品具備回收開發投入並持續營運的潛力。", "ag9": "為什麼是 Jubo + OFFX", "ag10": "Jubo 提供 AI 量測、照護能力與既有通路；OFFX Studio 負責消費型產品策略、體驗設計、遊戲化與 App 開發。雙方結合，將專業健康技術轉化為家庭願意持續使用的產品。", "nm1": "命名", "nm2": "為什麼叫 Viva", "nm3": "Viva 帶有「活著、萬歲」的語意，象徵生命力與長久陪伴。這個名字呼應產品核心：真實的健康行動，會讓一座水族世界持續成長，也陪伴使用者建立更長久的健康習慣。", "nm4": "活著 Alive", "nm5": "Viva 代表活著與生命力。使用者的心跳、量測與日常健康行動，會直接反映在水族箱的狀態與變化上。", "nm6": "生機 Vitality", "nm7": "Viva 也讓人聯想到 vital 與 vivid：健康、能量與鮮活。使用者狀態越穩定，水族世界就越明亮、越有生氣。", "nm8": "長壽 Long life", "nm9": "Viva 也帶有祝福長久生命的意味。錦鯉、烏龜與水族世界的意象，讓產品自然連結健康、陪伴與長期累積。", "me1": "為什麼需要遊戲化體驗", "me2": "在 AI 時代，功能容易被複製，長期體驗更能建立差異", "me3": "量測、追蹤與圖表等單一功能，很容易被其他產品複製，或整合進更大的 AI 平台。純工具型健康 App 往往缺少持續使用的理由；較難被取代的，是使用者長期累積的習慣、收藏、角色關係與家庭互動。", "me4": "只提供單次量測，使用者完成後便離開；當市場出現更便宜、更快或整合度更高的替代方案，產品就容易被取代。", "me5": "一座持續成長的水族箱、一群逐步解鎖的生物，以及與家人共同累積的互動，會形成單一工具難以提供的長期價值。", "me6": "<b>Duolingo 提供了一個清楚的參考。</b>即使翻譯工具與 AI 已能免費協助語言學習，Duolingo 仍透過角色、連續紀錄與每日節奏，建立強烈的使用習慣，並成長為市值數十億美元的公司。內容本身可以被替代，但完整體驗更難複製。", "me8": "<b>共養機制也讓產品成為人與人之間的橋樑。</b>共同照顧一座水族箱，提供家人與朋友一個自然、低壓力的關心入口；不必特別開啟一段嚴肅對話，也能讓彼此知道近況。", "me7": "Viva 將 AI 量測嵌入養成體驗。量測提供第一個使用理由；水族箱、生物收集與家人共養，則建立持續使用與累積價值。競爭者可以複製單一功能，卻不容易複製使用者長期建立的內容與關係。", "me9": "社交、探索與趣味，仍是吸引人嘗試新 App 的重要動機；清楚且不造成壓力的遊戲化，則能提升持續使用意願。在功能快速普及的 AI 時代，真正形成差異的，是使用者長期累積的世界與關係。", "t2": "你的健康數據，讓水族世界持續成長", "t3": "Bobo 與各種水中生物共同生活在水族箱裡。量測、活動、睡眠與心情等健康訊號，會轉化為水質、生物活力與場景變化，也能由家人一起照顧。", "t13": "我的水族箱<small>共養中 · shared</small>", "t12": "✨ 水質清澈", "t14": "你的身體數值，讓水保持清澈", "t15": "生物圖鑑", "t16": "一起養這一缸 · 媽媽今天也照顧了 💛", "t17": "量測一下，換新鮮水 ↺", "t4": "身體數值 → 水質", "t5": "AI 量測與日常健康數據會轉化為水質、流動與光線變化。使用者照顧自己的同時，也看見水族箱逐步恢復活力。", "t6": "持續解鎖生物與場景", "t7": "從 Bobo 夥伴、魚、錦鯉與烏龜，到珊瑚、水草與完整場景，皆可透過模組化內容系統持續推出，讓收藏與外觀內容保持更新。", "t8": "和家人一起共養", "t9": "家人可以共同照顧同一座水族箱。每個人的健康行動都會帶來變化，也讓彼此多一個自然、低壓力的關心入口。", "t10": "不以失去作為懲罰", "t11": "錯過一天不會失去任何生物；水質只會暫時產生變化，下一次量測或健康行動即可恢復。", "t18h": "為什麼選擇水族箱", "t18": "水族箱有兩個明確優勢。第一，水質、流動與光線能自然對應健康狀態，使用者不需要閱讀複雜數據，也能快速理解今天的整體狀況。第二，水族箱在亞洲家庭與公共空間都很常見，錦鯉、烏龜等意象也連結長壽與祝福，是跨世代都容易理解、幾乎不需學習的題材，連 80 歲長輩也能直接上手；平靜的水中景觀，也能營造放鬆、適合長期陪伴的使用氛圍。", "u2": "真實健康行動，轉化為水族箱的活力", "u3": "所有回饋都來自對使用者有益的日常行動，不必等待，也不必付費才能維持核心體驗。照顧自己的同時，水質會改善，生物也會更有活力。", "u4": "每日量測 <span class=\"cn\">核心來源</span>", "u5": "十秒 AI 臉部量測是 Viva 的核心互動，提供最直接的水族箱回饋。量測結果也會影響 Bobo 當天呈現的狀態，例如平靜、有精神或需要休息。", "u6": "核心", "u7": "活動與睡眠 <span class=\"cn\">日常來源</span>", "u8": "步數、活動量與睡眠可由 Apple Health 被動讀取，即使沒有開啟 App，也能持續累積。一般生活中的活動，會自然轉化為水流與光線的變化。", "u9": "日常", "u10": "心情與呼吸 <span class=\"cn\">身心來源</span>", "u11": "以一鍵方式記錄心情，並提供可選擇的呼吸練習。產品不評價情緒好壞；低落時，Bobo 會給予關心，而不是造成壓力。", "u12": "補充", "u13": "<b>不同健康行動可以互相補充，不要求全部完成。</b>一天的水族箱活力，可以來自一次量測、一段散步，或一次心情記錄。沒有任何單一行動會成為使用門檻，讓長輩與容易感到壓力的使用者都能按照自己的節奏參與。", "u15": "輕量的每日互動", "u16": "以可選、低負擔的小互動增加溫度與回訪理由，不把健康管理變成另一項必須完成的任務。", "u17": "輕量 AI 夥伴", "u18": "Bobo 會依照使用者狀態做出簡短回應，並提供容易理解的提醒。它的角色是陪伴與引導，而不是要求使用者長時間對話的聊天機器人。", "u19": "家人關懷 · 安心", "u20": "透過預設的問候、關心與提醒卡片，一鍵即可送出或回應，不需要輸入文字。每次互動都會為雙方的水族箱帶來一點活力。<a href=\"#family\" style=\"color:var(--social)\">看看怎麼運作 ↓</a>", "u21": "閱讀健康文章", "u22": "由 Jubo 精選的健康短文，提供可信、容易閱讀的日常內容，也形成品牌與專業夥伴合作的自然入口。", "u24": "一位長期陪伴的 Bobo，一座持續成長的水族世界", "u25": "Bobo 負責建立情感連結；生物、造型與棲地則提供持續探索與收集的目標。所有內容以明確條件解鎖，不採用隨機抽取或高壓付費機制。", "u26": "情感連結", "u27": "Bobo 陪你持續累積", "u28": "Bobo 會反映使用者每天的狀態，也記得持續使用與健康行動的歷程。互動時間越長，角色與水族箱就累積越多共同記憶，形成再次回來的自然動機。", "u29": "收集", "u30": "持續擴充水族世界", "u31": "穩定使用與健康行動的里程碑，會逐步解鎖新的生物、造型與場景。解鎖條件清楚可預期，付費內容則集中於外觀選擇。", "u32": "角色與核心健康功能都能透過<b>持續使用</b>取得。錯過一天不會失去進度，健康資料也始終可以自由查看。", "c2": "一座水族箱，持續擴張的世界", "c3": "隨著使用與健康行動累積，水族箱會逐步加入新的生物、珊瑚、水草與完整場景；造型與佈置內容也能持續更新，讓收藏保有長期目標。", "c4": "你的夥伴", "c5": "Bobo · 水色", "c16": "使用中 ✓", "c6": "角色", "c7": "服裝", "c8": "棲地", "c9": "主題", "c10": "22 <span>/ 30 已蒐集</span>", "c11": "解鎖角色 <span class='badge'>1</span>", "c13": "同一位 Bobo，持續延伸的個人風格", "c14": "透過定期推出新生物、珊瑚、場景、服裝與配件，讓水族世界持續變化，也為使用者提供長期探索與回訪的理由。", "c15": "核心內容透過持續使用解鎖；付費集中於外觀，不影響健康功能與使用權益。", "u34": "照顧日常，也讓水族世界成長", "u35": "健康行動<small>量測、活動、睡眠與心情</small>", "u36": "成長來源<small>不同輸入可互相補充</small>", "u37": "水族箱成長<small>狀態變化與內容解鎖</small>", "u38": "共養與累積<small>家人、朋友與持續使用</small>", "u39": "↺ &nbsp;溫和的循環：<span>健康行動 → 水族箱成長 → 增加持續照顧自己的動機</span>", "sh1": "豐富的體驗", "sh2": "讓健康管理成為願意每天打開的日常體驗", "sh3": "解鎖不同的水族場景與生物，自由佈置棲地、收集水下景物；也能查看健康紀錄，進行呼吸練習、益智小遊戲與各種輕量互動。", "sh10": "首頁 · 我的水族箱<small>身體數值讓水保持清澈</small>", "sh11": "夜光主題<small>呼吸平穩 · 放鬆中</small>", "sh12": "水草缸主題<small>氧氣充足 · 心率 68 bpm</small>", "sh13": "生物圖鑑<small>22 / 30 已蒐集 · 透過持續使用解鎖</small>", "sh14": "棲地佈置<small>自由搭配珊瑚、沉木與城堡</small>", "sh15": "健康數據<small>今日總覽與本週趨勢</small>", "sh16": "呼吸練習<small>跟著泡泡慢慢呼吸</small>", "sh17": "心情流向<small>情緒趨勢與活動關聯</small>", "sh4": "* AI 生成的概念示意圖，僅代表視覺方向，並非最終介面", "u40": "家人關懷 · 安心", "u41": "共養一座水族箱，讓關心更容易發生", "u42": "核心機制是<b>與家人或朋友共養同一座水族箱</b>。使用者可以建立自己的水族箱，也能加入親友的共同空間；互動不需要輸入文字，只要點選預設卡片即可送出關心或回覆。操作簡單，也讓每一次互動都成為水族箱成長的一部分。", "u43": "系統提供一組精選的<b>預設卡片</b>，包含問候、關心與提醒。使用者不必思考如何措辭，只要選擇合適的內容，就能自然地傳達心意。", "u44": "問候", "u45": "關心", "u46": "提醒", "u47": "一鍵回應", "u48": "需要回覆的卡片皆可一鍵完成，讓關心能夠自然地形成來回互動。", "u49": "<span class=\"ic\">💛</span> 每一次互動，都化為一顆愛心", "u50": "送出或回應卡片時，雙方的 Bobo 都會做出反應，水族箱也會獲得少量活力。產品以可見的回饋，讓關心本身成為持續互動的動力。", "u51": "<span class=\"ic\">🔗</span> 共同紀錄", "u52": "當提醒在當天獲得回應，例如「量測時間到」對應「✅ 已完成」，雙方就能累積共同紀錄。錯過一天不會被責備，也不會失去既有成果。", "u53": "<span class=\"ic\">🌸</span> 一起累積", "u54": "共同互動的里程碑可解鎖成對棲地、雙人裝扮等共享外觀，讓持續聯繫轉化為兩人都看得見的成果。", "u55": "傳送關心 → <b>彼此回應</b> → 累積共同紀錄 → 建立下一次互動", "u57": "設計原則：有效，但不造成壓力", "u58": "能提升留存的機制，也可能對使用者造成壓力。因此，Viva 從一開始就設定以下設計原則。", "u59": "<span class=\"x\">✕</span> 不製造挫折", "u60": "不以等待、失敗或封鎖資料逼迫回訪。量測帶來額外回饋，但不會成為查看健康資料或使用核心功能的前提。", "u61": "<span class=\"x\">✕</span> 不鼓勵過度情感依賴", "u62": "AI 角色定位保持輕量，主要負責回應與提醒，不以長時間對話或最大化依附為目標，降低陪伴型 AI 在依賴與法規上的風險。", "u63": "<span class=\"y\">✓</span> 低壓力、可中斷", "u64": "日常數據可被動累積，中斷也不受罰。錯過一天時，水質只會暫時產生變化；生物不會消失，也會等待使用者下一次回來。", "u65": "<span class=\"y\">✓</span> 定位為健康促進工具", "u66": "AI 讀值用於健康趨勢與篩檢參考，不作為診斷結果；必要時仍需以正式醫療器材或專業人員確認。", "mo1": "系統架構 · 模組化", "mo2": "一套 App，以清楚模組組成", "mo3": "Viva 採模組化架構，各功能可獨立開發、測試與擴充。這能降低維護複雜度，也讓後續內容與服務可依實際需求持續增加。", "mo4": "基礎", "mo5": "核心模組", "mo6": "十秒 AI 量測、App 基礎架構，以及 Apple Health 與 Google Fit 的健康資料整合，構成整套產品的技術基礎。", "mo20": "帳號與個人檔案", "mo21": "登入、家庭連結、訂閱權益與跨裝置同步，統一管理帳號、關係與內容歸屬。", "mo7": "資料視覺化", "mo8": "將歷史數據、健康趨勢與生命徵象圖表整理成容易理解的視覺資訊。", "mo9": "水族箱系統", "mo10": "包含生物、水質狀態與動畫，承載產品主要的情感體驗。", "mo11": "益智小遊戲", "mo12": "可持續新增的小遊戲框架，每款遊戲都與水族箱成長或健康行動連動。", "mo13": "互動", "mo14": "好友與家庭連結、共養水族箱，以及低門檻的一鍵關懷卡片。", "mo15": "資訊", "mo16": "Jubo 精選的健康資訊與文章，形成與家庭持續溝通的內容入口。", "mo17": "內容製作系統", "mo18": "建立可重複使用的生物、服裝與佈景製作流程，支援長期內容更新。", "mo19": "模組化有助於維護與擴充；新增內容或功能時，可降低對其他系統的影響。", "u67": "商業模式", "u68": "可獨立運作的消費型產品", "u69": "Jubo Viva 採用已被市場驗證的免費增值模式，透過免費用戶規模建立產品入口，再以外觀內容、訂閱服務與品牌合作創造持續收入，使產品本身具備獨立營運與成長的商業基礎。", "u69b": "同時，Jubo Viva 建立在 Jubo 的健康資料與服務能力之上，也能直接接觸未來的消費者與家庭決策者。除了創造 B2C 收益，也能累積使用情境與家庭關係，進一步回饋並擴大 Jubo 原有的 B2B 核心業務。", "u70": "營收", "u71": "收入來源", "u72": "採用免費增值模式：以完整可用的免費核心建立使用規模，再由外觀內容、Viva+ 訂閱與合作方案創造收入。健康資料與基本健康功能不設付費牆，付費價值集中在更深的分析、個人化與內容選擇。", "u73": "獲客", "u74": "免費核心", "u75": "掃描、健康趨勢、Bobo 與家庭關懷皆可免費使用，建立足夠大的使用者基礎，並支撐後續的訂閱、外觀內容與合作轉換。", "u76": "單次購買", "u77": "外觀與棲地", "u78": "水族箱佈景、珊瑚水草、生物服裝、季節主題與背景等外觀內容，提供可重複購買的個人化選擇；不影響健康功能，也不採用隨機抽取。", "u79": "訂閱", "u80": "Viva+", "u81": "Viva+ 提供更深入的多指標趨勢、可匯出的健康報告，以及更完整的家庭功能，服務有進階需求的使用者與照顧型家庭。", "u82": "合作夥伴", "u83": "精選內容與品牌", "u84": "經 Jubo 審核的文章、課程與健康方案，可延伸至內容、保險、藥廠及其他品牌合作，同時維持專業可信度。", "pb1": "Viva+ 的開發成本回收試算", "pb2": "以年費方案與約 15% 平台費用為假設，約 1,600 位年費 Viva+ 訂閱者，可在第一年覆蓋 NT$300 萬的開發投入。", "pb3": "相較於 Jubo 已觸及的 2,700+ 家機構及其家庭，這屬於相對有限的轉換規模；外觀內容與合作收入則可作為額外來源。", "pb4": "此為概念階段試算。App Store／Google Play 實際抽成可能為 15–30%，最終價格與轉換假設需於上線前確認。", "u202": "可持續更新的產品服務", "u203": "Viva 並非一次性上線的 App，而是透過固定內容更新與必要維運，持續提供新的使用理由與商業價值。", "u204": "美術內容", "u205": "生物、外觀與季節內容", "u206": "依固定節奏推出新生物、季節外觀、棲地與活動視覺，維持水族世界的新鮮感與收藏目標。", "u207": "編輯內容", "u208": "持續更新的健康內容", "u209": "持續更新由 Jubo 精選的健康內容，提供每天打開 App 的實用理由，也強化品牌的專業可信度。", "u210": "功能", "u211": "持續擴充的小遊戲", "u212": "小遊戲採可擴充架構，可先推出核心玩法，再依使用者回饋持續增加；每一款新遊戲都能帶來新的互動與內容價值。", "u213": "技術 · 維運", "u214": "維持穩定與安全", "u215": "持續處理作業系統更新、AI 模型升級、系統穩定性、資料流程與資安，確保產品長期可靠。", "u216": "可擴充", "u217": "小遊戲，延伸健康互動", "u218": "每款小遊戲都與健康行動或水族箱成長連動，深化核心體驗，而不是成為彼此無關的附加功能。", "u219": "心靈養分", "u220": "與 Bobo 一起呼吸", "u221": "Bobo 引導使用者依節奏完成呼吸練習，結束後轉化為水族箱的身心活力。", "u222": "活動養分", "u223": "步數花園", "u224": "步數會轉化為花園成長，讓日常活動以直觀、可見的方式累積。", "u225": "認知", "u226": "記憶配對", "u227": "簡單的翻牌配對，提供低壓力的認知互動，操作方式也適合年長使用者。", "u228": "後續內容<br>持續推出", "u230": "持續營運帶來長期價值", "u231": "產品上線後，可由固定營運／維運費用，搭配雙方另行議定的外觀與 Viva+ 商業合作，持續更新生物、文章、小遊戲與技術底層。讓 Viva 維持活躍，也能依實際使用需求逐步成長。", "u233": "讓 Viva 進入更多家庭", "u234": "實際下載與推動使用的人，未必是最終使用者。成年子女常是替父母選擇與安裝健康服務的決策者；Viva 的推廣策略將同時面向兩者，並善用 Jubo 既有的機構與家庭通路。", "u235": "<b>Jubo 的既有通路優勢。</b>Jubo 已觸及 2,700+ 家機構、330,000+ 名專業人員與住民家庭，也擁有安心寶等既有家庭服務。這些可信任的接觸點，讓 Viva 能以低於一般消費型新創的成本，接觸最相關的家庭。", "u236": "第 1 期 · Beta", "u237": "建立首批使用與學習", "u238": "Jubo 機構的員工與家庭", "u239": "既有的 Jubo 家庭 App 用戶", "u240": "驗證留存與使用行為", "u241": "第 2 期 · 軟性上線", "u242": "建立社群動能", "u243": "ASO + 文章驅動的 SEO", "u244": "健康與長照 KOL", "u245": "LINE / FB 長照家庭社團", "u246": "內建家庭邀請循環", "u247": "第 3 期 · 規模化", "u248": "付費成長與策略夥伴", "u249": "Meta／Google／LINE 精準投放", "u250": "保險、藥局與地方政府長照合作", "u251": "App Store 精選推薦", "u252": "先台灣，再日本", "u253": "第 4 期 · 持續營運", "u254": "持續行銷", "u255": "內容更新與季節活動", "u256": "CRM 與回流喚回", "u257": "累積推薦成長", "u258": "自有", "u259": "Jubo 網絡 + 家庭 App", "u260": "Jubo 的機構、專業人員與住民家庭網絡，是 Viva 最具信任基礎、也最具成本效率的早期通路。", "u261": "自然流量", "u262": "ASO + 內容", "u263": "精選內容可同時累積搜尋流量；水族角色與場景則有助於提升商店頁轉換、分享與口碑。", "u264": "社群", "u265": "KOL + 家庭社團", "u266": "長照與健康領域的創作者，以及照顧者早已聚集的 LINE／Facebook 長照社群。", "u267": "付費與夥伴", "u268": "獲客 + 機構合作", "u269": "針對成年子女的精準付費投放，加上保險、藥局與政府長照計畫的合作。", "df1": "初步開發預算", "df2": "初步估算 NT$250 萬–300 萬 · 約 6–8 個月", "df3": "此為概念階段的開發估算。實際金額與時程將依生物、珊瑚、場景等內容數量，以及各模組的功能深度調整；待需求確認後，再提出固定範圍、報價與時程。", "df4": "不包含 Jubo 提供的 AI 量測技術，以及另行估算的雲端基礎設施、維運與行銷費用。", "pt1": "合作分工", "pt2": "雙方的核心投入", "pt3": "Jubo 帶來", "pt4": "AI 量測、臨床與照護資料能力，以及既有的機構與家庭服務通路。", "pt5": "OFFX Studio 帶來", "pt6": "消費型產品策略與執行：UI/UX、角色與遊戲化設計、互動流程，以及將 Jubo 健康技術轉化為家庭願意持續使用之 App 的產品化能力。", "u285": "Jubo Viva：由真實健康訊號驅動的養成型健康 App", "u286": "建構於 AI 臉部掃描與 Jubo 照護 AI · 來認識 Bobo", "c1": "蒐集 · 角色", "c12": "內容引擎", "b1": "提案預算", "b2": "開發費 NT$300 萬 · 預估 8 個月", "b3": "此預算涵蓋四人工作室團隊在約 8 個月內的產品設計、開發與美術投入。AI 量測技術由 Jubo 提供；雲端基礎設施、上線後維運與行銷另行估算。", "b4": "開發團隊配置 · NT$300 萬／約 8 個月", "b5": "工程 · 2 位開發", "b6": "設計", "b7": "美術", "b8": "專案工具與必要支出", "b9": "另行估算的項目", "b10a": "雲端基礎設施與維運", "b10b": "上線後持續營運", "b11a": "行銷", "b11b": "行銷規劃與媒體投放", "b12a": "AI 量測技術", "b12b": "由 Jubo 提供 ✓", "b13": "以約 8 個月為初步時程，配置兩位開發、一位設計與一位美術。兩位開發可降低跨平台與系統整合的時程風險；AI 量測由 Jubo 提供，雲端、維運與行銷另行估算。", "u1": "引擎", "u14": "周邊點綴", "u23": "成長進程", "u33": "核心循環", "u56": "設計護欄", "u85": "對 Jubo 核心業務的加乘", "u86": "同時，也回饋 Jubo 的 B2B 核心", "u87": "Jubo 目前以 B2B 為核心，服務 <b>2,700+</b> 家機構、<b>330,000+</b> 名專業人員，並累積 <b>30 億+</b> 筆照護紀錄。Viva 若能建立可持續的消費端服務，除了自身營收，也能補充 Jubo 對家庭與居家健康情境的理解。", "u88": "補充 AI 模型所需的消費端情境", "u89": "補充 Jubo AI 的消費端訊號", "u90": "在取得明確同意並完成去識別化後，來自居家與社區使用情境的量測與健康訊號，可補充機構端資料，協助改善 N-Copilot、風險預測與整體照護 AI。", "u91": "需求入口", "u92": "提早建立家庭關係", "u93": "Viva 可在家庭真正需要機構照護之前，就先建立與 Jubo 的接觸與信任。當照護需求出現時，Jubo 能成為更自然的服務選擇，也為機構媒合與 B2B 業務提供新的家庭入口。", "u94": "服務範圍", "u95": "延伸照護服務的前端", "u96": "Jubo 已涵蓋住宿、日照與居家照護；Viva 可再向前延伸至日常健康促進與預防，形成從居家生活到專業照護的更完整服務歷程。", "u97": "品牌與家庭", "u98": "品牌與市場價值", "u99": "將安心寶／FamilyLine 的家庭服務經驗延伸至一般消費者，有助於提升 Jubo 的大眾品牌認知、B2B 溝通與未來國際市場拓展。", "u100": "雙向循環", "u101": "回饋 B2B 核心的成長循環", "u102": "多數消費型量測 App 僅能提供單點工具。Jubo 已擁有機構端照護資料與服務網絡；若 Viva 在明確同意與隱私保護下接入既有體系，便能形成消費端使用、資料洞察與 B2B 服務相互回饋的循環。", "u103": "更多家庭<small>免費核心 · 低壓力體驗</small>", "u104": "情境與信任<small>經同意的資料、既有家庭關係</small>", "u105": "更完整的核心<small>AI 洞察、品牌與 B2B 接觸入口</small>", "u106": "回饋 Viva<small>專業可信度、內容與資源</small>", "u107": "信任與隱私", "u108": "以明確同意與透明規則為前提", "u109": "健康資料的使用必須以透明、必要與可控為原則。以下設計原則確保使用者能理解資料用途，並保有完整選擇權。", "u110": "主動同意，絕不預設", "u111": "是否同意將資料用於模型改善，是一個清楚且獨立的選擇，不藏在冗長條款中。即使不同意，App 的核心功能仍可正常使用。", "u112": "去識別化與彙整", "u113": "模型訓練僅使用去識別化與彙整後的訊號，分析整體趨勢，而非識別個別使用者；資料存取也需依權限、用途與必要性受到限制。", "u114": "健康資料，而非病歷", "u115": "資料定位為消費性健康趨勢與篩檢參考，並清楚說明需以正式量測設備或專業意見確認。", "u116": "你的資料仍屬於你", "u117": "使用者可隨時匯出、刪除資料或撤回同意；整體設計將依台灣個資法與日本 APPI 等適用規範進行。", "u118": "開發階段與里程碑", "u119": "以里程碑確認交付", "u120": "專案依階段推進，每個階段都有明確交付與驗收標準，讓時程、預算與成果保持透明。", "u121": "階段 0 · 驗證", "u122": "核心可行性驗證", "u123": "開發前", "u124": "內部驗證", "u125": "前期驗證", "u126": "主要交付", "u127": "AI 量測準確度與血壓計對比基準", "u128": "Bobo 概念 + 本提案", "u129": "可點擊的掃描 → 生物原型", "u130": "簽署 Jubo 資料／合作意向", "u131": "進入 MVP 開發的條件", "u132": "<span class=\"lock\">🔓</span> 確認條件", "u133": "掃描誤差落在篩檢範圍內", "u134": "已簽合作意向書（LOI）", "u135": "原型經測試使用者驗證", "u136": "↓ 里程碑確認 <span>· 進入下一階段</span>", "u137": "階段 1 · MVP", "u138": "建立核心體驗", "u139": "開發 → 首次發行", "u140": "產品開發", "u141": "MVP 開發", "u142": "主要交付", "u143": "十秒 AI 臉部掃描 + 讀值", "u144": "歷史與趨勢", "u145": "你的水族箱 + 會回應的 Bobo", "u146": "同步 Apple Health / Google Fit", "u147": "解鎖第 B 批的關卡", "u148": "進入留存功能開發的條件", "u149": "達成 Beta 使用者招募目標", "u150": "第 30 日留存率達到雙方設定目標", "u151": "量測穩定性與無當機率達到目標", "u152": "↓ 里程碑確認 <span>· 進入下一階段</span>", "u153": "階段 2 · 留存", "u154": "強化持續使用與家庭互動", "u155": "MVP 之後", "u156": "功能擴充", "u157": "留存功能", "u158": "主要交付", "u159": "新增生物與持續使用里程碑", "u160": "心情記錄與呼吸練習", "u161": "家庭關懷與一鍵互動卡片", "u162": "外觀內容與首波付費驗證", "u163": "進入規模化階段的條件", "u164": "<span class=\"lock\">🔓</span> 確認條件", "u165": "日活躍與留存指標達到目標", "u166": "完成首波付費內容驗證", "u167": "資料使用同意率達到目標", "u168": "↓ 里程碑確認 <span>· 進入下一階段</span>", "u169": "階段 3 · 整合與規模化", "u170": "建立 Jubo 與 Viva 的雙向循環", "u171": "成長與整合", "u172": "成長", "u173": "規模化開發", "u174": "主要交付", "u175": "經同意與去識別化的資料流程，串接 Jubo 照護 AI", "u176": "Viva+ 進階功能與可匯出報告", "u177": "內容與策略合作", "u178": "繁體中文與日文上線", "u179": "成功指標", "u180": "<span class=\"lock\">📈</span> 成功指標", "u181": "資料帶來可驗證的模型改善", "u182": "Viva+ 建立經常性收入", "u183": "形成可持續的成長循環", "u184": "↓ 產品上線 <span>· 進入持續營運</span>", "u185": "階段 4 · 持續營運", "u186": "持續更新與優化", "u187": "持續進行", "u188": "營運 · 固定費用與商業合作", "u189": "長期", "u190": "持續交付", "u191": "新生物、季節外觀與活動", "u192": "定期推出的新小遊戲", "u193": "Jubo 精選的新文章", "u194": "AI 模型、系統與資安維運", "u195": "維持模式", "u196": "營運方式", "u197": "<span class=\"lock\">🔁</span> 經常性投入", "u198": "外觀與 Viva+ 分潤", "u199": "內容合作費用", "u200": "圖中數字為<b>示意</b>，Beta 規模、留存目標與各階段金額，將在需求確認後由雙方共同設定。前期階段用於完成產品開發與驗證；上線後則進入持續營運，依實際使用與商業目標更新內容、功能與技術。", "u201": "為長期成長而設計", "u229": "長期合作價值", "u232": "進入市場策略", "u270": "預算規劃", "u271": "預算配置", "u272": "以下為初步配置，用於說明主要投入方向；最終金額將依確認後的功能範圍、內容數量與時程調整。", "u273": "開發預算配置", "u274": "產品與工程", "u275": "美術與內容", "u276": "AI 量測與整合", "u277": "行銷與成長", "u278": "雲端、營運與維運", "u279": "行銷預算配置", "u280": "自有與推薦", "u281": "付費獲客", "u282": "社群與 KOL", "u283": "合作與活動", "u284": "早期成長可優先運用 Jubo 既有通路，降低對付費獲客的依賴；待留存與轉換獲得驗證後，再逐步擴大媒體投放。", "t1": "水族箱 · 由健康數據驅動的世界", "pf1": "開發費用", "pf2": "依三個主要交付節點支付", "pf3": "付款分為啟動、核心驗證與上線三個節點，每一期皆對應明確的交付內容與驗收結果。", "pf4": "1 · 啟動", "pf5": "首款", "pf6": "簽約時支付，用於專案啟動、需求確認與前期開發。", "pf7": "2 · 驗證", "pf8": "驗證款", "pf9": "核心體驗完成並通過驗收時支付，包含 AI 量測串接、水族箱、Bobo 與主要資料流程。", "pf10": "3 · 上線", "pf11": "上線尾款", "pf12": "App Store 上線時支付，完成收集系統、家庭關懷與外觀內容，交付可正式上架的 App。", "pf13": "總開發費 NT$300 萬，預估約 8 個月。上線後的雲端、維運、內容更新與後續擴充另行估算。", "ag11": "提案範圍與預算", "ag12": "開發費 NT$300 萬，預估約 8 個月，團隊配置為 2 位開發、1 位設計與 1 位美術。AI 量測技術由 Jubo 提供；雲端、維運與行銷另行估算。", "wj1": "為什麼是 Jubo × OFFX Studio", "wj2": "Jubo 的健康科技，結合 OFFX 的消費型產品能力", "os1": "團隊", "os2": "OFFX Studio — 消費型數位產品團隊", "os3": "OFFX Studio 是位於台北的獨立設計與開發工作室，整合產品策略、設計、美術與工程。團隊長期專注於兼具使用價值與情感體驗的消費型產品，與 Viva 所需的低壓力健康體驗方向一致。", "os4": "已驗證的健康遊戲化經驗", "os5": "MoodMons", "os6": "OFFX 自主開發的 MoodMons，將日常心情記錄轉化為可收集的像素怪獸，結合日記、AI 與遊戲化體驗，目前在台灣 App Store 獲得 4.9 星評價。這些經驗可直接延伸至 Viva 的角色、收集與留存設計。", "os7": "資深的跨職能團隊", "os8": "超過十年的產品經驗與數千萬次下載", "os9": "創辦團隊擁有逾十年打造得獎消費型 App 的經驗，作品在全球累積數千萬次下載。", "os10": "整合式團隊", "os11": "從策略、設計到上架", "os12": "產品策略、UI/UX、視覺、互動與工程由同一團隊協作，降低溝通成本並確保執行一致。", "me9h": "核心結論", "b1_ask": "我們的提案 · 預算"};
+  var ZH = {"u287": "B2C 概念 · Jubo × AI 量測", "u288": "你的心跳，<br>讓一整個<span class=\"sweep\">小世界活起來</span><span style=\"display:block;font-size:.4em;font-weight:600;letter-spacing:.01em;opacity:.6;margin-top:.55em\">Your heartbeat brings a little world to life</span>", "u289": "認識 <b>Bobo</b> 與牠的 <b>Viva</b> 水族箱：你的日常量測與健康行動，會轉化為水質、生物活力與場景變化。<span style=\"color:var(--ink-faint)\">Bobo 延續 Jubo Bobo 熊親切、圓潤的形象，加入魚鰭與尾巴，成為陪伴使用者探索水下世界的角色。</span>", "u290": "<span class=\"dot\"></span>臉部量測", "u291": "<span class=\"dot\"></span>步數", "u292": "<span class=\"dot\"></span>健康數據", "u293": "<span class=\"dot\"></span>家人與朋友", "hf1": "* 目前視覺與角色僅為示意", "ag1": "一分鐘看懂", "ag2": "一分鐘掌握 Jubo Viva", "ag3": "這是什麼", "ag4": "一款結合 AI 量測、健康紀錄與水族養成的消費型 App。使用者透過十秒臉部量測與日常健康行動，維持水族箱狀態、解鎖生物與內容，也能與家人共養同一座水族世界。", "ag5": "核心優勢", "ag6": "熟悉且跨世代的水族主題、低壓力的健康互動、可持續擴充的內容系統，以及 Jubo 既有的 AI 量測、照護能力與家庭通路，共同形成產品差異。", "ag7": "商業模式", "ag8": "以免費核心功能建立使用規模，再由外觀內容、Viva+ 訂閱與品牌合作創造收入。在既定假設下，產品具備回收開發投入並持續營運的潛力。", "ag9": "為什麼是 Jubo + OFFX", "ag10": "Jubo 提供 AI 量測、照護能力與既有通路；OFFX Studio 負責消費型產品策略、體驗設計、遊戲化與 App 開發。雙方結合，將專業健康技術轉化為家庭願意持續使用的產品。", "nm1": "命名", "nm2": "為什麼叫 Viva", "nm3": "Viva 帶有「活著、萬歲」的語意，象徵生命力與長久陪伴。這個名字呼應產品核心：真實的健康行動，會讓一座水族世界持續成長，也陪伴使用者建立更長久的健康習慣。", "nm4": "活著 Alive", "nm5": "Viva 代表活著與生命力。使用者的心跳、量測與日常健康行動，會直接反映在水族箱的狀態與變化上。", "nm6": "生機 Vitality", "nm7": "Viva 也讓人聯想到 vital 與 vivid：健康、能量與鮮活。使用者狀態越穩定，水族世界就越明亮、越有生氣。", "nm8": "長壽 Long life", "nm9": "Viva 也帶有祝福長久生命的意味。錦鯉、烏龜與水族世界的意象，讓產品自然連結健康、陪伴與長期累積。", "me1": "為什麼需要遊戲化體驗", "me2": "在 AI 時代，功能容易被複製，長期體驗更能建立差異", "me3": "量測、追蹤與圖表等單一功能，很容易被其他產品複製，或整合進更大的 AI 平台。純工具型健康 App 往往缺少持續使用的理由；較難被取代的，是使用者長期累積的習慣、收藏、角色關係與家庭互動。", "me4": "只提供單次量測，使用者完成後便離開；當市場出現更便宜、更快或整合度更高的替代方案，產品就容易被取代。", "me5": "持續累積的使用習慣、可見的進度與親友互動，會形成單一工具難以提供的長期價值。", "me6": "<b>Duolingo 提供了一個清楚的參考。</b>即使翻譯工具與 AI 已能免費協助語言學習，Duolingo 仍透過角色、連續紀錄與每日節奏，建立強烈的使用習慣，並成長為市值數十億美元的公司。內容本身可以被替代，但完整體驗更難複製。", "me8": "<b>輕量互動也能成為人與人之間的橋樑。</b>簡單、低壓力的互動，能為家人與朋友提供自然的關心入口；不必特別開啟一段嚴肅對話，也能讓彼此知道近況。", "me7": "Viva 將 AI 量測嵌入養成體驗。量測提供第一個使用理由；水族箱、生物收集與家人共養，則建立持續使用與累積價值。競爭者可以複製單一功能，卻不容易複製使用者長期建立的內容與關係。", "me9": "社交、探索與趣味，仍是吸引人嘗試新 App 的重要動機；清楚且不造成壓力的遊戲化，則能提升持續使用意願。在功能快速普及的 AI 時代，真正形成差異的，是使用者長期累積的世界與關係。", "t2": "你的健康數據，讓水族世界持續成長", "t3": "Bobo 與各種水中生物共同生活在水族箱裡。量測、活動、睡眠與心情等健康訊號，會轉化為水質、生物活力與場景變化，也能由家人一起照顧。", "t13": "我的水族箱<small>共養中 · shared</small>", "t12": "✨ 水質清澈", "t14": "你的身體數值，讓水保持清澈", "t15": "生物圖鑑", "t16": "一起養這一缸 · 媽媽今天也照顧了 💛", "t17": "量測一下，換新鮮水 ↺", "t4": "身體數值 → 水質", "t5": "AI 量測與日常健康數據會轉化為水質、流動與光線變化。使用者照顧自己的同時，也看見水族箱逐步恢復活力。", "t6": "持續解鎖生物與場景", "t7": "從 Bobo 夥伴、魚、錦鯉與烏龜，到珊瑚、水草與完整場景，皆可透過模組化內容系統持續推出，讓收藏與外觀內容保持更新。", "t8": "和家人一起共養", "t9": "家人可以共同照顧同一座水族箱。每個人的健康行動都會帶來變化，也讓彼此多一個自然、低壓力的關心入口。", "t10": "不以失去作為懲罰", "t11": "錯過一天不會失去任何生物；水質只會暫時產生變化，下一次量測或健康行動即可恢復。", "t18h": "為什麼選擇水族箱", "t18": "水族箱有兩個明確優勢。第一，水質、流動與光線能自然對應健康狀態，使用者不需要閱讀複雜數據，也能快速理解今天的整體狀況。第二，水族箱在亞洲家庭與公共空間都很常見，錦鯉、烏龜等意象也連結長壽與祝福，是跨世代都容易理解、幾乎不需學習的題材，連 80 歲長輩也能直接上手；平靜的水中景觀，也能營造放鬆、適合長期陪伴的使用氛圍。", "u2": "真實健康行動，轉化為水族箱的活力", "u3": "所有回饋都來自對使用者有益的日常行動，不必等待，也不必付費才能維持核心體驗。照顧自己的同時，水質會改善，生物也會更有活力。", "u4": "每日量測 <span class=\"cn\">核心來源</span>", "u5": "十秒 AI 臉部量測是 Viva 的核心互動，提供最直接的水族箱回饋。量測結果也會影響 Bobo 當天呈現的狀態，例如平靜、有精神或需要休息。", "u6": "核心", "u7": "活動與睡眠 <span class=\"cn\">日常來源</span>", "u8": "步數、活動量與睡眠可由 Apple Health 被動讀取，即使沒有開啟 App，也能持續累積。一般生活中的活動，會自然轉化為水流與光線的變化。", "u9": "日常", "u10": "心情與呼吸 <span class=\"cn\">身心來源</span>", "u11": "以一鍵方式記錄心情，並提供可選擇的呼吸練習。產品不評價情緒好壞；低落時，Bobo 會給予關心，而不是造成壓力。", "u12": "補充", "u13": "<b>不同健康行動可以互相補充，不要求全部完成。</b>一天的水族箱活力，可以來自一次量測、一段散步，或一次心情記錄。沒有任何單一行動會成為使用門檻，讓長輩與容易感到壓力的使用者都能按照自己的節奏參與。", "u15": "輕量的每日互動", "u16": "以可選、低負擔的小互動增加溫度與回訪理由，不把健康管理變成另一項必須完成的任務。", "u17": "輕量 AI 夥伴", "u18": "Bobo 會依照使用者狀態做出簡短回應，並提供容易理解的提醒。它的角色是陪伴與引導，而不是要求使用者長時間對話的聊天機器人。", "u19": "家人關懷 · 安心", "u20": "透過預設的問候、關心與提醒卡片，一鍵即可送出或回應，不需要輸入文字。每次互動都會為雙方的水族箱帶來一點活力。<a href=\"#family\" style=\"color:var(--social)\">看看怎麼運作 ↓</a>", "u21": "閱讀健康文章", "u22": "由 Jubo 精選的健康短文，提供可信、容易閱讀的日常內容，也形成品牌與專業夥伴合作的自然入口。", "u24": "一位長期陪伴的 Bobo，一座持續成長的水族世界", "u25": "Bobo 負責建立情感連結；生物、造型與棲地則提供持續探索與收集的目標。所有內容以明確條件解鎖，不採用隨機抽取或高壓付費機制。", "u26": "情感連結", "u27": "Bobo 陪你持續累積", "u28": "Bobo 會反映使用者每天的狀態，也記得持續使用與健康行動的歷程。互動時間越長，角色與水族箱就累積越多共同記憶，形成再次回來的自然動機。", "u29": "收集", "u30": "持續擴充水族世界", "u31": "穩定使用與健康行動的里程碑，會逐步解鎖新的生物、造型與場景。解鎖條件清楚可預期，付費內容則集中於外觀選擇。", "u32": "角色與核心健康功能都能透過<b>持續使用</b>取得。錯過一天不會失去進度，健康資料也始終可以自由查看。", "c2": "一座水族箱，持續擴張的世界", "c3": "隨著使用與健康行動累積，水族箱會逐步加入新的生物、珊瑚、水草與完整場景；造型與佈置內容也能持續更新，讓收藏保有長期目標。", "c4": "你的夥伴", "c5": "Bobo · 水色", "c16": "使用中 ✓", "c6": "角色", "c7": "服裝", "c8": "棲地", "c9": "主題", "c10": "22 <span>/ 30 已蒐集</span>", "c11": "解鎖角色 <span class='badge'>1</span>", "c13": "同一位 Bobo，持續延伸的個人風格", "c14": "透過定期推出新生物、珊瑚、場景、服裝與配件，讓水族世界持續變化，也為使用者提供長期探索與回訪的理由。", "c15": "核心內容透過持續使用解鎖；付費集中於外觀，不影響健康功能與使用權益。", "u34": "照顧日常，也讓水族世界成長", "u35": "健康行動<small>量測、活動、睡眠與心情</small>", "u36": "成長來源<small>不同輸入可互相補充</small>", "u37": "水族箱成長<small>狀態變化與內容解鎖</small>", "u38": "共養與累積<small>家人、朋友與持續使用</small>", "u39": "↺ &nbsp;溫和的循環：<span>健康行動 → 水族箱成長 → 增加持續照顧自己的動機</span>", "sh1": "豐富的體驗", "sh2": "讓健康管理成為願意每天打開的日常體驗", "sh3": "解鎖不同的水族場景與生物，自由佈置棲地、收集水下景物；也能查看健康紀錄，進行呼吸練習、益智小遊戲與各種輕量互動。", "sh10": "首頁 · 我的水族箱<small>身體數值讓水保持清澈</small>", "sh11": "夜光主題<small>呼吸平穩 · 放鬆中</small>", "sh12": "水草缸主題<small>氧氣充足 · 心率 68 bpm</small>", "sh13": "生物圖鑑<small>22 / 30 已蒐集 · 透過持續使用解鎖</small>", "sh14": "棲地佈置<small>自由搭配珊瑚、沉木與城堡</small>", "sh15": "健康數據<small>今日總覽與本週趨勢</small>", "sh16": "呼吸練習<small>跟著泡泡慢慢呼吸</small>", "sh17": "心情流向<small>情緒趨勢與活動關聯</small>", "sh4": "* AI 生成的概念示意圖，僅代表視覺方向，並非最終介面", "u40": "家人關懷 · 安心", "u41": "共養一座水族箱，讓關心更容易發生", "u42": "核心機制是<b>與家人或朋友共養同一座水族箱</b>。使用者可以建立自己的水族箱，也能加入親友的共同空間；互動不需要輸入文字，只要點選預設卡片即可送出關心或回覆。操作簡單，也讓每一次互動都成為水族箱成長的一部分。", "u43": "系統提供一組精選的<b>預設卡片</b>，包含問候、關心與提醒。使用者不必思考如何措辭，只要選擇合適的內容，就能自然地傳達心意。", "u44": "問候", "u45": "關心", "u46": "提醒", "u47": "一鍵回應", "u48": "需要回覆的卡片皆可一鍵完成，讓關心能夠自然地形成來回互動。", "u49": "<span class=\"ic\">💛</span> 每一次互動，都化為一顆愛心", "u50": "送出或回應卡片時，雙方的 Bobo 都會做出反應，水族箱也會獲得少量活力。產品以可見的回饋，讓關心本身成為持續互動的動力。", "u51": "<span class=\"ic\">🔗</span> 共同紀錄", "u52": "當提醒在當天獲得回應，例如「量測時間到」對應「✅ 已完成」，雙方就能累積共同紀錄。錯過一天不會被責備，也不會失去既有成果。", "u53": "<span class=\"ic\">🌸</span> 一起累積", "u54": "共同互動的里程碑可解鎖成對棲地、雙人裝扮等共享外觀，讓持續聯繫轉化為兩人都看得見的成果。", "u55": "傳送關心 → <b>彼此回應</b> → 累積共同紀錄 → 建立下一次互動", "u57": "設計原則：有效，但不造成壓力", "u58": "能提升留存的機制，也可能對使用者造成壓力。因此，Viva 從一開始就設定以下設計原則。", "u59": "<span class=\"x\">✕</span> 不製造挫折", "u60": "不以等待、失敗或封鎖資料逼迫回訪。量測帶來額外回饋，但不會成為查看健康資料或使用核心功能的前提。", "u61": "<span class=\"x\">✕</span> 不鼓勵過度情感依賴", "u62": "AI 角色定位保持輕量，主要負責回應與提醒，不以長時間對話或最大化依附為目標，降低陪伴型 AI 在依賴與法規上的風險。", "u63": "<span class=\"y\">✓</span> 低壓力、可中斷", "u64": "日常數據可被動累積，中斷也不受罰。錯過一天時，水質只會暫時產生變化；生物不會消失，也會等待使用者下一次回來。", "u65": "<span class=\"y\">✓</span> 定位為健康促進工具", "u66": "AI 讀值用於健康趨勢與篩檢參考，不作為診斷結果；必要時仍需以正式醫療器材或專業人員確認。", "mo1": "系統架構 · 模組化", "mo2": "一套 App，以清楚模組組成", "mo3": "Viva 採模組化架構，各功能可獨立開發、測試與擴充。這能降低維護複雜度，也讓後續內容與服務可依實際需求持續增加。", "mo4": "基礎", "mo5": "核心模組", "mo6": "十秒 AI 量測、App 基礎架構，以及 Apple Health 與 Google Fit 的健康資料整合，構成整套產品的技術基礎。", "mo20": "帳號與個人檔案", "mo21": "登入、家庭連結、訂閱權益與跨裝置同步，統一管理帳號、關係與內容歸屬。", "mo7": "資料視覺化", "mo8": "將歷史數據、健康趨勢與生命徵象圖表整理成容易理解的視覺資訊。", "mo9": "水族箱系統", "mo10": "包含生物、水質狀態與動畫，承載產品主要的情感體驗。", "mo11": "益智小遊戲", "mo12": "可持續新增的小遊戲框架，每款遊戲都與水族箱成長或健康行動連動。", "mo13": "互動", "mo14": "好友與家庭連結、共養水族箱，以及低門檻的一鍵關懷卡片。", "mo15": "資訊", "mo16": "Jubo 精選的健康資訊與文章，形成與家庭持續溝通的內容入口。", "mo17": "內容製作系統", "mo18": "建立可重複使用的生物、服裝與佈景製作流程，支援長期內容更新。", "mo19": "模組化有助於維護與擴充；新增內容或功能時，可降低對其他系統的影響。", "u67": "商業模式", "u68": "可獨立運作的消費型產品", "u69": "Jubo Viva 採用已被市場驗證的免費增值模式，透過免費用戶規模建立產品入口，再以外觀內容、訂閱服務與品牌合作創造持續收入，使產品本身具備獨立營運與成長的商業基礎。", "u69b": "同時，Jubo Viva 建立在 Jubo 的健康資料與服務能力之上，也能直接接觸未來的消費者與家庭決策者。除了創造 B2C 收益，也能累積使用情境與家庭關係，進一步回饋並擴大 Jubo 原有的 B2B 核心業務。", "u70": "營收", "u71": "收入來源", "u72": "採用免費增值模式：以完整可用的免費核心建立使用規模，再由外觀內容、Viva+ 訂閱與合作方案創造收入。健康資料與基本健康功能不設付費牆，付費價值集中在更深的分析、個人化與內容選擇。", "u73": "獲客", "u74": "免費核心", "u75": "掃描、健康趨勢、Bobo 與家庭關懷皆可免費使用，建立足夠大的使用者基礎，並支撐後續的訂閱、外觀內容與合作轉換。", "u76": "單次購買", "u77": "外觀與棲地", "u78": "水族箱佈景、珊瑚水草、生物服裝、季節主題與背景等外觀內容，提供可重複購買的個人化選擇；不影響健康功能，也不採用隨機抽取。", "u79": "訂閱", "u80": "Viva+", "u81": "Viva+ 提供更深入的多指標趨勢、可匯出的健康報告，以及更完整的家庭功能，服務有進階需求的使用者與照顧型家庭。", "u82": "合作夥伴", "u83": "精選內容與品牌", "u84": "經 Jubo 審核的文章、課程與健康方案，可延伸至內容、保險、藥廠及其他品牌合作，同時維持專業可信度。", "pb1": "Viva+ 的開發成本回收試算", "pb2": "以年費方案與約 15% 平台費用為假設，約 1,600 位年費 Viva+ 訂閱者，可在第一年覆蓋 NT$300 萬的開發投入。", "pb3": "相較於 Jubo 已觸及的 2,700+ 家機構及其家庭，這屬於相對有限的轉換規模；外觀內容與合作收入則可作為額外來源。", "pb4": "此為概念階段試算。App Store／Google Play 實際抽成可能為 15–30%，最終價格與轉換假設需於上線前確認。", "u202": "可持續更新的產品服務", "u203": "Viva 並非一次性上線的 App，而是透過固定內容更新與必要維運，持續提供新的使用理由與商業價值。", "u204": "美術內容", "u205": "生物、外觀與季節內容", "u206": "依固定節奏推出新生物、季節外觀、棲地與活動視覺，維持水族世界的新鮮感與收藏目標。", "u207": "編輯內容", "u208": "持續更新的健康內容", "u209": "持續更新由 Jubo 精選的健康內容，提供每天打開 App 的實用理由，也強化品牌的專業可信度。", "u210": "功能", "u211": "持續擴充的小遊戲", "u212": "小遊戲採可擴充架構，可先推出核心玩法，再依使用者回饋持續增加；每一款新遊戲都能帶來新的互動與內容價值。", "u213": "技術 · 維運", "u214": "維持穩定與安全", "u215": "持續處理作業系統更新、AI 模型升級、系統穩定性、資料流程與資安，確保產品長期可靠。", "u216": "可擴充", "u217": "小遊戲，延伸健康互動", "u218": "每款小遊戲都與健康行動或水族箱成長連動，深化核心體驗，而不是成為彼此無關的附加功能。", "u219": "心靈養分", "u220": "與 Bobo 一起呼吸", "u221": "Bobo 引導使用者依節奏完成呼吸練習，結束後轉化為水族箱的身心活力。", "u222": "活動養分", "u223": "步數花園", "u224": "步數會轉化為花園成長，讓日常活動以直觀、可見的方式累積。", "u225": "認知", "u226": "記憶配對", "u227": "簡單的翻牌配對，提供低壓力的認知互動，操作方式也適合年長使用者。", "u228": "後續內容<br>持續推出", "u230": "持續營運帶來長期價值", "u231": "產品上線後，可由固定營運／維運費用，搭配雙方另行議定的外觀與 Viva+ 商業合作，持續更新生物、文章、小遊戲與技術底層。讓 Viva 維持活躍，也能依實際使用需求逐步成長。", "u233": "讓 Viva 進入更多家庭", "u234": "實際下載與推動使用的人，未必是最終使用者。成年子女常是替父母選擇與安裝健康服務的決策者；Viva 的推廣策略將同時面向兩者，並善用 Jubo 既有的機構與家庭通路。", "u235": "<b>Jubo 的既有通路優勢。</b>Jubo 已觸及 2,700+ 家機構、330,000+ 名專業人員與住民家庭，也擁有安心寶等既有家庭服務。這些可信任的接觸點，讓 Viva 能以低於一般消費型新創的成本，接觸最相關的家庭。", "u236": "第 1 期 · Beta", "u237": "建立首批使用與學習", "u238": "Jubo 機構的員工與家庭", "u239": "既有的 Jubo 家庭 App 用戶", "u240": "驗證留存與使用行為", "u241": "第 2 期 · 軟性上線", "u242": "建立社群動能", "u243": "ASO + 文章驅動的 SEO", "u244": "健康與長照 KOL", "u245": "LINE / FB 長照家庭社團", "u246": "內建家庭邀請循環", "u247": "第 3 期 · 規模化", "u248": "付費成長與策略夥伴", "u249": "Meta／Google／LINE 精準投放", "u250": "保險、藥局與地方政府長照合作", "u251": "App Store 精選推薦", "u252": "先台灣，再日本", "u253": "第 4 期 · 持續營運", "u254": "持續行銷", "u255": "內容更新與季節活動", "u256": "CRM 與回流喚回", "u257": "累積推薦成長", "u258": "自有", "u259": "Jubo 網絡 + 家庭 App", "u260": "Jubo 的機構、專業人員與住民家庭網絡，是 Viva 最具信任基礎、也最具成本效率的早期通路。", "u261": "自然流量", "u262": "ASO + 內容", "u263": "精選內容可同時累積搜尋流量；水族角色與場景則有助於提升商店頁轉換、分享與口碑。", "u264": "社群", "u265": "KOL + 家庭社團", "u266": "長照與健康領域的創作者，以及照顧者早已聚集的 LINE／Facebook 長照社群。", "u267": "付費與夥伴", "u268": "獲客 + 機構合作", "u269": "針對成年子女的精準付費投放，加上保險、藥局與政府長照計畫的合作。", "df1": "初步開發預算", "df2": "初步估算 NT$250 萬–300 萬 · 約 6–8 個月", "df3": "此為概念階段的開發估算。實際金額與時程將依生物、珊瑚、場景等內容數量，以及各模組的功能深度調整；待需求確認後，再提出固定範圍、報價與時程。", "df4": "不包含 Jubo 提供的 AI 量測技術，以及另行估算的雲端基礎設施、維運與行銷費用。", "pt1": "合作分工", "pt2": "雙方的核心投入", "pt3": "Jubo 帶來", "pt4": "AI 量測、臨床與照護資料能力，以及既有的機構與家庭服務通路。", "pt5": "OFFX Studio 帶來", "pt6": "消費型產品策略與執行：UI/UX、角色與遊戲化設計、互動流程，以及將 Jubo 健康技術轉化為家庭願意持續使用之 App 的產品化能力。", "u285": "Jubo Viva：由真實健康訊號驅動的養成型健康 App", "u286": "建構於 AI 臉部掃描與 Jubo 照護 AI · 來認識 Bobo", "c1": "蒐集 · 角色", "c12": "內容引擎", "b1": "提案預算", "b2": "開發費 NT$300 萬 · 預估 8 個月", "b3": "此預算涵蓋四人工作室團隊在約 8 個月內的產品設計、開發與美術投入。AI 量測技術由 Jubo 提供；雲端基礎設施、上線後維運與行銷另行估算。", "b4": "開發團隊配置 · NT$300 萬／約 8 個月", "b5": "工程 · 2 位開發", "b6": "設計", "b7": "美術", "b8": "專案工具與必要支出", "b9": "另行估算的項目", "b10a": "雲端基礎設施與維運", "b10b": "上線後持續營運", "b11a": "行銷", "b11b": "行銷規劃與媒體投放", "b12a": "AI 量測技術", "b12b": "由 Jubo 提供 ✓", "b13": "以約 8 個月為初步時程，配置兩位開發、一位設計與一位美術。兩位開發可降低跨平台與系統整合的時程風險；AI 量測由 Jubo 提供，雲端、維運與行銷另行估算。", "u1": "引擎", "u14": "周邊點綴", "u23": "成長進程", "u33": "核心循環", "u56": "設計護欄", "u85": "對 Jubo 核心業務的加乘", "u86": "同時，也回饋 Jubo 的 B2B 核心", "u87": "Jubo 目前以 B2B 為核心，服務 <b>2,700+</b> 家機構、<b>330,000+</b> 名專業人員，並累積 <b>30 億+</b> 筆照護紀錄。Viva 若能建立可持續的消費端服務，除了自身營收，也能補充 Jubo 對家庭與居家健康情境的理解。", "u88": "補充 AI 模型所需的消費端情境", "u89": "補充 Jubo AI 的消費端訊號", "u90": "在取得明確同意並完成去識別化後，來自居家與社區使用情境的量測與健康訊號，可補充機構端資料，協助改善 N-Copilot、風險預測與整體照護 AI。", "u91": "需求入口", "u92": "提早建立家庭關係", "u93": "Viva 可在家庭真正需要機構照護之前，就先建立與 Jubo 的接觸與信任。當照護需求出現時，Jubo 能成為更自然的服務選擇，也為機構媒合與 B2B 業務提供新的家庭入口。", "u94": "服務範圍", "u95": "延伸照護服務的前端", "u96": "Jubo 已涵蓋住宿、日照與居家照護；Viva 可再向前延伸至日常健康促進與預防，形成從居家生活到專業照護的更完整服務歷程。", "u97": "品牌與家庭", "u98": "品牌與市場價值", "u99": "將安心寶／FamilyLine 的家庭服務經驗延伸至一般消費者，有助於提升 Jubo 的大眾品牌認知、B2B 溝通與未來國際市場拓展。", "u100": "雙向循環", "u101": "回饋 B2B 核心的成長循環", "u102": "多數消費型量測 App 僅能提供單點工具。Jubo 已擁有機構端照護資料與服務網絡；若 Viva 在明確同意與隱私保護下接入既有體系，便能形成消費端使用、資料洞察與 B2B 服務相互回饋的循環。", "u103": "更多家庭<small>免費核心 · 低壓力體驗</small>", "u104": "情境與信任<small>經同意的資料、既有家庭關係</small>", "u105": "更完整的核心<small>AI 洞察、品牌與 B2B 接觸入口</small>", "u106": "回饋 Viva<small>專業可信度、內容與資源</small>", "u107": "信任與隱私", "u108": "以明確同意與透明規則為前提", "u109": "健康資料的使用必須以透明、必要與可控為原則。以下設計原則確保使用者能理解資料用途，並保有完整選擇權。", "u110": "主動同意，絕不預設", "u111": "是否同意將資料用於模型改善，是一個清楚且獨立的選擇，不藏在冗長條款中。即使不同意，App 的核心功能仍可正常使用。", "u112": "去識別化與彙整", "u113": "模型訓練僅使用去識別化與彙整後的訊號，分析整體趨勢，而非識別個別使用者；資料存取也需依權限、用途與必要性受到限制。", "u114": "健康資料，而非病歷", "u115": "資料定位為消費性健康趨勢與篩檢參考，並清楚說明需以正式量測設備或專業意見確認。", "u116": "你的資料仍屬於你", "u117": "使用者可隨時匯出、刪除資料或撤回同意；整體設計將依台灣個資法與日本 APPI 等適用規範進行。", "u118": "開發階段與里程碑", "u119": "以里程碑確認交付", "u120": "專案依階段推進，每個階段都有明確交付與驗收標準，讓時程、預算與成果保持透明。", "u121": "階段 0 · 驗證", "u122": "核心可行性驗證", "u123": "開發前", "u124": "內部驗證", "u125": "前期驗證", "u126": "主要交付", "u127": "AI 量測準確度與血壓計對比基準", "u128": "Bobo 概念 + 本提案", "u129": "可點擊的掃描 → 生物原型", "u130": "簽署 Jubo 資料／合作意向", "u131": "進入 MVP 開發的條件", "u132": "<span class=\"lock\">🔓</span> 確認條件", "u133": "掃描誤差落在篩檢範圍內", "u134": "已簽合作意向書（LOI）", "u135": "原型經測試使用者驗證", "u136": "↓ 里程碑確認 <span>· 進入下一階段</span>", "u137": "階段 1 · MVP", "u138": "建立核心體驗", "u139": "開發 → 首次發行", "u140": "產品開發", "u141": "MVP 開發", "u142": "主要交付", "u143": "十秒 AI 臉部掃描 + 讀值", "u144": "歷史與趨勢", "u145": "你的水族箱 + 會回應的 Bobo", "u146": "同步 Apple Health / Google Fit", "u147": "解鎖第 B 批的關卡", "u148": "進入留存功能開發的條件", "u149": "達成 Beta 使用者招募目標", "u150": "第 30 日留存率達到雙方設定目標", "u151": "量測穩定性與無當機率達到目標", "u152": "↓ 里程碑確認 <span>· 進入下一階段</span>", "u153": "階段 2 · 留存", "u154": "強化持續使用與家庭互動", "u155": "MVP 之後", "u156": "功能擴充", "u157": "留存功能", "u158": "主要交付", "u159": "新增生物與持續使用里程碑", "u160": "心情記錄與呼吸練習", "u161": "家庭關懷與一鍵互動卡片", "u162": "外觀內容與首波付費驗證", "u163": "進入規模化階段的條件", "u164": "<span class=\"lock\">🔓</span> 確認條件", "u165": "日活躍與留存指標達到目標", "u166": "完成首波付費內容驗證", "u167": "資料使用同意率達到目標", "u168": "↓ 里程碑確認 <span>· 進入下一階段</span>", "u169": "階段 3 · 整合與規模化", "u170": "建立 Jubo 與 Viva 的雙向循環", "u171": "成長與整合", "u172": "成長", "u173": "規模化開發", "u174": "主要交付", "u175": "經同意與去識別化的資料流程，串接 Jubo 照護 AI", "u176": "Viva+ 進階功能與可匯出報告", "u177": "內容與策略合作", "u178": "繁體中文與日文上線", "u179": "成功指標", "u180": "<span class=\"lock\">📈</span> 成功指標", "u181": "資料帶來可驗證的模型改善", "u182": "Viva+ 建立經常性收入", "u183": "形成可持續的成長循環", "u184": "↓ 產品上線 <span>· 進入持續營運</span>", "u185": "階段 4 · 持續營運", "u186": "持續更新與優化", "u187": "持續進行", "u188": "營運 · 固定費用與商業合作", "u189": "長期", "u190": "持續交付", "u191": "新生物、季節外觀與活動", "u192": "定期推出的新小遊戲", "u193": "Jubo 精選的新文章", "u194": "AI 模型、系統與資安維運", "u195": "維持模式", "u196": "營運方式", "u197": "<span class=\"lock\">🔁</span> 經常性投入", "u198": "外觀與 Viva+ 分潤", "u199": "內容合作費用", "u200": "圖中數字為<b>示意</b>，Beta 規模、留存目標與各階段金額，將在需求確認後由雙方共同設定。前期階段用於完成產品開發與驗證；上線後則進入持續營運，依實際使用與商業目標更新內容、功能與技術。", "u201": "為長期成長而設計", "u229": "長期合作價值", "u232": "進入市場策略", "u270": "預算規劃", "u271": "預算配置", "u272": "以下為初步配置，用於說明主要投入方向；最終金額將依確認後的功能範圍、內容數量與時程調整。", "u273": "開發預算配置", "u274": "產品與工程", "u275": "美術與內容", "u276": "AI 量測與整合", "u277": "行銷與成長", "u278": "雲端、營運與維運", "u279": "行銷預算配置", "u280": "自有與推薦", "u281": "付費獲客", "u282": "社群與 KOL", "u283": "合作與活動", "u284": "早期成長可優先運用 Jubo 既有通路，降低對付費獲客的依賴；待留存與轉換獲得驗證後，再逐步擴大媒體投放。", "t1": "水族箱 · 由健康數據驅動的世界", "pf1": "開發費用", "pf2": "依三個主要交付節點支付", "pf3": "付款分為啟動、核心驗證與上線三個節點，每一期皆對應明確的交付內容與驗收結果。", "pf4": "1 · 啟動", "pf5": "首款", "pf6": "簽約時支付，用於專案啟動、需求確認與前期開發。", "pf7": "2 · 驗證", "pf8": "驗證款", "pf9": "核心體驗完成並通過驗收時支付，包含 AI 量測串接、水族箱、Bobo 與主要資料流程。", "pf10": "3 · 上線", "pf11": "上線尾款", "pf12": "App Store 上線時支付，完成收集系統、家庭關懷與外觀內容，交付可正式上架的 App。", "pf13": "總開發費 NT$300 萬，預估約 8 個月。上線後的雲端、維運、內容更新與後續擴充另行估算。", "ag11": "提案範圍與預算", "ag12": "開發費 NT$300 萬，預估約 8 個月，團隊配置為 2 位開發、1 位設計與 1 位美術。AI 量測技術由 Jubo 提供；雲端、維運與行銷另行估算。", "wj1": "為什麼是 Jubo × OFFX Studio", "wj2": "Jubo 的健康科技，結合 OFFX 的消費型產品能力", "os1": "團隊", "os2": "OFFX Studio — 消費型數位產品團隊", "os3": "OFFX Studio 是位於台北的獨立設計與開發工作室，整合產品策略、設計、美術與工程。團隊長期專注於兼具使用價值與情感體驗的消費型產品，與 Viva 所需的低壓力健康體驗方向一致。", "os4": "已驗證的健康遊戲化經驗", "os5": "MoodMons", "os6": "OFFX 自主開發的 MoodMons，將日常心情記錄轉化為可收集的像素怪獸，結合日記、AI 與遊戲化體驗，目前在台灣 App Store 獲得 4.9 星評價。這些經驗可直接延伸至 Viva 的角色、收集與留存設計。", "os7": "資深的跨職能團隊", "os8": "超過十年的產品經驗與數千萬次下載", "os9": "創辦團隊擁有逾十年打造得獎消費型 App 的經驗，作品在全球累積數千萬次下載。", "os10": "整合式團隊", "os11": "從策略、設計到上架", "os12": "產品策略、UI/UX、視覺、互動與工程由同一團隊協作，降低溝通成本並確保執行一致。", "me9h": "核心結論", "b1_ask": "我們的提案 · 預算"};
+  Object.assign(ZH, PRELUDE_ZH, {
+    "df2": "Viva 主提案初步估算 NT$250 萬-300 萬 · 完整首發約 8-10 個月",
+    "df3": "此為概念階段、以雙方確認之首發內容為基礎的開發估算。最終金額與時程將依核心 MVP 與完整首發的功能分配確定。",
+    "b2": "開發費 NT$300 萬 · 預估 8-10 個月",
+    "b3": "此預算涵蓋四人工作室團隊在約 8-10 個月內的產品設計、開發與美術投入。AI 量測技術由 Jubo 提供；雲端基礎設施、上線後維運與行銷另行估算。",
+    "b4": "開發團隊配置 · NT$300 萬／約 8-10 個月",
+    "b13": "以 8-10 個月為完整首發的初步時程，配置兩位開發、一位設計與一位美術。核心 MVP 可設定約 6 個月為目標；AI 量測由 Jubo 提供，雲端、維運與行銷另行估算。",
+    "pf13": "總開發費 NT$300 萬，完整首發預估約 8-10 個月。上線後的雲端、維運、內容更新與後續擴充另行估算。",
+    "ag12": "開發費 NT$300 萬，完整首發預估約 8-10 個月，團隊配置為 2 位開發、1 位設計與 1 位美術。AI 量測技術由 Jubo 提供；雲端、維運與行銷另行估算。"
+  });
   var EN = {};
   document.querySelectorAll('[data-i18n]').forEach(function(el){ EN[el.getAttribute('data-i18n')] = el.innerHTML; });
   function setLang(l){
